@@ -1,0 +1,193 @@
+.container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: var(--black);
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 8em;
+  margin-bottom: 1em;
+  opacity: 0.9;
+  box-shadow: 0 0px 1px rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+  margin: 3em;
+  width: 11em;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.link {
+  margin: 1.5em;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  font-weight: 600;
+  color: #f7f5f8;
+  font-size: 1.1em;
+  transition: color 0.2s;
+  display: flex;
+  align-items: center;
+}
+.link:hover {
+  color: var(--blue);
+}
+.link-active {
+  font-weight: 600;
+  color: var(--blue);
+  font-size: 1.1em;
+  transition: all 0.4s;
+}
+
+.iconos {
+  color: var(--blue);
+  font-family: "Roboto Mono", monospace;
+  margin: 0.3em;
+}
+
+.divButton {
+  display: flex;
+  align-items: center;
+  margin: 2.5em;
+}
+.button {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  padding: 0.6em 1em;
+  border-radius: 5px;
+  color: #fd891c;
+  border: solid 1px #fd891c;
+  transition: background-color 0.2s;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 600;
+}
+.button:hover {
+  background-color: rgba(253, 137, 28, 0.2);
+  outline: none;
+}
+.button:active {
+  background-color: rgba(253, 137, 28, 0.2);
+  outline: none;
+}
+
+@media (max-width: 391px) {
+  .container {
+    height: 4.8em;
+    align-items: flex-end;
+  }
+  .logo {
+    font-size: 8px;
+    margin: 0;
+    padding: 0;
+  }
+  .divLogo {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+  }
+  .links {
+    font-size: 11px;
+    gap: 4px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+  }
+  .link {
+    margin: 0;
+    padding: 0;
+  }
+  .divButton {
+    position: absolute;
+    top: 11px;
+    right: 18px;
+    margin: 0px;
+  }
+  .button {
+    margin: 0px;
+    padding: 4px 3px;
+  }
+}
+@media (min-width: 391px) and (max-width: 768px) {
+  .container {
+    height: 4.8em;
+    align-items: flex-end;
+  }
+  .logo {
+    font-size: 8px;
+    margin: 0;
+    padding: 0;
+  }
+  .divLogo {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+  }
+  .links {
+    font-size: 13px;
+    gap: 4px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+  }
+  .link {
+    margin: 0;
+    padding: 0;
+  }
+  .divButton {
+    position: absolute;
+    top: 11px;
+    right: 18px;
+    margin: 0px;
+  }
+  .button {
+    margin: 0px;
+    padding: 4px 3px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  /* Estilos para pantallas con ancho entre 768px y 992px */
+  .container {
+    align-items: flex-end;
+  }
+  .logo {
+    margin: 0;
+    padding: 0;
+  }
+  .divLogo {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+  }
+  .links {
+    gap: 4px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+  }
+  .link {
+    margin: 0;
+    padding: 0;
+  }
+  .divButton {
+    position: absolute;
+    top: 16px;
+    right: 18px;
+    margin: 0px;
+  }
+  .button {
+    margin: 0px;
+    padding: 4px 3px;
+  }
+}
+
+@media (min-width: 992px) {
+  /* Estilos para pantallas con ancho mínimo de 992px */
+}

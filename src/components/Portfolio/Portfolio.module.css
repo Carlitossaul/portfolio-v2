@@ -1,0 +1,273 @@
+.Portfolio {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  margin-top: 14em;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 4em;
+  height: 100%;
+}
+.titlePag {
+  width: 100%;
+}
+
+.span {
+  color: #fd891c;
+  font-size: 1.8em;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 400;
+}
+.h1 {
+  font-family: "Roboto Mono", monospace;
+  color: #f7f5f8;
+  border-bottom: 1px solid #fd891c;
+  width: fit-content;
+  /* margin-bottom: 1.5em; */
+}
+.image {
+  max-width: 40em;
+  filter: grayscale(100%);
+  transition: filter 0.3s;
+}
+
+.image:hover {
+  filter: none;
+}
+.website {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 6em;
+  gap: 1.3em;
+}
+
+.titleWeb {
+  color: var(--white1);
+  font-family: "Roboto Mono", monospace;
+  margin-bottom: 1em;
+}
+
+.contentModelOne {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4em;
+}
+.contentModelTwo {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4em;
+  flex-direction: row-reverse;
+}
+.divParrafo {
+  height: 22em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.subtitle {
+  color: var(--white1);
+}
+.parrafo {
+  color: var(--white1);
+  max-width: 23em;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: var(--orange1);
+}
+.icon {
+  margin-right: 8px;
+  margin-top: -19px;
+}
+
+.space {
+  height: 10em;
+}
+
+@media (max-width: 391px) {
+  .Portfolio {
+    margin-top: 7em;
+    align-items: center;
+  }
+  .container {
+    gap: 2em;
+  }
+  .titlePag {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .h1 {
+    font-size: 18px;
+    margin-left: 1em;
+  }
+  .image {
+    width: 95%;
+    margin: 0px 4px;
+    filter: none;
+  }
+  .contentModelOne {
+    flex-direction: column;
+    gap: 2em;
+  }
+  .contentModelTwo {
+    flex-direction: column;
+    gap: 5em;
+  }
+  .website {
+    margin-bottom: 1em;
+  }
+  .titleWeb {
+    font-size: 17px;
+  }
+  .subtitle {
+    font-size: 17px;
+    text-align: center;
+  }
+  .divParrafo {
+    max-width: 95%;
+  }
+  .links {
+    justify-content: center;
+    gap: 0px;
+  }
+}
+@media (min-width: 391px) and (max-width: 768px) {
+  .Portfolio {
+    margin-top: 7em;
+    align-items: center;
+  }
+  .container {
+    gap: 2em;
+  }
+  .titlePag {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .h1 {
+    font-size: 18px;
+    margin-left: 1em;
+  }
+  .image {
+    width: 95%;
+    margin: 0px 4px;
+    filter: none;
+  }
+  .contentModelOne {
+    flex-direction: column;
+    gap: 2em;
+  }
+  .contentModelTwo {
+    flex-direction: column;
+    gap: 5em;
+  }
+  .website {
+    margin-bottom: 1em;
+  }
+  .titleWeb {
+    font-size: 17px;
+  }
+  .subtitle {
+    font-size: 17px;
+    text-align: center;
+  }
+  .divParrafo {
+    max-width: 95%;
+  }
+  .links {
+    justify-content: center;
+    gap: 0px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  /* Estilos para pantallas con ancho entre 768px y 992px */
+  .Portfolio {
+    margin-top: 12em;
+    align-items: center;
+  }
+  .container {
+    gap: 2em;
+  }
+  .titlePag {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .h1 {
+    font-size: 18px;
+    margin-left: 1em;
+  }
+  .image {
+    width: 95%;
+    margin: 0px 4px;
+    filter: none;
+  }
+  .contentModelOne {
+    flex-direction: column;
+    gap: 2em;
+  }
+  .contentModelTwo {
+    flex-direction: column;
+    gap: 5em;
+  }
+  .website {
+    margin-bottom: 1em;
+  }
+  .titleWeb {
+    font-size: 17px;
+  }
+  .subtitle {
+    font-size: 17px;
+    text-align: center;
+  }
+  .divParrafo {
+    max-width: 95%;
+  }
+  .links {
+    justify-content: center;
+    gap: 0px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1071px) {
+  /* Estilos para pantallas con ancho mínimo de 992px */
+  .container {
+    max-width: 70%;
+    gap: 5em;
+  }
+  .image {
+    width: 100%;
+  }
+  .contentModelOne {
+    font-size: 15px;
+  }
+  .contentModelTwo {
+    font-size: 15px;
+  }
+  .titleWeb {
+    margin-bottom: 1.5em;
+  }
+}

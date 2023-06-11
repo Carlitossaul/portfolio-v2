@@ -1,0 +1,114 @@
+.Container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  margin-top: 14em;
+  gap: 3rem;
+}
+
+.title {
+  width: 55rem;
+}
+.span {
+  color: #fd891c;
+  font-size: 1.8rem;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 400;
+}
+.h1 {
+  font-family: "Roboto Mono", monospace;
+  color: #f7f5f8;
+  border-bottom: 1px solid #fd891c;
+  width: fit-content;
+}
+.description {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.p {
+  width: 30rem;
+  color: #f7f5f8;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.2rem;
+}
+.divButton {
+  width: 100%;
+  margin: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 3em;
+}
+.button {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: transparent;
+  padding: 0.75rem 1rem;
+  border-radius: 5px;
+  color: #fd891c;
+  border: solid 1px #fd891c;
+  transition: background-color 0.2s;
+  font-family: "Source Sans Pro", sans-serif;
+  /* font-weight: 600; */
+}
+.button:hover {
+  background-color: rgba(253, 137, 28, 0.2);
+  outline: none;
+}
+.button:active {
+  background-color: rgba(253, 137, 28, 0.2);
+  outline: none;
+}
+.NavLink {
+  text-decoration: none;
+}
+
+.icon {
+  font-size: 18.5px;
+}
+
+@media (max-width: 391px) {
+  .title {
+    width: 90%;
+  }
+  .h1 {
+    font-size: 18px;
+  }
+  .p {
+    width: 95%;
+    font-size: 16px;
+  }
+  .divButton {
+    font-size: 12px;
+  }
+}
+@media (min-width: 391px) and (max-width: 768px) {
+  .title {
+    width: 100%;
+  }
+  .h1 {
+    font-size: 18px;
+  }
+  .p {
+    width: 95%;
+    font-size: 17px;
+  }
+  .divButton {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  /* Estilos para pantallas con ancho entre 768px y 992px */
+}
+
+@media (min-width: 992px) {
+  /* Estilos para pantallas con ancho mínimo de 992px */
+}

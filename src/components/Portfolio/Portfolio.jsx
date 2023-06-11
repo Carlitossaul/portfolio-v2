@@ -8,8 +8,12 @@ const Portfolio = () => {
 
   return (
     <div className={styles.homeContainer}>
-      <h1>Welcome to My Portfolio</h1>
-      <p>Check out my latest projects:</p>
+      <div className={styles.containerTitle}>
+        <h1>Portfolio</h1>
+        <h4>Check out my latest projects:</h4>
+      </div>
+      <div className={styles.projectsContainer}></div>
+      <div className={styles.space}></div>
     </div>
   );
 };

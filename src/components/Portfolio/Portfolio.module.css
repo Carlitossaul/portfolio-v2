@@ -1,4 +1,4 @@
-.Portfolio {
+.homeContainer {
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -7,98 +7,20 @@
   height: 100vh;
   margin-top: 14em;
 }
-.container {
+.containerTitle {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: center;
-  gap: 4em;
-  height: 100%;
+  align-items: flex-start;
+  width: 70%;
+  gap: 1em;
 }
-.titlePag {
-  width: 100%;
-}
-
-.span {
-  color: #fd891c;
-  font-size: 1.8em;
-  font-family: "Roboto Mono", monospace;
-  font-weight: 400;
-}
-.h1 {
-  font-family: "Roboto Mono", monospace;
-  color: #f7f5f8;
-  border-bottom: 1px solid #fd891c;
-  width: fit-content;
-  /* margin-bottom: 1.5em; */
-}
-.image {
-  max-width: 40em;
-  filter: grayscale(100%);
-  transition: filter 0.3s;
+.containerTitle h1 {
+  color: var(--white);
+  border-bottom: 1px solid var(--blue);
 }
 
-.image:hover {
-  filter: none;
-}
-.website {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  margin-bottom: 6em;
-  gap: 1.3em;
-}
-
-.titleWeb {
-  color: var(--white1);
-  font-family: "Roboto Mono", monospace;
-  margin-bottom: 1em;
-}
-
-.contentModelOne {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 4em;
-}
-.contentModelTwo {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 4em;
-  flex-direction: row-reverse;
-}
-.divParrafo {
-  height: 22em;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-}
-.subtitle {
-  color: var(--white1);
-}
-.parrafo {
-  color: var(--white1);
-  max-width: 23em;
-}
-
-.links {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-}
-.link {
-  display: flex;
-  align-items: center;
-  text-decoration: none;
-  color: var(--orange1);
-}
-.icon {
-  margin-right: 8px;
-  margin-top: -19px;
+.projectsContainer {
 }
 
 .space {

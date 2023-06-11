@@ -1,9 +1,7 @@
 import { Link, useLocation } from "react-router-dom";
 import styles from "./Nav.module.css";
 import img from "../../assets/logo.png";
-import { FaEnvelope } from "react-icons/fa";
 import { BiBriefcase } from "react-icons/bi";
-import { TiUser } from "react-icons/ti";
 import { FiMail } from "react-icons/fi";
 import { FaRegUser } from "react-icons/fa";
 

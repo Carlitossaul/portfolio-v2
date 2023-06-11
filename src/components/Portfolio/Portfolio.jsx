@@ -1,3 +1,4 @@
+import AreYouHungry from "../Projects/AreYouHungry";
 import styles from "./Portfolio.module.css";
 import { useEffect } from "react";
 
@@ -12,7 +13,9 @@ const Portfolio = () => {
         <h1>Portfolio</h1>
         <h4>Check out my latest projects:</h4>
       </div>
-      <div className={styles.projectsContainer}></div>
+      <div className={styles.projectsContainer}>
+        <AreYouHungry />
+      </div>
       <div className={styles.space}></div>
     </div>
   );

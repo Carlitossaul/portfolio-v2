@@ -1,4 +1,5 @@
 import AreYouHungry from "../Projects/AreYouHungry";
+import RickAndMorty from "../Projects/RickAndMorty";
 import styles from "./Portfolio.module.css";
 import { useEffect } from "react";
 
@@ -15,8 +16,8 @@ const Portfolio = () => {
       </div>
       <div className={styles.projectsContainer}>
         <AreYouHungry />
+        <RickAndMorty />
       </div>
-      <div className={styles.space}></div>
     </div>
   );
 };

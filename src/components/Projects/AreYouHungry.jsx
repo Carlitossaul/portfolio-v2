@@ -1,27 +1,53 @@
-// AreYouHungry.jsx
 import React from "react";
-import styles from "./styles.module.css";
+import ReactPlayer from "react-player";
+import styles from "./stylesProjects.module.css";
+import { Carousel } from "react-responsive-carousel";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import img from "../../assets/Screenshot_7.png";
 
 const AreYouHungry = () => {
   return (
     <div className={styles.projectContainer}>
-      <div className={styles.projectInfo}>
-        <h2>Title</h2>
-        <p>Description</p>
-        <div className={styles.mediaContainer}>
-          <div className={styles.carousel}>Imagenes</div>
-          <div className={styles.video}>Video</div>
+      <h2 className={styles.title}>
+        <span>1.</span> Rick & Morty
+      </h2>
+      <div className={styles.row}>
+        <div className={styles.oneThird}>
+          <p>Description</p>
+          <p>Funcionacilidades destacadas</p>
+          <p>roles y responsabilidades</p>
+          <p>proceso de desarrollo</p>
         </div>
-        <section className={styles.projectLinks}>Links</section>
-        <ul className={styles.projectTechnologies}>
-          <li>Tecnologias</li>
-        </ul>
-        <p>Roles y responsabilidades</p>
-        <p>Logros o resultados destacados</p>
-        <p>Proceso de desarrollo (Scrum, Agile)</p>
-        <p>Lecciones aprendidas y aspectos a mejorar</p>
-        <p>Objetivos y requisitos del proyecto</p>
-        <p>Funcionalidades destacadas</p>
+        <div className={styles.twoThirds}>
+          <Carousel
+            className={styles.carouselContainer}
+            autoPlay
+            interval={10000}
+            showThumbs={false}
+            infiniteLoop
+            transitionTime={1000}
+            width={600}
+            showStatus={false}
+          >
+            <img className={styles.imgApp} src={img} alt="" />
+            <img className={styles.imgApp} src={img} alt="" />
+            <img className={styles.imgApp} src={img} alt="" />
+          </Carousel>
+        </div>
+      </div>
+      <div className={styles.row}>
+        <div className={styles.twoThirds}>
+          <ReactPlayer
+            controls={true}
+            url="https://www.youtube.com/watch?v=6wgYKfFVznQ&ab_channel=SelectedSoundsRadio"
+          />
+        </div>
+        <div className={styles.oneThird}>
+          <p>tecnologias</p>
+          <p>logros o resultados destacadso</p>
+          <p>lecciones aprendidas aspectos a mejorar</p>
+          <p>likns</p>
+        </div>
       </div>
     </div>
   );

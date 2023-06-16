@@ -15,8 +15,8 @@ const Portfolio = () => {
         <h4>Check out my latest projects:</h4>
       </div>
       <div className={styles.projectsContainer}>
-        <AreYouHungry />
         <RickAndMorty />
+        <AreYouHungry />
       </div>
     </div>
   );

@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Landing.module.css";
-import img from "./helper/20230606_004054-removebg-preview (1).png";
+import img from "./assets/20230606_004054-removebg-preview (1).png";
 import logo from "../../assets/logo.png";
 import { Link } from "react-router-dom";
 import { GoMarkGithub } from "react-icons/go";

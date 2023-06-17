@@ -6,6 +6,9 @@ import ReactPlayer from "react-player";
 import rym1 from "./assets/rym1.png";
 import rym2 from "./assets/rym2.png";
 import rym3 from "./assets/rym3.png";
+import rym4 from "./assets/rym4.png";
+import rym5 from "./assets/rym5.png";
+import rym6 from "./assets/rym6.png";
 
 const RickAndMorty = () => {
   return (
@@ -31,15 +34,30 @@ const RickAndMorty = () => {
             width={600}
             showStatus={false}
           >
-            <img className={styles.imgApp} src={rym1} alt="" />
-            <img className={styles.imgApp} src={rym2} alt="" />
-            <img className={styles.imgApp} src={rym3} alt="" />
+            <div className={styles.carouselImageContainer}>
+              <img className={styles.carouselImage} src={rym1} alt="rym1" />
+            </div>
+            <div className={styles.carouselImageContainer}>
+              <img className={styles.carouselImage} src={rym2} alt="rym2" />
+            </div>
+            <div className={styles.carouselImageContainer}>
+              <img className={styles.carouselImage} src={rym3} alt="rym3" />
+            </div>
+            <div className={styles.carouselImageContainer}>
+              <img className={styles.carouselImage} src={rym4} alt="rym4" />
+            </div>
+            <div className={styles.carouselImageContainer}>
+              <img className={styles.carouselImage} src={rym5} alt="rym5" />
+            </div>
+            <div className={styles.carouselImageContainer}>
+              <img className={styles.carouselImage} src={rym6} alt="rym6" />
+            </div>
           </Carousel>
         </div>
       </div>
       <div className={styles.row}>
         <div className={styles.twoThirds}>
-          <ReactPlayer controls={true} url="https://youtu.be/OR5gMK9P0Fw" />
+          <ReactPlayer controls={true} url="https://youtu.be/xdW6nMofJpM" />
         </div>
         <div className={styles.oneThird}>
           <p>tecnologias</p>

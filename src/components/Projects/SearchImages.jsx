@@ -3,19 +3,16 @@ import ReactPlayer from "react-player";
 import styles from "./stylesProjects.module.css";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import hungry1 from "./assets/hungry1.png";
-import hungry2 from "./assets/hungry2.png";
-import hungry3 from "./assets/hungry3.png";
-import hungry4 from "./assets/hungry4.png";
-import hungry5 from "./assets/hungry5.png";
-import hungry6 from "./assets/hungry6.png";
-import hungry7 from "./assets/hungry7.png";
+import appImages1 from "./assets/app-images1.png";
+import appImages2 from "./assets/app-images2.png";
+import appImages3 from "./assets/app-images3.png";
+import appImages4 from "./assets/app-images4.png";
 
-const AreYouHungry = () => {
+const SearchImages = () => {
   return (
     <div className={styles.projectContainer}>
       <h2 className={styles.title}>
-        <span>1.</span> Are you hungry?
+        <span>4.</span> Search Images
       </h2>
       <div className={styles.row}>
         <div className={styles.oneThird}>
@@ -38,50 +35,29 @@ const AreYouHungry = () => {
             <div className={styles.carouselImageContainer}>
               <img
                 className={styles.carouselImage}
-                src={hungry1}
-                alt="hungry1"
+                src={appImages1}
+                alt="appImages1"
               />
             </div>
             <div className={styles.carouselImageContainer}>
               <img
                 className={styles.carouselImage}
-                src={hungry2}
-                alt="hungry2"
+                src={appImages2}
+                alt="appImages2"
               />
             </div>
             <div className={styles.carouselImageContainer}>
               <img
                 className={styles.carouselImage}
-                src={hungry3}
-                alt="hungry3"
+                src={appImages3}
+                alt="appImages3"
               />
             </div>
             <div className={styles.carouselImageContainer}>
               <img
                 className={styles.carouselImage}
-                src={hungry4}
-                alt="hungry4"
-              />
-            </div>
-            <div className={styles.carouselImageContainer}>
-              <img
-                className={styles.carouselImage}
-                src={hungry5}
-                alt="hungry5"
-              />
-            </div>
-            <div className={styles.carouselImageContainer}>
-              <img
-                className={styles.carouselImage}
-                src={hungry6}
-                alt="hungry6"
-              />
-            </div>
-            <div className={styles.carouselImageContainer}>
-              <img
-                className={styles.carouselImage}
-                src={hungry7}
-                alt="hungry7"
+                src={appImages4}
+                alt="appImages4"
               />
             </div>
           </Carousel>
@@ -89,7 +65,7 @@ const AreYouHungry = () => {
       </div>
       <div className={styles.row}>
         <div className={styles.twoThirds}>
-          <ReactPlayer controls={true} url="https://youtu.be/waKEvvdhPog" />
+          <ReactPlayer controls={true} url="https://youtu.be/-Hpy1jnpmZE" />
         </div>
         <div className={styles.oneThird}>
           <p>tecnologias</p>
@@ -102,4 +78,4 @@ const AreYouHungry = () => {
   );
 };
 
-export default AreYouHungry;
+export default SearchImages;

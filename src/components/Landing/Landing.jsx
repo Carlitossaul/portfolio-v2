@@ -1,6 +1,8 @@
 import React from "react";
 import styles from "./Landing.module.css";
 import img from "./assets/20230606_004054-removebg-preview (1).png";
+import Diame from "./assets/diame.png";
+import jensy from "./assets/jensy.png";
 import logo from "../../assets/logo.png";
 import { Link } from "react-router-dom";
 import { GoMarkGithub } from "react-icons/go";
@@ -33,29 +35,41 @@ const Landing = () => {
         >
           <div className={styles.carousel}>
             <p className={styles.parrafo}>
-              "Contrate a un servicio de Pintura y la verdad estupendo"
+              "Carlos, posee un conjunto de conocimientos en desarrollo
+              fullstack, sus habilidades tecnicas son excepcionales con un
+              amplio dominio en lenguajes de programacion, frameworks y
+              tecnologías relevantes. En resumen, Carlos, es un profesional de
+              confianza y altamente competente en el desarrollo fullstack."
             </p>
             <div className={styles.infoContainer}>
               <div className={styles.info}>
-                <h2>- John Doe</h2>
-                <p>profesion</p>
+                <h2>- Diamela Villalba</h2>
+                <p>Desarrollador Fullstack</p>
               </div>
               <div className={styles.divImgPerson}>
-                <img className={styles.imgPerson} src={img} alt="" />
+                <img className={styles.imgPerson} src={Diame} alt="" />
               </div>
             </div>
           </div>
           <div className={styles.carousel}>
             <p className={styles.parrafo}>
-              "Contrate a un servicio de Pintura y la verdad estupendo"
+              "Excelente compañero de programación. Posee habilidades
+              excepcionales para codificar y demuestra confianza y seguridad en
+              su trabajo. Siempre está dispuesto a ayudar y colaborar en equipo,
+              brindando soluciones eficientes a los desafíos. Su pasión por la
+              programación es evidente y contagiosa, lo cual lo convierte en un
+              gran activo para cualquier proyecto. Su enfoque y atención a los
+              detalles son admirables, lo que garantiza la calidad y el éxito de
+              sus contribuciones. Es un placer trabajar con alguien tan dedicado
+              y talentoso como él."
             </p>
             <div className={styles.infoContainer}>
               <div className={styles.info}>
-                <h2>- John Doe</h2>
-                <p>profesion</p>
+                <h2>- Jensy Figueroa</h2>
+                <p>Developer Web Full Stack</p>
               </div>
               <div className={styles.divImgPerson}>
-                <img className={styles.imgPerson} src={img} alt="" />
+                <img className={styles.imgPerson} src={jensy} alt="" />
               </div>
             </div>
           </div>

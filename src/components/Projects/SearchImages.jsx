@@ -65,7 +65,7 @@ const SearchImages = () => {
       </div>
       <div className={styles.row}>
         <div className={styles.twoThirds}>
-          <ReactPlayer controls={true} url="https://youtu.be/-Hpy1jnpmZE" />
+          <ReactPlayer controls={true} url="https://youtu.be/niXhbVh3Gec" />
         </div>
         <div className={styles.oneThird}>
           <p>tecnologias</p>

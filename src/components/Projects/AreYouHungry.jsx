@@ -15,7 +15,7 @@ const AreYouHungry = () => {
   return (
     <div className={styles.projectContainer}>
       <h2 className={styles.title}>
-        <span>1.</span> Are you hungry?
+        <span>•</span> Are you hungry?
       </h2>
       <div className={styles.row}>
         <div className={styles.oneThird}>
@@ -89,7 +89,7 @@ const AreYouHungry = () => {
       </div>
       <div className={styles.row}>
         <div className={styles.twoThirds}>
-          <ReactPlayer controls={true} url="https://youtu.be/waKEvvdhPog" />
+          <ReactPlayer controls={true} url="https://youtu.be/EzsG52GOCzM" />
         </div>
         <div className={styles.oneThird}>
           <p>tecnologias</p>

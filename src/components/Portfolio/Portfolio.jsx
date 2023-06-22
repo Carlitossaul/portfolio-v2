@@ -1,6 +1,7 @@
 import AreYouHungry from "../Projects/AreYouHungry";
 import RickAndMorty from "../Projects/RickAndMorty";
 import SearchImages from "../Projects/SearchImages";
+import WorkifyServices from "../Projects/WorkifyServices";
 import styles from "./Portfolio.module.css";
 import { useEffect } from "react";
 
@@ -17,8 +18,9 @@ const Portfolio = () => {
       </div>
       <div className={styles.projectsContainer}>
         <AreYouHungry />
-        <RickAndMorty />
+        <WorkifyServices />
         <SearchImages />
+        <RickAndMorty />
       </div>
     </div>
   );

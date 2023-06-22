@@ -1,20 +1,18 @@
 import React from "react";
+import ReactPlayer from "react-player";
 import styles from "./stylesProjects.module.css";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import ReactPlayer from "react-player";
-import rym1 from "./assets/rym1.png";
-import rym2 from "./assets/rym2.png";
-import rym3 from "./assets/rym3.png";
-import rym4 from "./assets/rym4.png";
-import rym5 from "./assets/rym5.png";
-import rym6 from "./assets/rym6.png";
+import img1 from "./assets/workify1.png";
+import img2 from "./assets/workify2.png";
+import img3 from "./assets/workify3.png";
+import img4 from "./assets/workify4.png";
 
-const RickAndMorty = () => {
+const WorkifyServices = () => {
   return (
     <div className={styles.projectContainer}>
       <h2 className={styles.title}>
-        <span>1.</span> Rick & Morty
+        <span>•</span> Workify Services
       </h2>
       <div className={styles.row}>
         <div className={styles.oneThird}>
@@ -35,29 +33,23 @@ const RickAndMorty = () => {
             showStatus={false}
           >
             <div className={styles.carouselImageContainer}>
-              <img className={styles.carouselImage} src={rym1} alt="rym1" />
+              <img className={styles.carouselImage} src={img1} alt="img1" />
             </div>
             <div className={styles.carouselImageContainer}>
-              <img className={styles.carouselImage} src={rym2} alt="rym2" />
+              <img className={styles.carouselImage} src={img2} alt="img2" />
             </div>
             <div className={styles.carouselImageContainer}>
-              <img className={styles.carouselImage} src={rym3} alt="rym3" />
+              <img className={styles.carouselImage} src={img3} alt="img3" />
             </div>
             <div className={styles.carouselImageContainer}>
-              <img className={styles.carouselImage} src={rym4} alt="rym4" />
-            </div>
-            <div className={styles.carouselImageContainer}>
-              <img className={styles.carouselImage} src={rym5} alt="rym5" />
-            </div>
-            <div className={styles.carouselImageContainer}>
-              <img className={styles.carouselImage} src={rym6} alt="rym6" />
+              <img className={styles.carouselImage} src={img4} alt="img4" />
             </div>
           </Carousel>
         </div>
       </div>
       <div className={styles.row}>
         <div className={styles.twoThirds}>
-          <ReactPlayer controls={true} url="https://youtu.be/HYwBTpg5Z2I" />
+          <ReactPlayer controls={true} url="https://youtu.be/pPZNQ-xIbC0" />
         </div>
         <div className={styles.oneThird}>
           <p>tecnologias</p>
@@ -70,4 +62,4 @@ const RickAndMorty = () => {
   );
 };
 
-export default RickAndMorty;
+export default WorkifyServices;

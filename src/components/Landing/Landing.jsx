@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./Landing.module.css";
 import img from "./assets/20230606_004054-removebg-preview (1).png";
-import Diame from "./assets/diame.png";
+import diame from "./assets/diame.png";
 import jensy from "./assets/jensy.png";
 import logo from "../../assets/logo.png";
 import { Link } from "react-router-dom";
@@ -47,7 +47,7 @@ const Landing = () => {
                 <p>Desarrollador Fullstack</p>
               </div>
               <div className={styles.divImgPerson}>
-                <img className={styles.imgPerson} src={Diame} alt="" />
+                <img className={styles.imgPerson} src={diame} alt="" />
               </div>
             </div>
           </div>

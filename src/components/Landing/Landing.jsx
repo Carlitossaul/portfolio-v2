@@ -3,6 +3,7 @@ import styles from "./Landing.module.css";
 import img from "./assets/20230606_004054-removebg-preview (1).png";
 import diame from "./assets/diame.png";
 import jensy from "./assets/jensy.png";
+import joaquin from "./assets/joaquin.png";
 import logo from "../../assets/logo.png";
 import { Link } from "react-router-dom";
 import { GoMarkGithub } from "react-icons/go";
@@ -33,6 +34,23 @@ const Landing = () => {
           width={600}
           showStatus={false}
         >
+          <div className={styles.carousel}>
+            <p className={styles.parrafo}>
+              "Si pudiera describir en una palabra a Carlos, sería determinado,
+              tuve el privilegio de trabajar en conjunto con él, siempre
+              responsable y dispuesto a apoyar a los demás, gran compañero y
+              colega."
+            </p>
+            <div className={styles.infoContainer}>
+              <div className={styles.info}>
+                <h2>- Joaquin Guerrero</h2>
+                <p>Ingeniero de Sistemas - Developer Web Full Stack</p>
+              </div>
+              <div className={styles.divImgPerson}>
+                <img className={styles.imgPerson} src={joaquin} alt="joaquin" />
+              </div>
+            </div>
+          </div>
           <div className={styles.carousel}>
             <p className={styles.parrafo}>
               "Carlos, posee un conjunto de conocimientos en desarrollo
@@ -66,27 +84,14 @@ const Landing = () => {
             <div className={styles.infoContainer}>
               <div className={styles.info}>
                 <h2>- Jensy Figueroa</h2>
-                <p>Developer Web Full Stack</p>
+                <p>Developer Web Full Stack - Licenciado en Informatica</p>
               </div>
               <div className={styles.divImgPerson}>
                 <img className={styles.imgPerson} src={jensy} alt="" />
               </div>
             </div>
           </div>
-          <div className={styles.carousel}>
-            <p className={styles.parrafo}>
-              "Contrate a un servicio de Pintura y la verdad estupendo"
-            </p>
-            <div className={styles.infoContainer}>
-              <div className={styles.info}>
-                <h2>- John Doe</h2>
-                <p>profesion</p>
-              </div>
-              <div className={styles.divImgPerson}>
-                <img className={styles.imgPerson} src={img} alt="" />
-              </div>
-            </div>
-          </div>
+
           <div className={styles.carousel}>
             <p className={styles.parrafo}>
               "Contrate a un servicio de Pintura y la verdad estupendo"

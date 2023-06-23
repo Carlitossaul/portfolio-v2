@@ -21,6 +21,7 @@ const Portfolio = () => {
         <WorkifyServices />
         <SearchImages />
         <RickAndMorty />
+        <div className={styles.space}></div>
       </div>
     </div>
   );

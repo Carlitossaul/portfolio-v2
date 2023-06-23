@@ -30,6 +30,9 @@
   gap: 7em;
   padding: 0em 4em;
 }
+.space {
+  padding-bottom: 5em;
+}
 
 @media (max-width: 391px) {
   .Portfolio {

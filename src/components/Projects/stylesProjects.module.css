@@ -12,9 +12,12 @@
 
 .title {
   width: 100%;
+  border-bottom: 2px solid var(--blueIntense);
+  padding-bottom: 10px;
+  margin-bottom: 1em;
 }
 
-.title span {
+.projectContainer span {
   color: var(--blue);
 }
 
@@ -28,21 +31,47 @@
   width: 50%;
   height: 24em;
   padding: 1em;
-  /* background-color: lightblue; */
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  scrollbar-color: var(--blueIntense) var(--black);
+}
+
+.oneThird::-webkit-scrollbar {
+  width: 8px;
+}
+
+.oneThird::-webkit-scrollbar-track {
+  background-color: var(--black);
+}
+
+.oneThird::-webkit-scrollbar-thumb {
+  background-color: var(--blueIntense);
+}
+
+.oneThird::-webkit-scrollbar-thumb:hover {
+  background-color: var(--blue);
 }
 
 .twoThirds {
   width: 50%;
   height: 24em;
-  /* background-color: lightgreen; */
   display: flex;
   align-items: center;
   justify-content: center;
 }
+.ul {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  padding-top: 1em;
+}
+.ul li {
+  padding: 3px 7px;
+  border: 1px solid var(--blue);
+  list-style: none;
+  border-radius: 5px;
+}
 
-/* .carouselContainer {
-  height: 10em;
-} */
 .carouselImageContainer {
   width: 100%;
   height: 25em;
@@ -54,4 +83,21 @@
   max-width: 100%;
   max-height: 100%;
   object-fit: contain;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 2em 1em;
+}
+.link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: var(--blue);
+}
+.icon {
+  margin-right: 8px;
+  margin-top: -19px;
 }

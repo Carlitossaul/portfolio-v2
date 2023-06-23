@@ -31,7 +31,7 @@ const RickAndMorty = () => {
             showThumbs={false}
             infiniteLoop
             transitionTime={1000}
-            width={600}
+            width={580}
             showStatus={false}
           >
             <div className={styles.carouselImageContainer}>

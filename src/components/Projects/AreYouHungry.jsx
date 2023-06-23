@@ -3,6 +3,9 @@ import ReactPlayer from "react-player";
 import styles from "./stylesProjects.module.css";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Link } from "react-router-dom";
+import { BsBoxArrowUpRight } from "react-icons/bs";
+import { GoMarkGithub } from "react-icons/go";
 import hungry1 from "./assets/hungry1.png";
 import hungry2 from "./assets/hungry2.png";
 import hungry3 from "./assets/hungry3.png";
@@ -19,10 +22,29 @@ const AreYouHungry = () => {
       </h2>
       <div className={styles.row}>
         <div className={styles.oneThird}>
-          <p>Description</p>
-          <p>Funcionacilidades destacadas</p>
-          <p>roles y responsabilidades</p>
-          <p>proceso de desarrollo</p>
+          <p>
+            <span>•</span> Aplicacion web que consume datos de una Api sobre
+            recetas de comidas. La cree para aprobar mi proyecto individual en
+            el bootcamp Henry.{" "}
+          </p>
+          <p>
+            <span>•</span> Entre sus funcionalidades destacadas se encuentran:
+            Filtros combinados, creacion de recetas, se pueden subiir imagenes,
+            tiene un buscador, se pueden ver los detalles de la receta.
+          </p>
+          <p>
+            <span>•</span> Algo que destaco de esta app fue que amis compa;eros
+            les gusto mucho y mas adelante cuando realizamos el proyecto grupal
+            mi pidieron que este a cargo del Frontend
+          </p>
+          <p>
+            <span>•</span> En este proyecto aprendi a lidiar, porque la api
+            tenia un limite de request diarias y eso dificulto el desarrollo,
+            tuve que hacer un switch con varias apikey en el backend para poder
+            trabajar, tambien me ayudo a fortalecer mis conocimientos en redux
+            pero lo que mas me gusto fue el resultado final, pude aplicarle
+            todos los estilos y funcionalidades que me propuse al inicio.{" "}
+          </p>
         </div>
         <div className={styles.twoThirds}>
           <Carousel
@@ -32,7 +54,7 @@ const AreYouHungry = () => {
             showThumbs={false}
             infiniteLoop
             transitionTime={1000}
-            width={600}
+            width={580}
             showStatus={false}
           >
             <div className={styles.carouselImageContainer}>
@@ -92,10 +114,43 @@ const AreYouHungry = () => {
           <ReactPlayer controls={true} url="https://youtu.be/EzsG52GOCzM" />
         </div>
         <div className={styles.oneThird}>
-          <p>tecnologias</p>
-          <p>logros o resultados destacadso</p>
-          <p>lecciones aprendidas aspectos a mejorar</p>
-          <p>likns</p>
+          <ul className={styles.ul}>
+            <li>HTML5</li>
+            <li>CSS</li>
+            <li>React</li>
+            <li>Redux</li>
+            <li>Javascript</li>
+            <li>Node.js</li>
+            <li>Express.js</li>
+            <li>Sequelize.js</li>
+            <li>PostgreSQL</li>
+          </ul>
+          <div className={styles.links}>
+            <Link
+              target="_blank"
+              className={styles.link}
+              to={"https://areyouhungry.vercel.app"}
+            >
+              <BsBoxArrowUpRight className={styles.icon} />
+              <p>Visit the live site</p>
+            </Link>
+            <Link
+              target="_blank"
+              className={styles.link}
+              to={"https://github.com/Carlitossaul/PI-Food-Front"}
+            >
+              <GoMarkGithub className={styles.icon} />
+              <p>View the source code on GitHub - client</p>
+            </Link>
+            <Link
+              className={styles.link}
+              target="_blank"
+              to={"https://github.com/Carlitossaul/PI-Food-back-"}
+            >
+              <GoMarkGithub className={styles.icon} />
+              <p>View the source code on GitHub - api</p>
+            </Link>
+          </div>
         </div>
       </div>
     </div>

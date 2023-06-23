@@ -43,8 +43,31 @@ h4,
 h5,
 h6,
 p,
-span {
+span,
+li {
   color: var(--white);
+}
+
+body {
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  scrollbar-color: var(--blueIntense) var(--black);
+}
+
+body::-webkit-scrollbar {
+  width: 8px;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: var(--black);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--blueIntense);
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background-color: var(--primary);
 }
 
 /* .button {

@@ -90,6 +90,7 @@ const SearchImages = () => {
             <li>React</li>
             <li>Redux</li>
             <li>Javascript</li>
+            <li>Bootstrap</li>
           </ul>
           <div className={styles.links}>
             <Link

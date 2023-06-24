@@ -90,6 +90,7 @@ const WorkifyServices = () => {
             <li>Stripe</li>
             <li>Sequelize.js</li>
             <li>PostgreSQL</li>
+            <li>Agile Methodologies</li>
           </ul>
           <div className={styles.links}>
             <Link

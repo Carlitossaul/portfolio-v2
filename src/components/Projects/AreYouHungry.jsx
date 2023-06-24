@@ -38,12 +38,12 @@ const AreYouHungry = () => {
             mi pidieron que este a cargo del Frontend
           </p>
           <p>
-            <span>•</span> En este proyecto aprendi a lidiar, porque la api
-            tenia un limite de request diarias y eso dificulto el desarrollo,
-            tuve que hacer un switch con varias apikey en el backend para poder
-            trabajar, tambien me ayudo a fortalecer mis conocimientos en redux
-            pero lo que mas me gusto fue el resultado final, pude aplicarle
-            todos los estilos y funcionalidades que me propuse al inicio.{" "}
+            <span>•</span> La api tenia un limite de request diarias y eso
+            dificulto el desarrollo, tuve que hacer un switch con varias apikey
+            en el backend para poder trabajar, tambien me ayudo a fortalecer mis
+            conocimientos en redux pero lo que mas me gusto fue el resultado
+            final, pude aplicarle todos los estilos y funcionalidades que me
+            propuse al inicio.{" "}
           </p>
         </div>
         <div className={styles.twoThirds}>

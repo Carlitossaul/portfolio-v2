@@ -16,46 +16,46 @@ const About = () => {
       <div className={styles.description}>
         <div className={styles.theP}>
           <p className={styles.p}>
-            ¡Hola! Soy Carlos, un apasionado Desarrollador Full Stack Junior con
-            enfoque en Front End, ubicado en Formosa, Argentina. Disfruto de la
-            vida en la hermosa capital de Formosa junto con mi familia.
+            {" "}
+            <span>•</span> Hello! I'm Carlos, a passionate Junior Full Stack
+            Developer with a focus on Front End, located in Formosa, Argentina.
+            I enjoy life in the beautiful capital of Formosa with my family.
           </p>
           <p className={styles.p}>
-            Mi pasión radica en la creación de experiencias digitales atractivas
-            y funcionales que impacten positivamente a los usuarios.
-            Recientemente, finalicé mi formación en Henry, adquiriendo una
-            sólida base en desarrollo web y obteniendo experiencia práctica a
-            través de proyectos individuales y en equipo.
+            {" "}
+            <span>•</span> My passion lies in creating engaging and functional
+            digital experiences that positively impact users. Recently, I
+            completed my training at Henry, gaining a solid foundation in web
+            development and gaining practical experience through individual and
+            team projects.
           </p>
           <p className={styles.p}>
-            En mi último proyecto grupal, asumí el rol de líder en el Front End,
-            demostrando iniciativa, atención al detalle y un enfoque
-            perfeccionista para garantizar que las aplicaciones se vean y
-            funcionen según lo previsto.
+            {" "}
+            <span>•</span> In my latest group project, I took on the role of
+            Front End lead, demonstrating initiative, attention to detail, and a
+            perfectionist approach to ensuring that applications look and
+            function as intended.
             <br />
-            Me destaco por mi responsabilidad y puntualidad en la entrega de
-            proyectos, siempre esforzándome por cumplir con los horarios y metas
-            propuestas.
-            <br />
-            Soy disciplinado en mi aprendizaje y organizo mi tiempo de manera
-            efectiva para poner en práctica lo que aprendo.
+            I stand out for my responsibility and punctuality in delivering
+            projects, always striving to meet proposed deadlines and goals.
+            <br />I am disciplined in my learning and effectively organize my
+            time to put into practice what I learn.
           </p>
           <p className={styles.p}>
-            Además de mis habilidades técnicas, mi trabajo actual como portero
-            me ha brindado la oportunidad de desarrollar habilidades
-            interpersonales y de comunicación. También desempeño el rol de
-            Teaching Assistant, donde ayudo a principiantes en el bootcamp de
-            programación, lo que fortalece aún más mis habilidades blandas.
+            {" "}
+            <span>•</span> In addition to my technical skills, my current work
+            as a doorman has provided me with the opportunity to develop
+            interpersonal and communication skills. I also serve as a Teaching
+            Assistant, where I assist beginners in the programming bootcamp,
+            further strengthening my soft skills.
           </p>
-
           <p className={styles.p}>
-            En mi continuo proceso de especialización, me mantengo al tanto de
-            las tecnologías más demandadas en el mercado actual. Como parte de
-            mi desarrollo profesional, estoy creando proyectos tanto
-            individuales como en equipo, los cuales estarán disponibles
-            próximamente en mi portafolio.
-            <br />I currently have experience working with the following
-            technologies:
+            {" "}
+            <span>• </span> In my ongoing process of specialization, I stay up
+            to date with the most in-demand technologies in the current market.
+            As part of my professional development, I am creating both
+            individual and team projects, which will be available soon in my
+            portfolio.
           </p>
         </div>
         <div className={styles.divImg}>
@@ -63,6 +63,9 @@ const About = () => {
         </div>
       </div>
       <div className={styles.tecnologias}>
+        <h4>
+          <span>•</span> Tech Skills
+        </h4>
         <ul className={styles.ul}>
           <li>HTML5</li>
           <li>CSS</li>
@@ -74,7 +77,34 @@ const About = () => {
           <li>Express.js</li>
           <li>Sequelize.js</li>
           <li>PostgreSQL</li>
+        </ul>
+      </div>
+      <div className={styles.tools}>
+        <h4>
+          {" "}
+          <span>• </span>Tools
+        </h4>
+        <ul className={styles.ul}>
+          <li>Git</li>
+          <li>Github</li>
+          <li>Slack</li>
           <li>Agile Methodologies</li>
+          <li>Trello</li>
+          <li>Notion</li>
+        </ul>
+      </div>
+      <div className={styles.softSkills}>
+        <h4>
+          {" "}
+          <span>• </span>Soft Skills
+        </h4>
+        <ul className={styles.ul}>
+          <li>Collaborative</li>
+          <li>Perseverant</li>
+          <li>Initiative</li>
+          <li>Self-taught</li>
+          <li>Dedication</li>
+          <li>Empathy</li>
         </ul>
       </div>
     </div>

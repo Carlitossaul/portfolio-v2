@@ -11,7 +11,6 @@ function App() {
   return (
     <div>
       <Nav />
-      <Footer />
       <Routes>
         <Route path="/" element={<Landing />} />
         <Route path="/portfolio" element={<Portfolio />} />
@@ -19,6 +18,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route exact path="/pdf" element={<Pdf />} />
       </Routes>
+      <Footer />
     </div>
   );
 }

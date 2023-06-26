@@ -4,7 +4,7 @@
   justify-content: flex-start;
   flex-direction: column;
   width: 100%;
-  height: 200vh;
+  /* height: 120vh; */
   margin-top: 12em;
 }
 .containerTitle {
@@ -31,7 +31,7 @@
   padding: 0em 4em;
 }
 .space {
-  padding-bottom: 5em;
+  padding-bottom: 3em;
 }
 
 @media (max-width: 391px) {

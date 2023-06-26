@@ -1,18 +1,21 @@
 import React from "react";
 import { NavLink, useLocation } from "react-router-dom";
-import style from "./Footer.module.css";
+import styles from "./Footer.module.css";
+import { GoMarkGithub } from "react-icons/go";
 
 const Footer = () => {
   const location = useLocation();
   return (
-    location.pathname !== "/" && (
-      <div className={style.container}>
+    location.pathname !== "/" &&
+    location.pathname !== "/pdf" && (
+      <div className={styles.container}>
         <NavLink
           target={"_blank"}
-          className={style.Navlink}
-          to={"https://github.com/Carlitossaul/portfolio.git"}
+          className={styles.Navlink}
+          to={"https://github.com/Carlitossaul/portfolio-v2"}
         >
-          <p className={style.p}>Built by Carlos Lovey</p>
+          <GoMarkGithub className={styles.iconos} /> Built & Designed by Carlos
+          Lovey
         </NavLink>
       </div>
     )

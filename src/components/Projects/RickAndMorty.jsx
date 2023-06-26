@@ -22,13 +22,16 @@ const RickAndMorty = () => {
       <div className={styles.row}>
         <div className={styles.oneThird}>
           <p>
-            Este proyecto es especial porque aprendí a programar con él. Es una
-            aplicación que consume datos de la API de Rick & Morty. Trabajamos
-            Front-End, Servidor y Base de Datos. Una particularidad que me llena
-            de orgullo es que en el bootcamp cada alumno tenia que presentar
-            este proyecto que estábamos haciendo para una competencia entre 60+
-            alumnos donde los 3 primeros ganadores tendrían unos beneficios de
-            Henry, y en esta competencia quedé segundo lugar.
+            <span>•</span> This is an application that consumes data from the
+            Rick & Morty API. I worked on the Frontend, Backend, and database
+            aspects of the project.
+          </p>
+          <p>
+            <span>•</span> One particular achievement that fills me with pride
+            is that during my bootcamp, each student had to present this project
+            we were working on for a competition among 60+ students. The top
+            three winners would receive special benefits from Henry. I secured
+            the second place in this competition.
             <Link
               className={styles.link}
               to={
@@ -40,10 +43,16 @@ const RickAndMorty = () => {
             </Link>
           </p>
           <p>
-            <span>•</span> Se puede buscar todos los personajes de la serie a
-            través del search, posee filtros y ordenamientos, se pueden ver
-            detalles de cada personaje, tiene un sistema de favoritos, creación
-            de usuarios para poder registrarse
+            <ul>
+              <li>
+                Ability to search for all characters from the series using the
+                search function.
+              </li>
+              <li>Includes filters and sorting options.</li>
+              <li>View detailed information about each character.</li>
+              <li>Implemented a favorites system.</li>
+              <li>User registration feature for creating accounts.</li>
+            </ul>
           </p>
         </div>
         <div className={styles.twoThirds}>

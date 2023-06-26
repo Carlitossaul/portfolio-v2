@@ -23,27 +23,32 @@ const AreYouHungry = () => {
       <div className={styles.row}>
         <div className={styles.oneThird}>
           <p>
-            <span>•</span> Aplicacion web que consume datos de una Api sobre
-            recetas de comidas. La cree para aprobar mi proyecto individual en
-            el bootcamp Henry.{" "}
+            <span>•</span> Web application that consumes data from a food recipe
+            API.
           </p>
           <p>
-            <span>•</span> Entre sus funcionalidades destacadas se encuentran:
-            Filtros combinados, creacion de recetas, se pueden subiir imagenes,
-            tiene un buscador, se pueden ver los detalles de la receta.
+            <span>•</span> Its notable features include:
+            <ul>
+              <li>Combined filters</li>
+              <li>Recipe creation</li>
+              <li>Image upload (Claudinary)</li>
+              <li>Efficient search with over five thousand recipes</li>
+              <li>Recipe details view</li>
+            </ul>
           </p>
           <p>
-            <span>•</span> Algo que destaco de esta app fue que amis compa;eros
-            les gusto mucho y mas adelante cuando realizamos el proyecto grupal
-            mi pidieron que este a cargo del Frontend
+            <span>•</span> Something remarkable about this app was that my
+            fellow bootcamp classmates really liked its design, and for this
+            reason, they asked me to take charge of the frontend in the final
+            project.
           </p>
           <p>
-            <span>•</span> La api tenia un limite de request diarias y eso
-            dificulto el desarrollo, tuve que hacer un switch con varias apikey
-            en el backend para poder trabajar, tambien me ayudo a fortalecer mis
-            conocimientos en redux pero lo que mas me gusto fue el resultado
-            final, pude aplicarle todos los estilos y funcionalidades que me
-            propuse al inicio.{" "}
+            <span>•</span> The API had a limit of daily requests, which made
+            development difficult. I had to implement a switch with multiple API
+            keys on the backend to be able to work with it. It also helped me
+            strengthen my Redux knowledge, but what I liked the most was the
+            final result. I was able to apply all the styles and functionalities
+            that I set out to do initially.
           </p>
         </div>
         <div className={styles.twoThirds}>

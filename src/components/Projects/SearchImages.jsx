@@ -20,21 +20,32 @@ const SearchImages = () => {
       <div className={styles.row}>
         <div className={styles.oneThird}>
           <p>
-            <span>•</span> Este sitio web es un proyecto que creé para practicar
-            lo que estaba aprendiendo en mis clases de Frontend. Quería crear
-            una aplicación usando React y Redux, pero lo más importante y lo que
-            me importaba en esos días era aprender a consumir datos de las API.
-            Así empezó este proyecto, y con el tiempo se volvió importante para
-            mí porque lo uso para buscar imágenes para mis nuevos proyectos.
+            <span>•</span> This website is a project I created as part of my
+            developer portfolio. Its main purpose was to practice what I was
+            learning in my Frontend classes. I wanted to build an application
+            using React and Redux, but what mattered the most to me at that time
+            was learning how to consume data from APIs. That's how this project
+            started, and over time it became important to me because I use it to
+            search for images for my new projects.
           </p>
           <p>
-            <span>•</span> Infinidad de imágenes que ofrece la API, las pongo a
-            disposición en el search, de fácil navegación. Posee detalles
-            estéticos que la hacen muy agradable a la vista (al menos eso dicen
-            mis amigos). Se puede hacer Zoom a las imágenes, tambien se pueden
-            descargar a solo un clic, Botones para compartir las imágenes en
-            redes. Ademas use el localstorage para que el usuario pueda tener un
-            apartado de favoritos.
+            <ul>
+              <li>
+                It offers a vast variety of images from the API, which are
+                available for searching through the search field.
+              </li>
+              <li>Easy and intuitive navigation.</li>
+              <li>
+                Includes aesthetic details that make it visually appealing.
+              </li>
+              <li>Zoom functionality to view image details.</li>
+              <li>Ability to download images with just one click.</li>
+              <li>Buttons for sharing images on social media.</li>
+              <li>
+                Implemented local storage feature to allow users to save their
+                favorite images.
+              </li>
+            </ul>
           </p>
         </div>
         <div className={styles.twoThirds}>

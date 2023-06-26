@@ -20,29 +20,36 @@ const WorkifyServices = () => {
       <div className={styles.row}>
         <div className={styles.oneThird}>
           <p>
-            <span>•</span> Trabaje junto a 7 compañeros en este proyecto para
-            aprobar la instancia final del bootcamp, los requerimientos tech
-            fueron: Auth local y de terceros integrada, Pasarela de pagos,
-            Filtros combinados, Claudinary, Local storage/persist,
-            Reviews/puntuacion, Dashboard admin, Notificaciones, Borrado logico.
+            <span>•</span> Participation in an agile development team with
+            one-week sprints, presenting progress to a Product Owner on the
+            development of a complete microservices app. The technical
+            requirements included:
+            <ul>
+              <li>Integrated local and third-party authentication</li>
+              <li>Payment gateway</li>
+              <li>Combined filters</li>
+              <li>Claudinary</li>
+              <li>Local storage/persistence</li>
+              <li>Reviews/ratings</li>
+              <li>Admin dashboard</li>
+              <li>Notifications</li>
+              <li>Soft deletion</li>
+            </ul>
           </p>
           <p>
-            <span>•</span> Desarrollamos una aplicacion donde los prestadores de
-            servicios pueden publicar su perfil para ser contratados, y donde
-            los usuarios pueden recurrir para contratar un servicio domestico
-            ante la necesidad. Trabajamos con la modalidad Agile
-            Methodologies/Scrum.
+            <span>•</span> In the application, service providers can create
+            profiles to be hired, and users can browse and hire domestic
+            services as needed.
           </p>
           <p>
-            <span>•</span> Destaco en este proyecto al equipo, aprendimos a usar
-            github para el versionado de manera grupal. al principio fue dificil
-            pero aprendimos a desenvolvernos rapido. Lo mas importante es que
-            pudimos cumplir con todos los requerimientos en tiempo y forma.
+            <span>•</span> I would like to highlight the team in this project.
+            We learned to use GitHub for collaborative version control. It was
+            challenging at first, but we quickly adapted. The most important
+            achievement was delivering all the requirements on time.
           </p>
           <p>
-            <span>•</span> Aprendi atrabajar en equipo, pude poner en practica
-            el colaborar con mis compa;eros y solicitar ayuda con me fue
-            necesario.
+            <span>•</span> I learned to work in a team and actively collaborate
+            with my colleagues, seeking help when needed.
           </p>
         </div>
         <div className={styles.twoThirds}>

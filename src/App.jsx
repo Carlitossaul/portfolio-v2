@@ -17,7 +17,7 @@ function App() {
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
-        {/* <Route exact path="/pdf" element={<Pdf />} /> */}
+        <Route exact path="/pdf" element={<Pdf />} />
       </Routes>
     </div>
   );

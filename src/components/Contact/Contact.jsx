@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from "react";
 import emailjs from "emailjs-com";
-import style from "./Contact.module.css";
-import { NavLink } from "react-router-dom";
-import { BsFillEnvelopeFill } from "react-icons/bs";
+import styles from "./Contact.module.css";
+import { FiMail } from "react-icons/fi";
 
 const Contact = () => {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
+  const [name, setName] = useState("");
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -15,26 +15,24 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // Configura tus credenciales de EmailJS
     const serviceID = "service_epbalco";
     const templateID = "template_a5ev9rj";
     const userID = "n-pNqKPUvdxhgx-go";
 
-    // Crea un objeto con los datos del formulario
     const templateParams = {
-      from_name: email,
+      userEmail: email,
       message: message,
+      userName: name,
     };
 
-    // Envía el correo electrónico utilizando EmailJS
     emailjs
       .send(serviceID, templateID, templateParams, userID)
       .then((response) => {
         console.log("Correo electrónico enviado con éxito", response);
-        // Restablece los campos del formulario
 
         setEmail("");
         setMessage("");
+        setName("");
       })
       .catch((error) => {
         console.error("Error al enviar el correo electrónico", error);
@@ -42,26 +40,39 @@ const Contact = () => {
   };
 
   return (
-    <div className={style.Container}>
-      <h1 className={style.h1}>Contact</h1>
-      <div className={style.description}>
-        <form onSubmit={handleSubmit}>
-          <label>
-            Correo electrónico:
-            <input
-              type="email"
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-            />
-          </label>
-          <label>
-            Mensaje:
-            <textarea
-              value={message}
-              onChange={(e) => setMessage(e.target.value)}
-            />
-          </label>
-          <button type="submit">Enviar</button>
+    <div className={styles.Container}>
+      <div className={styles.title}>
+        <h1 className={styles.h1}>Contact </h1>
+        <br />
+      </div>
+      <div className={styles.description}>
+        <form className={styles.form} onSubmit={handleSubmit}>
+          <label>Name:</label>
+          <input
+            type="name"
+            required
+            value={name}
+            onChange={(e) => setName(e.target.value)}
+            className={styles.input}
+          />
+          <label>Email:</label>
+          <input
+            type="email"
+            required
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+            className={styles.input}
+          />
+          <label>Message:</label>
+          <textarea
+            value={message}
+            required
+            onChange={(e) => setMessage(e.target.value)}
+            className={styles.textarea}
+          />
+          <button className={styles.button} type="submit">
+            Send
+          </button>
         </form>
       </div>
     </div>
@@ -69,23 +80,3 @@ const Contact = () => {
 };
 
 export default Contact;
-
-{
-  /* <div className={style.theP}>
-  <p className={style.p}>
-    I am currently looking for my first job in the IT sector.
-  </p>
-  <p className={style.p}>Contact me!</p>
-  <p className={style.p}></p>
-</div>
-<div className={style.divButton}>
-  <NavLink
-    to={"mailto:carlitossaul.h@gmail.com"}
-    className={style.NavLink}
-  >
-    <button className={style.button}>
-      <BsFillEnvelopeFill /> SEND MAIL
-    </button>
-  </NavLink>
-</div> */
-}

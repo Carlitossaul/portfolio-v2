@@ -4,6 +4,7 @@ import img from "../../assets/logo.png";
 import { BiBriefcase } from "react-icons/bi";
 import { FiMail } from "react-icons/fi";
 import { FaRegUser } from "react-icons/fa";
+import { BsFillPersonLinesFill } from "react-icons/bs";
 
 const Nav = () => {
   const location = useLocation();
@@ -40,6 +41,11 @@ const Nav = () => {
             to="/contact"
           >
             <FiMail className={styles.iconos} /> Contact
+          </Link>
+          <Link target="a_blank" to={"./pdf"} className={styles.link}>
+            <div className={styles.divButton}>
+              <button className={styles.button}>CV-RESUME</button>
+            </div>
           </Link>
         </div>
       </nav>

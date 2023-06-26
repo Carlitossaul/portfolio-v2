@@ -9,13 +9,8 @@ import { Link } from "react-router-dom";
 import { GoMarkGithub } from "react-icons/go";
 import { FaLinkedin } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
-import { ImWhatsapp } from "react-icons/im";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-
-const handleWhatsapp = () => {
-  window.open("https://api.whatsapp.com/send?phone=3704988894");
-};
 
 const Landing = () => {
   return (
@@ -150,14 +145,6 @@ const Landing = () => {
           >
             <FaInstagram className={styles.iconos} />
           </Link>
-          <Link
-            className={styles.Link}
-            href="javascript:void(0);"
-            onClick={handleWhatsapp}
-          >
-            <ImWhatsapp className={styles.iconos} />
-          </Link>
-          <div className={styles.verticalLine}></div>
         </div>
       </div>
     </div>

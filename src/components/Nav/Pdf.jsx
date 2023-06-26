@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import resumePDF from "../../assets/resume.pdf";
 
 export const Pdf = () => {
   useEffect(() => {
@@ -7,6 +8,7 @@ export const Pdf = () => {
       window.close();
     }
   }, []);
+
   return (
     <div
       style={{
@@ -17,16 +19,16 @@ export const Pdf = () => {
       }}
     >
       <object
-        data={require("../../helper/CV-carlos-lovey.pdf")}
+        data={resumePDF}
         type="application/pdf"
         width="100%"
-        height="100% "
+        height="100%"
       >
         <br />
         <a
-          href={require("../../helper/CV-carlos-lovey.pdf")}
+          href={resumePDF}
           id="enlaceDescargarPdf"
-          download="Curriculum vitae.pdf"
+          download="resume.pdf"
           style={{ color: "#fd891c", textDecoration: "none", margin: "2px" }}
         >
           Tu dispositivo no puede visualizar los PDF, da click aqui para

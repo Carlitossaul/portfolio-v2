@@ -107,6 +107,7 @@ const About = () => {
           <li>Empathy</li>
         </ul>
       </div>
+      <div className={styles.space}></div>
     </div>
   );
 };

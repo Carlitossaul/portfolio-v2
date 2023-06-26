@@ -44,7 +44,9 @@ h5,
 h6,
 p,
 li,
-span {
+a,
+span,
+label {
   color: var(--white);
 }
 li::marker {

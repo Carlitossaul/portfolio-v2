@@ -19,7 +19,16 @@
   margin-bottom: 2em;
   padding-left: 12em;
 }
-
+.loadingContainer {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.loading {
+  height: 15em;
+}
 .h1 {
   font-family: "Roboto Mono", monospace;
   color: var(--white);

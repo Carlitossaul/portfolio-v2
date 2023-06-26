@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import emailjs from "emailjs-com";
 import styles from "./Contact.module.css";
-import { FiMail } from "react-icons/fi";
+import { toast } from "react-hot-toast";
 
 const Contact = () => {
   const [email, setEmail] = useState("");
@@ -28,14 +28,15 @@ const Contact = () => {
     emailjs
       .send(serviceID, templateID, templateParams, userID)
       .then((response) => {
-        console.log("Correo electrónico enviado con éxito", response);
-
+        toast.success("Message sent successfully.");
         setEmail("");
         setMessage("");
         setName("");
       })
       .catch((error) => {
-        console.error("Error al enviar el correo electrónico", error);
+        toast.error(
+          "If the message could not be sent, an error occurred. Please try again later."
+        );
       });
   };
 

@@ -50,6 +50,13 @@ const AreYouHungry = () => {
             final result. I was able to apply all the styles and functionalities
             that I set out to do initially.
           </p>
+          <div className={styles.divImageResponsive}>
+            <img
+              className={styles.imageResponsive}
+              src={hungry2}
+              alt="hungry2"
+            />
+          </div>
         </div>
         <div className={styles.twoThirds}>
           <Carousel
@@ -65,15 +72,15 @@ const AreYouHungry = () => {
             <div className={styles.carouselImageContainer}>
               <img
                 className={styles.carouselImage}
-                src={hungry1}
-                alt="hungry1"
+                src={hungry2}
+                alt="hungry2"
               />
             </div>
             <div className={styles.carouselImageContainer}>
               <img
                 className={styles.carouselImage}
-                src={hungry2}
-                alt="hungry2"
+                src={hungry1}
+                alt="hungry1"
               />
             </div>
             <div className={styles.carouselImageContainer}>

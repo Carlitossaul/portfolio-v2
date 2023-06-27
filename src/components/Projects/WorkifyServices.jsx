@@ -51,6 +51,9 @@ const WorkifyServices = () => {
             <span>•</span> I learned to work in a team and actively collaborate
             with my colleagues, seeking help when needed.
           </p>
+          <div className={styles.divImageResponsive}>
+            <img className={styles.imageResponsive} src={img2} alt="img2" />
+          </div>
         </div>
         <div className={styles.twoThirds}>
           <Carousel

@@ -26,6 +26,9 @@
 }
 
 @media (max-width: 391px) {
+  .Navlink {
+    font-size: 12px;
+  }
 }
 @media (min-width: 391px) and (max-width: 768px) {
 }

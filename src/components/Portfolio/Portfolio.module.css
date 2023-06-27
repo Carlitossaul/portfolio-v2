@@ -35,168 +35,25 @@
 }
 
 @media (max-width: 391px) {
-  .Portfolio {
+  .homeContainer {
     margin-top: 7em;
-    align-items: center;
   }
-  .container {
+  .containerTitle h1,
+  h4 {
+    font-size: 1em;
+  }
+  .projectsContainer {
     gap: 2em;
-  }
-  .titlePag {
-    width: 100%;
-    display: flex;
-    align-items: center;
-  }
-  .h1 {
-    font-size: 18px;
-    margin-left: 1em;
-  }
-  .image {
-    width: 95%;
-    margin: 0px 4px;
-    filter: none;
-  }
-  .contentModelOne {
-    flex-direction: column;
-    gap: 2em;
-  }
-  .contentModelTwo {
-    flex-direction: column;
-    gap: 5em;
-  }
-  .website {
-    margin-bottom: 1em;
-  }
-  .titleWeb {
-    font-size: 17px;
-  }
-  .subtitle {
-    font-size: 17px;
-    text-align: center;
-  }
-  .divParrafo {
-    max-width: 95%;
-  }
-  .links {
-    justify-content: center;
-    gap: 0px;
+    padding: 0em 0em;
   }
 }
 @media (min-width: 391px) and (max-width: 768px) {
-  .Portfolio {
-    margin-top: 7em;
-    align-items: center;
-  }
-  .container {
-    gap: 2em;
-  }
-  .titlePag {
-    width: 100%;
-    display: flex;
-    align-items: center;
-  }
-  .h1 {
-    font-size: 18px;
-    margin-left: 1em;
-  }
-  .image {
-    width: 95%;
-    margin: 0px 4px;
-    filter: none;
-  }
-  .contentModelOne {
-    flex-direction: column;
-    gap: 2em;
-  }
-  .contentModelTwo {
-    flex-direction: column;
-    gap: 5em;
-  }
-  .website {
-    margin-bottom: 1em;
-  }
-  .titleWeb {
-    font-size: 17px;
-  }
-  .subtitle {
-    font-size: 17px;
-    text-align: center;
-  }
-  .divParrafo {
-    max-width: 95%;
-  }
-  .links {
-    justify-content: center;
-    gap: 0px;
-  }
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
   /* Estilos para pantallas con ancho entre 768px y 992px */
-  .Portfolio {
-    margin-top: 12em;
-    align-items: center;
-  }
-  .container {
-    gap: 2em;
-  }
-  .titlePag {
-    width: 100%;
-    display: flex;
-    align-items: center;
-  }
-  .h1 {
-    font-size: 18px;
-    margin-left: 1em;
-  }
-  .image {
-    width: 95%;
-    margin: 0px 4px;
-    filter: none;
-  }
-  .contentModelOne {
-    flex-direction: column;
-    gap: 2em;
-  }
-  .contentModelTwo {
-    flex-direction: column;
-    gap: 5em;
-  }
-  .website {
-    margin-bottom: 1em;
-  }
-  .titleWeb {
-    font-size: 17px;
-  }
-  .subtitle {
-    font-size: 17px;
-    text-align: center;
-  }
-  .divParrafo {
-    max-width: 95%;
-  }
-  .links {
-    justify-content: center;
-    gap: 0px;
-  }
 }
 
-@media (min-width: 992px) and (max-width: 1071px) {
+@media (min-width: 992px) {
   /* Estilos para pantallas con ancho mínimo de 992px */
-  .container {
-    max-width: 70%;
-    gap: 5em;
-  }
-  .image {
-    width: 100%;
-  }
-  .contentModelOne {
-    font-size: 15px;
-  }
-  .contentModelTwo {
-    font-size: 15px;
-  }
-  .titleWeb {
-    margin-bottom: 1.5em;
-  }
 }

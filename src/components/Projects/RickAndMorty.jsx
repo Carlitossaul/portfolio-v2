@@ -54,6 +54,9 @@ const RickAndMorty = () => {
               <li>User registration feature for creating accounts.</li>
             </ul>
           </p>
+          <div className={styles.divImageResponsive}>
+            <img className={styles.imageResponsive} src={rym2} alt="rym2" />
+          </div>
         </div>
         <div className={styles.twoThirds}>
           <Carousel

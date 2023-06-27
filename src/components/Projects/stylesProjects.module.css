@@ -9,7 +9,9 @@
   border: 1px solid var(--blue);
   border-radius: 4px;
 }
-
+.divImageResponsive {
+  display: none;
+}
 .title {
   width: 100%;
   border-bottom: 2px solid var(--blueIntense);
@@ -100,4 +102,62 @@
 .icon {
   margin-right: 8px;
   margin-top: -19px;
+}
+.row {
+}
+@media (max-width: 391px) {
+  .projectContainer {
+    padding: 0px 0px;
+    border: none;
+    padding: 1px 5px;
+  }
+  .twoThirds {
+    display: none;
+  }
+  .divImageResponsive {
+    max-width: 100%;
+    display: flex;
+    height: auto;
+  }
+  .imageResponsive {
+    max-width: 100%;
+  }
+  .title {
+    font-size: 16px;
+    padding: 1px;
+    text-align: center;
+    border-bottom: none;
+  }
+  .oneThird {
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    overflow-y: visible;
+  }
+  .oneThird p {
+    font-size: 12px;
+  }
+  .ul {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    padding-top: 1em;
+  }
+  .ul li {
+    padding: 3px 7px;
+    border: 1px solid var(--blue);
+    list-style: none;
+    border-radius: 5px;
+    font-size: 10px;
+  }
+}
+@media (min-width: 391px) and (max-width: 768px) {
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  /* Estilos para pantallas con ancho entre 768px y 992px */
+}
+
+@media (min-width: 992px) {
+  /* Estilos para pantallas con ancho mínimo de 992px */
 }

@@ -47,6 +47,13 @@ const SearchImages = () => {
               </li>
             </ul>
           </p>
+          <div className={styles.divImageResponsive}>
+            <img
+              className={styles.imageResponsive}
+              src={appImages1}
+              alt="appImages1"
+            />
+          </div>
         </div>
         <div className={styles.twoThirds}>
           <Carousel

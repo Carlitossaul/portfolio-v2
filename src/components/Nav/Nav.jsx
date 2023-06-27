@@ -4,7 +4,6 @@ import img from "../../assets/logo.png";
 import { BiBriefcase } from "react-icons/bi";
 import { FiMail } from "react-icons/fi";
 import { FaRegUser } from "react-icons/fa";
-import { BsFillPersonLinesFill } from "react-icons/bs";
 
 const Nav = () => {
   const location = useLocation();

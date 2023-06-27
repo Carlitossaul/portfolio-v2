@@ -87,21 +87,6 @@ const Landing = () => {
               </div>
             </div>
           </div>
-
-          <div className={styles.carousel}>
-            <p className={styles.parrafo}>
-              "Contrate a un servicio de Pintura y la verdad estupendo"
-            </p>
-            <div className={styles.infoContainer}>
-              <div className={styles.info}>
-                <h2>- John Doe</h2>
-                <p>profesion</p>
-              </div>
-              <div className={styles.divImgPerson}>
-                <img className={styles.imgPerson} src={img} alt="" />
-              </div>
-            </div>
-          </div>
         </Carousel>
       </div>
       <div className={styles.presentation}>

@@ -5,6 +5,7 @@ import diame from "./assets/diame.png";
 import jensy from "./assets/jensy.png";
 import joaquin from "./assets/joaquin.png";
 import logo from "../../assets/logo.png";
+import mariano from "./assets/mariano.png";
 import { Link } from "react-router-dom";
 import { GoMarkGithub } from "react-icons/go";
 import { FaLinkedin } from "react-icons/fa";
@@ -39,7 +40,7 @@ const Landing = () => {
             </p>
             <div className={styles.infoContainer}>
               <div className={styles.info}>
-                <h2>- Joaquin Guerrero</h2>
+                <h2>Joaquin Guerrero</h2>
                 <p>Ingeniero de Sistemas - Developer Web Full Stack</p>
               </div>
               <div className={styles.divImgPerson}>
@@ -57,11 +58,11 @@ const Landing = () => {
             </p>
             <div className={styles.infoContainer}>
               <div className={styles.info}>
-                <h2>- Diamela Villalba</h2>
+                <h2>Diamela Villalba</h2>
                 <p>Desarrollador Fullstack</p>
               </div>
               <div className={styles.divImgPerson}>
-                <img className={styles.imgPerson} src={diame} alt="" />
+                <img className={styles.imgPerson} src={diame} alt="diame" />
               </div>
             </div>
           </div>
@@ -79,11 +80,29 @@ const Landing = () => {
             </p>
             <div className={styles.infoContainer}>
               <div className={styles.info}>
-                <h2>- Jensy Figueroa</h2>
+                <h2>Jensy Figueroa</h2>
                 <p>Developer Web Full Stack - Licenciado en Informatica</p>
               </div>
               <div className={styles.divImgPerson}>
-                <img className={styles.imgPerson} src={jensy} alt="" />
+                <img className={styles.imgPerson} src={jensy} alt="jensy" />
+              </div>
+            </div>
+          </div>
+          <div className={styles.carousel}>
+            <p className={styles.parrafo}>
+              "Carlos se destaca por su desempeño como desarrollador web full
+              stack y también de compañero de trabajo. Es disciplinado,
+              constante, busca la mejor manera de trabajar y de resolver
+              problemas de códigos que se le presenten. Siempre está
+              aprendiendo, gran autodidacta."
+            </p>
+            <div className={styles.infoContainer}>
+              <div className={styles.info}>
+                <h2>Mariano Giusti</h2>
+                <p>Developer Web Full Stack</p>
+              </div>
+              <div className={styles.divImgPerson}>
+                <img className={styles.imgPerson} src={mariano} alt="mariano" />
               </div>
             </div>
           </div>

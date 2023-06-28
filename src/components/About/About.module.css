@@ -27,7 +27,7 @@
   justify-content: center;
 }
 .loading {
-  height: 15em;
+  height: 10em;
 }
 .h1 {
   font-family: "Roboto Mono", monospace;
@@ -71,7 +71,7 @@
 .tools,
 .softSkills {
   width: 55em;
-  font-size: 0.9rem;
+  font-size: 0.9em;
   color: #f7f5f8;
   font-family: "Roboto Mono", monospace;
   margin-bottom: 2em;
@@ -98,129 +98,68 @@
 @media (max-width: 391px) {
   .Container {
     margin-top: 7em;
-  }
-  .description {
-    max-width: 95%;
-    flex-direction: column;
-  }
-  .h1 {
-    font-size: 18px;
+    height: 100%;
   }
   .title {
-    max-width: 95%;
-    display: flex;
-    align-items: center;
+    padding: 0px 15px;
+  }
+  .h1 {
+    font-size: 20px;
   }
   .theP {
-    max-width: 95%;
-  }
-  .p {
-    font-size: 16px;
-  }
-  .img {
-    max-width: 100%;
-    filter: none;
+    width: 95%;
+    font-size: 12px;
   }
   .divImg {
-    box-shadow: none;
+    display: none;
   }
-  .tecnologias {
-    max-width: 95%;
-    font-size: 12px;
-    display: flex;
-    align-items: center;
+  .tecnologias,
+  .tools,
+  .softSkills {
+    width: 95%;
+    font-size: 15px;
   }
-  .table {
-    margin-bottom: 8em;
+  .ul {
+    font-size: 10px;
   }
 }
 @media (min-width: 391px) and (max-width: 768px) {
   .Container {
     margin-top: 7em;
-  }
-  .description {
-    max-width: 95%;
-    flex-direction: column;
-  }
-  .h1 {
-    font-size: 18px;
+    height: 100%;
   }
   .title {
-    width: 80%;
-    margin-left: 3em;
+    padding: 0px 15px;
+  }
+  .h1 {
+    font-size: 20px;
   }
   .theP {
-    max-width: 95%;
-  }
-  .p {
-    font-size: 16px;
-  }
-  .img {
-    max-width: 100%;
-    filter: none;
+    width: 95%;
+    font-size: 14px;
   }
   .divImg {
-    box-shadow: none;
+    display: none;
   }
-  .tecnologias {
-    max-width: 95%;
-    font-size: 12px;
-    /* margin-left: 4em; */
+  .tecnologias,
+  .tools,
+  .softSkills {
+    width: 95%;
+    font-size: 15px;
   }
-  .table {
-    margin-left: 5em;
-
-    margin-bottom: 8em;
+  .ul {
+    font-size: 13px;
   }
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
   .Container {
-    margin-top: 12em;
-  }
-  .description {
-    max-width: 95%;
-    flex-direction: column;
-  }
-  .h1 {
-    font-size: 18px;
-  }
-  .title {
-    width: 80%;
-    margin-left: 7em;
-  }
-  .theP {
-    max-width: 95%;
-  }
-  .p {
-    font-size: 16px;
-  }
-  .img {
-    max-width: 100%;
-    filter: none;
-  }
-  .divImg {
-    box-shadow: none;
-  }
-  .tecnologias {
-    max-width: 95%;
-    font-size: 12px;
-  }
-  .table {
-    margin-left: 10em;
-
-    margin-bottom: 8em;
+    height: 100%;
   }
 }
-@media (min-width: 992px) and (max-width: 1071px) {
+@media (min-width: 992px) and (max-width: 1260px) {
+  .Container {
+    height: 100%;
+  }
   /* Estilos para pantallas con ancho mínimo de 992px */
-  .title {
-    max-width: 70%;
-  }
-  .description {
-    max-width: 70%;
-  }
-  .tecnologias {
-    max-width: 70%;
-  }
 }

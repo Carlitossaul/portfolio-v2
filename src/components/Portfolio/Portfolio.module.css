@@ -48,6 +48,17 @@
   }
 }
 @media (min-width: 391px) and (max-width: 768px) {
+  .homeContainer {
+    margin-top: 7em;
+  }
+  .containerTitle h1,
+  h4 {
+    font-size: 1.1em;
+  }
+  .projectsContainer {
+    gap: 2em;
+    padding: 0em 0em;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 992px) {

@@ -152,12 +152,144 @@
   }
 }
 @media (min-width: 391px) and (max-width: 768px) {
+  .projectContainer {
+    padding: 0px 0px;
+    border: none;
+    padding: 1px 5px;
+  }
+  .twoThirds {
+    display: none;
+  }
+  .divImageResponsive {
+    max-width: 100%;
+    display: flex;
+    height: auto;
+  }
+  .imageResponsive {
+    max-width: 100%;
+  }
+  .title {
+    font-size: 17px;
+    padding: 1px;
+    text-align: center;
+    border-bottom: none;
+  }
+  .oneThird {
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    overflow-y: visible;
+  }
+  .oneThird p {
+    font-size: 14px;
+  }
+  .ul {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    padding-top: 1em;
+  }
+  .ul li {
+    padding: 3px 7px;
+    border: 1px solid var(--blue);
+    list-style: none;
+    border-radius: 5px;
+    font-size: 14px;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
   /* Estilos para pantallas con ancho entre 768px y 992px */
+  .projectContainer {
+    padding: 0px 0px;
+    border: none;
+    padding: 1px 5px;
+  }
+  .twoThirds {
+    display: none;
+  }
+  .divImageResponsive {
+    max-width: 100%;
+    display: flex;
+    height: auto;
+  }
+  .imageResponsive {
+    max-width: 100%;
+  }
+  .title {
+    font-size: 25px;
+    padding: 1px;
+    text-align: center;
+    border-bottom: none;
+  }
+  .oneThird {
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    overflow-y: visible;
+  }
+  .oneThird p {
+    font-size: 18px;
+  }
+  .ul {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    padding-top: 1em;
+  }
+  .ul li {
+    padding: 3px 7px;
+    border: 1px solid var(--blue);
+    list-style: none;
+    border-radius: 5px;
+    font-size: 18px;
+  }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 992px) and (max-width: 1300px) {
   /* Estilos para pantallas con ancho mínimo de 992px */
+  .projectContainer {
+    padding: 0px 0px;
+    border: none;
+    padding: 1px 5px;
+  }
+  .twoThirds {
+    display: none;
+  }
+  .divImageResponsive {
+    max-width: 100%;
+    display: flex;
+    height: auto;
+  }
+  .imageResponsive {
+    max-width: 100%;
+  }
+  .title {
+    font-size: 25px;
+    padding: 1px;
+    text-align: center;
+    border-bottom: none;
+  }
+  .oneThird {
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    overflow-y: visible;
+  }
+  .oneThird p {
+    font-size: 18px;
+  }
+  .ul {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    padding-top: 1em;
+  }
+  .ul li {
+    padding: 3px 7px;
+    border: 1px solid var(--blue);
+    list-style: none;
+    border-radius: 5px;
+    font-size: 18px;
+  }
 }

@@ -73,33 +73,25 @@
 }
 
 @media (max-width: 391px) {
-  .title {
-    width: 90%;
+  .Container {
+    margin-top: 7em;
+  }
+  .form {
+    width: 95%;
   }
   .h1 {
     font-size: 18px;
-  }
-  .p {
-    width: 95%;
-    font-size: 16px;
-  }
-  .divButton {
-    font-size: 12px;
   }
 }
 @media (min-width: 391px) and (max-width: 768px) {
-  .title {
-    width: 100%;
+  .Container {
+    margin-top: 7em;
+  }
+  .form {
+    width: 19em;
   }
   .h1 {
     font-size: 18px;
-  }
-  .p {
-    width: 95%;
-    font-size: 17px;
-  }
-  .divButton {
-    font-size: 15px;
   }
 }
 

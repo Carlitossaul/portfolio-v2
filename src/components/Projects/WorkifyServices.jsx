@@ -28,7 +28,7 @@ const WorkifyServices = () => {
               <li>Integrated local and third-party authentication</li>
               <li>Payment gateway</li>
               <li>Combined filters</li>
-              <li>Claudinary</li>
+              <li>Cloudinary</li>
               <li>Local storage/persistence</li>
               <li>Reviews/ratings</li>
               <li>Admin dashboard</li>
@@ -89,7 +89,7 @@ const WorkifyServices = () => {
           <ul className={styles.ul}>
             <li>HTML5</li>
             <li>CSS</li>
-            <li>Claudinary</li>
+            <li>Cloudinary</li>
             <li>React</li>
             <li>Redux</li>
             <li>Javascript</li>

@@ -31,7 +31,7 @@ const AreYouHungry = () => {
             <ul>
               <li>Combined filters</li>
               <li>Recipe creation</li>
-              <li>Image upload (Claudinary)</li>
+              <li>Image upload (Cloudinary)</li>
               <li>Efficient search with over five thousand recipes</li>
               <li>Recipe details view</li>
             </ul>

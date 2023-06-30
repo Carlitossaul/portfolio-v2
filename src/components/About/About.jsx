@@ -7,9 +7,9 @@ const About = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
+    window.scrollTo(0, 0);
     setTimeout(() => {
       setLoading(false);
-      window.scrollTo(0, 0);
     }, 1500);
   }, []);
 

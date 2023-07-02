@@ -13,6 +13,7 @@ import { FaInstagram } from "react-icons/fa";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { toast } from "react-hot-toast";
+import "animate.css";
 
 const Landing = () => {
   return (
@@ -127,7 +128,7 @@ const Landing = () => {
           <Link style={{ textDecoration: "none" }} to={"/portfolio"}>
             <button
               onClick={() => toast("Welcome to my portfolio.")}
-              className={styles.button}
+              className={`${styles.button} animate__animated animate__flash`}
             >
               See My Work
             </button>

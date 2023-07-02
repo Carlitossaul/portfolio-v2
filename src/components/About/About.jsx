@@ -1,5 +1,6 @@
 import styles from "./About.module.css";
 import img from "./assets/perfil-cal10-removebg-preview.png";
+import certificate from "../../assets/certificateHenry.png";
 import { useEffect, useState } from "react";
 import imgLoading from "../../assets/loadingport.gif";
 
@@ -10,7 +11,7 @@ const About = () => {
     window.scrollTo(0, 0);
     setTimeout(() => {
       setLoading(false);
-    }, 1500);
+    }, 1900);
   }, []);
 
   return (
@@ -29,46 +30,48 @@ const About = () => {
             <div className={styles.theP}>
               <p className={styles.p}>
                 {" "}
-                <span>•</span> Hello! I'm Carlos, a passionate Junior Full Stack
-                Developer with a focus on Front End, located in Formosa,
+                <span>•</span> Hello! I'm Carlos, a passionate Full Stack
+                Developer with a focus on Front End, based in Formosa,
                 Argentina. I enjoy life in the beautiful capital of Formosa with
                 my family.
               </p>
               <p className={styles.p}>
                 {" "}
-                <span>•</span> My passion lies in creating engaging and
-                functional digital experiences that positively impact users.
-                Recently, I completed my training at Henry, gaining a solid
-                foundation in web development and gaining practical experience
-                through individual and team projects.
+                <span>•</span> I've been fond of computers since I was a child.
+                They have always been a great tool in my daily life, not just
+                for studying, but for everything else as well. One day, I
+                decided to make a 180-degree turn in my career and pursue what I
+                really love, so I decided to study programming. That's when I
+                joined a bootcamp. I learned a lot, developed individual and
+                team projects. Today, I can confidently say that I discovered
+                something that truly excites me in software development. I love
+                it, it entertains me. I seem like a kid with a new toy. Today, I
+                know that my place is in technology.
               </p>
               <p className={styles.p}>
                 {" "}
-                <span>•</span> In my latest group project, I took on the role of
-                Front End lead, demonstrating initiative, attention to detail,
-                and a perfectionist approach to ensuring that applications look
-                and function as intended.
-                <br />
-                I stand out for my responsibility and punctuality in delivering
-                projects, always striving to meet proposed deadlines and goals.
-                <br />I am disciplined in my learning and effectively organize
-                my time to put into practice what I learn.
+                <span>•</span> As a developer, I give my all. I enjoy providing
+                attractive and functional digital experiences that have a
+                positive impact on users. I also have leadership skills and take
+                initiative. I am highly dedicated when I work and deliver
+                efficient results. Additionally, I am creative and naturally
+                analytical in providing solutions.
+                <br />I adapt to changes and learn quickly, which is why I
+                consider myself a self-taught individual.
               </p>
               <p className={styles.p}>
                 {" "}
-                <span>•</span> In addition to my technical skills, my current
-                work as a doorman has provided me with the opportunity to
-                develop interpersonal and communication skills. I also serve as
-                a Teaching Assistant, where I assist beginners in the
-                programming bootcamp, further strengthening my soft skills.
+                <span>•</span> In my ongoing process of specialization, I keep
+                up with the most in-demand technologies in the current market.
+                As part of my professional development, I am creating both
+                individual and team projects that will soon be available in my
+                portfolio.
               </p>
               <p className={styles.p}>
                 {" "}
-                <span>• </span> In my ongoing process of specialization, I stay
-                up to date with the most in-demand technologies in the current
-                market. As part of my professional development, I am creating
-                both individual and team projects, which will be available soon
-                in my portfolio.
+                <span>• </span> Currently, I serve as a Full Stack Teaching
+                Assistant, where I assist beginners in a programming bootcamp,
+                further strengthening my technical and soft skills.
               </p>
             </div>
             <div className={styles.divImg}>
@@ -119,6 +122,20 @@ const About = () => {
               <li>Dedication</li>
               <li>Empathy</li>
             </ul>
+          </div>
+          <br />
+          <div className={styles.containerCertificate}>
+            <h4>
+              Full Stack Developer Certificate: Proficiency in Front End and
+              Back End Technologies
+            </h4>
+            <div className={styles.divCertificate}>
+              <img
+                className={styles.certificate}
+                src={certificate}
+                alt="certificate"
+              />
+            </div>
           </div>
           <div className={styles.space}></div>
         </div>

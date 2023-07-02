@@ -128,7 +128,7 @@ const Landing = () => {
           <Link style={{ textDecoration: "none" }} to={"/portfolio"}>
             <button
               onClick={() => toast("Welcome to my portfolio.")}
-              className={`${styles.button} animate__animated animate__flash`}
+              className={`${styles.button} animate__animated animate__backInRight`}
             >
               See My Work
             </button>

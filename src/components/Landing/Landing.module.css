@@ -174,7 +174,9 @@
 .button:hover {
   background-color: var(--blue);
 }
-
+.animate__backInRight {
+  animation-duration: 5s;
+}
 .redes {
   display: flex;
   justify-content: center;

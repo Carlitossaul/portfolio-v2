@@ -72,15 +72,15 @@ const AreYouHungry = () => {
             <div className={styles.carouselImageContainer}>
               <img
                 className={styles.carouselImage}
-                src={hungry2}
-                alt="hungry2"
+                src={hungry1}
+                alt="hungry1"
               />
             </div>
             <div className={styles.carouselImageContainer}>
               <img
                 className={styles.carouselImage}
-                src={hungry1}
-                alt="hungry1"
+                src={hungry2}
+                alt="hungry2"
               />
             </div>
             <div className={styles.carouselImageContainer}>

@@ -37,16 +37,15 @@ const About = () => {
               </p>
               <p className={styles.p}>
                 {" "}
-                <span>•</span> I've been fond of computers since I was a child.
+                <span>•</span> I have been fond of computers since childhood.
                 They have always been a great tool in my daily life, not just
-                for studying, but for everything else as well. One day, I
-                decided to make a 180-degree turn in my career and pursue what I
-                really love, so I decided to study programming. That's when I
-                joined a bootcamp. I learned a lot, developed individual and
-                team projects. Today, I can confidently say that I discovered
-                something that truly excites me in software development. I love
-                it, it entertains me. I seem like a kid with a new toy. Today, I
-                know that my place is in technology.
+                for studying, but for everything. One day, I decided to make a
+                180-degree turn in my career and pursue what I truly love, so I
+                decided to study programming. That's when I joined a bootcamp. I
+                learned a lot, worked on individual and team projects. I can
+                confidently say that through development, I discovered something
+                that truly excites me. Today, I know that my place is in
+                technology.
               </p>
               <p className={styles.p}>
                 {" "}

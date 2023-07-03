@@ -12,7 +12,7 @@ const Portfolio = () => {
     window.scrollTo(0, 0);
     setTimeout(() => {
       setLoading(false);
-    }, 2500);
+    }, 1200);
   }, []);
 
   return (

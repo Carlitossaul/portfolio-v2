@@ -70,13 +70,13 @@ const AreYouHungry = () => {
             showStatus={false}
           >
             <div className={styles.carouselImageContainer}>
-              <div className={styles.carouselImageContainer}>
-                <img
-                  className={styles.carouselImage}
-                  src={hungry3}
-                  alt="hungry3"
-                />
-              </div>
+              <img
+                className={styles.carouselImage}
+                src={hungry3}
+                alt="hungry3"
+              />
+            </div>
+            <div className={styles.carouselImageContainer}>
               <img
                 className={styles.carouselImage}
                 src={hungry1}

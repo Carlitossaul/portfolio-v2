@@ -81,9 +81,9 @@ const RickAndMorty = () => {
             <div className={styles.carouselImageContainer}>
               <img className={styles.carouselImage} src={rym4} alt="rym4" />
             </div>
-            <div className={styles.carouselImageContainer}>
+            {/* <div className={styles.carouselImageContainer}>
               <img className={styles.carouselImage} src={rym5} alt="rym5" />
-            </div>
+            </div> */}
             <div className={styles.carouselImageContainer}>
               <img className={styles.carouselImage} src={rym6} alt="rym6" />
             </div>

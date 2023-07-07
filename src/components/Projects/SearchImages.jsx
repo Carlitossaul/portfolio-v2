@@ -8,7 +8,6 @@ import { BsBoxArrowUpRight } from "react-icons/bs";
 import { GoMarkGithub } from "react-icons/go";
 import appImages1 from "./assets/app-images1.png";
 import appImages2 from "./assets/app-images2.png";
-import appImages3 from "./assets/app-images3.png";
 import appImages4 from "./assets/app-images4.png";
 
 const SearchImages = () => {
@@ -80,13 +79,7 @@ const SearchImages = () => {
                 alt="appImages2"
               />
             </div>
-            <div className={styles.carouselImageContainer}>
-              <img
-                className={styles.carouselImage}
-                src={appImages3}
-                alt="appImages3"
-              />
-            </div>
+
             <div className={styles.carouselImageContainer}>
               <img
                 className={styles.carouselImage}

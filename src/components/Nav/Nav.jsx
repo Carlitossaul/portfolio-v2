@@ -41,7 +41,7 @@ const Nav = () => {
           >
             <FiMail className={styles.iconos} /> Contact
           </Link>
-          <Link target="a_blank" to={"./pdf"} className={styles.link}>
+          <Link to={"./pdf"} className={styles.link}>
             <div className={styles.divButton}>
               <button className={styles.button}>CV-RESUME</button>
             </div>

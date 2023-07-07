@@ -35,7 +35,7 @@ const Landing = () => {
           <img className={styles.loading} src={logo} alt="logo" />
         </div>
       ) : (
-        <>
+        <div className={styles.twoViews}>
           {" "}
           <div className={`${styles.testimonials} ${styles.hidePageNumbers} `}>
             <div className={styles.skewed}>
@@ -156,7 +156,7 @@ const Landing = () => {
               <Link style={{ textDecoration: "none" }} to={"/portfolio"}>
                 <button
                   onClick={() => toast("Welcome to my portfolio.")}
-                  className={`${styles.button} animate__animated animate__backInRight`}
+                  className={`${styles.button} animate__animated animate__jackInTheBox`}
                 >
                   See My Work
                 </button>
@@ -186,7 +186,7 @@ const Landing = () => {
               </Link>
             </div>
           </div>
-        </>
+        </div>
       )}
     </div>
   );

@@ -155,7 +155,7 @@ const Landing = () => {
             <div className={styles.divButton}>
               <Link style={{ textDecoration: "none" }} to={"/portfolio"}>
                 <button
-                  onClick={() => toast("Welcome to my portfolio.")}
+                  onClick={() => toast("Welcome to my portfolio")}
                   className={`${styles.button} animate__animated animate__jackInTheBox`}
                 >
                   See My Work

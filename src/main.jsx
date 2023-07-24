@@ -29,6 +29,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
           background: "var(--blueIntense)",
           border: "2px solid var(--blue)",
           color: "var(--black)",
+          fontWeight: "600",
         },
       }}
     />

@@ -1,0 +1,23 @@
+.redes {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+.redesFooter {
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  width: 70%;
+  border-top: 1px solid var(--blue);
+  padding-top: 2.5em;
+}
+.iconos {
+  background: transparent;
+  color: var(--blue);
+  font-size: 1.4rem;
+  transition: color 0.3s, transform 0.3s;
+}
+.iconos:hover {
+  color: var(--blueIntense);
+  transform: translateY(-3px);
+}

@@ -189,21 +189,6 @@
 .animate__backInRight {
   animation-duration: 5s;
 }
-.redes {
-  display: flex;
-  justify-content: center;
-  gap: 12px;
-}
-.iconos {
-  background: transparent;
-  color: var(--blue);
-  font-size: 1.4rem;
-  transition: color 0.3s, transform 0.3s;
-}
-.iconos:hover {
-  color: var(--blueIntense);
-  transform: translateY(-3px);
-}
 
 @media (max-width: 391px) {
   .testimonials,

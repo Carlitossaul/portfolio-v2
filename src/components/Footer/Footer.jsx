@@ -1,7 +1,8 @@
 import React from "react";
 import { NavLink, useLocation } from "react-router-dom";
 import styles from "./Footer.module.css";
-import { GoMarkGithub } from "react-icons/go";
+import { GoMarkGithub } from "react-icons/go"; //<GoMarkGithub className={styles.iconos} />
+import Redes from "../Redes/Redes";
 
 const Footer = () => {
   const location = useLocation();
@@ -9,13 +10,13 @@ const Footer = () => {
     location.pathname !== "/" &&
     location.pathname !== "/pdf" && (
       <div className={styles.container}>
+        <Redes />
         <NavLink
           target={"_blank"}
           className={styles.Navlink}
           to={"https://github.com/Carlitossaul/portfolio-v2"}
         >
-          <GoMarkGithub className={styles.iconos} /> Built & Designed by Carlos
-          Lovey
+          Built & Designed by Carlos Lovey
         </NavLink>
       </div>
     )

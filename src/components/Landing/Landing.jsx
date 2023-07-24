@@ -7,13 +7,11 @@ import joaquin from "./assets/joaquin.png";
 import logo from "../../assets/logo.png";
 import mariano from "./assets/mariano.png";
 import { Link } from "react-router-dom";
-import { GoMarkGithub } from "react-icons/go";
-import { FaLinkedin } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { toast } from "react-hot-toast";
 import "animate.css";
+import Redes from "../Redes/Redes";
 
 const Landing = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -162,29 +160,7 @@ const Landing = () => {
                 </button>
               </Link>
             </div>
-            <div className={styles.redes}>
-              <Link
-                to={"https://github.com/Carlitossaul"}
-                target="_blank"
-                className={styles.Link}
-              >
-                <GoMarkGithub className={styles.iconos} />
-              </Link>
-              <Link
-                to={"https://www.linkedin.com/in/carloslovey/"}
-                className={styles.Link}
-                target="_blank"
-              >
-                <FaLinkedin className={styles.iconos} />
-              </Link>
-              <Link
-                to={"https://www.instagram.com/carlos.lovey/"}
-                className={styles.Link}
-                target="_blank"
-              >
-                <FaInstagram className={styles.iconos} />
-              </Link>
-            </div>
+            <Redes />
           </div>
         </div>
       )}

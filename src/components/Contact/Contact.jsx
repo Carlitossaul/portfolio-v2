@@ -55,6 +55,7 @@ const Contact = () => {
             value={name}
             onChange={(e) => setName(e.target.value)}
             className={styles.input}
+            placeholder="Write your name..."
           />
           <label>Email:</label>
           <input
@@ -63,6 +64,7 @@ const Contact = () => {
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             className={styles.input}
+            placeholder="Write your email..."
           />
           <label>Message:</label>
           <textarea
@@ -70,6 +72,7 @@ const Contact = () => {
             required
             onChange={(e) => setMessage(e.target.value)}
             className={styles.textarea}
+            placeholder="Write your message..."
           />
           <button className={styles.button} type="submit">
             Send

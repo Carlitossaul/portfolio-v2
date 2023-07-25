@@ -15,7 +15,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 1em;
+  margin-bottom: 0.5em;
 }
 
 .h1 {
@@ -37,6 +37,14 @@
 
 .form label {
   font-weight: 600;
+}
+
+.form textarea::placeholder {
+  color: #ddddddd8;
+}
+
+.form input::placeholder {
+  color: #ddddddd8;
 }
 
 .input,

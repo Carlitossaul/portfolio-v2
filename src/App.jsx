@@ -7,6 +7,7 @@ import styles from "./App.module.css";
 import Nav from "./components/Nav/Nav";
 import Footer from "./components/Footer/Footer";
 import Landing from "./components/Landing/Landing";
+import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 
 //components views lazy
 const About = lazy(() => import("./components/About/About"));
@@ -33,6 +34,7 @@ function App() {
           <Route exact path="/pdf" element={<Pdf />} />
         </Routes>
       </Suspense>
+      <ScrollToTop />
       <Footer />
     </div>
   );

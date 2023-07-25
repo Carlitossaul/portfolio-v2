@@ -1,0 +1,13 @@
+.container button {
+  font-size: 1.5em;
+  border: none;
+  background-color: transparent;
+}
+
+.light {
+  color: var(--white);
+}
+
+.dark {
+  color: var(--orange);
+}

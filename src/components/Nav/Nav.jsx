@@ -4,6 +4,7 @@ import img from "../../assets/logo.png";
 import { BiBriefcase } from "react-icons/bi";
 import { FiMail } from "react-icons/fi";
 import { FaRegUser } from "react-icons/fa";
+import ButtonModeLight from "../ButtonModeLight/ButtonModeLight";
 
 const Nav = () => {
   const location = useLocation();
@@ -46,6 +47,7 @@ const Nav = () => {
               <button className={styles.button}>CV-RESUME</button>
             </div>
           </Link>
+          <ButtonModeLight />
         </div>
       </nav>
     )

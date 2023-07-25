@@ -12,8 +12,10 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { toast } from "react-hot-toast";
 import "animate.css";
 import Redes from "../Redes/Redes";
+import { useModeLightContext } from "../../hooks/useModeLightContext";
 
 const Landing = () => {
+  const { modeLight } = useModeLightContext();
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
@@ -36,7 +38,7 @@ const Landing = () => {
         <div className={styles.twoViews}>
           {" "}
           <div className={`${styles.testimonials} ${styles.hidePageNumbers} `}>
-            <div className={styles.skewed}>
+            <div className={modeLight ? styles.lightSkewed : styles.skewed}>
               <img className={styles.logo} src={logo} alt="logo" />
             </div>
             <Carousel
@@ -140,10 +142,18 @@ const Landing = () => {
               <img className={styles.img} src={img} alt="" />
             </div>
             <div className={styles.data}>
-              <h2>Hi, I'm</h2>
+              <h2
+                className={modeLight ? styles.dataTitleLight : styles.datatitle}
+              >
+                Hi, I'm
+              </h2>
               <h1 className={styles.name}> Carlos Lovey</h1>
-              <h2>I'm a Developer Web Full Stack</h2>
-              <p>
+              <h2
+                className={modeLight ? styles.dataTitleLight : styles.datatitle}
+              >
+                I'm a Developer Web Full Stack
+              </h2>
+              <p className={modeLight ? styles.dataPLight : styles.dataP}>
                 I specialize in JavaScript, HTML, CSS, React, Redux, Node.js. I
                 have worked on various web projects and have a strong passion
                 for creating beautiful and functional websites. I strive to

@@ -1,9 +1,11 @@
 :root {
   --black: #0f172a;
-  --blackLight: #4e4e4e;
+  --blackLight: #4e4e4e88;
   --blackIntense: #252525;
+  --blackText: #333333;
   --orange: #fe8943;
   --white: #ffffff;
+  --whiteLight: #f2f2f2;
   --greenLight: #237a4d;
   --green: #2b463d;
   --primary: #00cc8f;
@@ -36,7 +38,7 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-h1,
+/* h1,
 h2,
 h3,
 h4,
@@ -48,7 +50,7 @@ a,
 span,
 label {
   color: var(--white);
-}
+} */
 li::marker {
   color: var(--blue);
 }
@@ -92,3 +94,11 @@ body::-webkit-scrollbar-thumb:hover {
 .button:hover {
   background-color: #00cccc;
 } */
+
+/* 
+Modo Claro:
+
+Fondo principal: #f2f2f2 (un tono claro de gris)
+Texto principal: #333333 (un tono oscuro de gris para un buen contraste con el fondo)
+Enlace resaltado: #00cccc (usando tu color --blueIntense para resaltar enlaces)
+Fondo resaltado: #e6e6e6 (un tono ligeramente más oscuro que el fondo principal) */

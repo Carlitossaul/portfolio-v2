@@ -13,11 +13,11 @@
 }
 .iconos {
   background: transparent;
-  color: var(--blue);
-  font-size: 1.4rem;
+  color: var(--blueIntense);
+  font-size: 1.5em;
   transition: color 0.3s, transform 0.3s;
 }
 .iconos:hover {
-  color: var(--blueIntense);
+  color: var(--blue);
   transform: translateY(-3px);
 }

@@ -9,6 +9,13 @@
   gap: 2em;
   margin-top: 1em;
 }
+.linkLight {
+  color: var(--dark);
+}
+
+.linkDark {
+  color: var(--whiteLight);
+}
 
 .Navlink {
   text-decoration: none;
@@ -16,15 +23,14 @@
   align-items: center;
   justify-content: center;
   gap: 10px;
-  color: var(--white);
-  font-weight: 600;
+  font-weight: 650;
   transition: all 1s;
 }
 .Navlink:hover {
   color: var(--blue);
 }
 .iconos {
-  font-size: 18px;
+  font-size: 19px;
 }
 
 @media (max-width: 391px) {

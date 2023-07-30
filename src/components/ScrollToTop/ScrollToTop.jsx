@@ -2,7 +2,10 @@ import { useEffect, useState } from "react";
 import styles from "./ScrollToTop.module.css";
 import { FaAngleDoubleUp } from "react-icons/fa";
 
+import { useModeLightContext } from "../../hooks/useModeLightContext";
+
 const ScrollToTop = () => {
+  const { modeLight } = useModeLightContext();
   const [showScrollButton, setShowScrollButton] = useState(false);
 
   const handleScrollToTop = () => {
@@ -33,7 +36,9 @@ const ScrollToTop = () => {
     <>
       {showScrollButton && (
         <button
-          className={styles.scrollToTopButton}
+          className={`${styles.scrollToTopButton} ${
+            modeLight ? styles.buttonLight : styles.buttonDark
+          }`}
           onClick={handleScrollToTop}
         >
           <FaAngleDoubleUp />

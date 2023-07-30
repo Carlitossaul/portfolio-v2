@@ -17,8 +17,7 @@
   margin-bottom: 3em;
 }
 .containerTitle h1 {
-  color: var(--white);
-  border-bottom: 1px solid var(--blue);
+  border-bottom: 1.4px solid var(--blueIntense);
 }
 
 .projectsContainer {

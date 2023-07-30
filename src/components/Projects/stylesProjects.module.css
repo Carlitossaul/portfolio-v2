@@ -6,7 +6,7 @@
   padding: 20px;
   width: 100%;
   height: 100%;
-  border: 1px solid var(--blue);
+  border: 1.6px solid var(--blueIntense);
   border-radius: 4px;
 }
 .divImageResponsive {
@@ -14,13 +14,13 @@
 }
 .title {
   width: 100%;
-  border-bottom: 2px solid var(--blueIntense);
+  border-bottom: 1.6px solid var(--blueIntense);
   padding-bottom: 10px;
   margin-bottom: 1em;
 }
 
 .projectContainer span {
-  color: var(--blue);
+  color: var(--blueIntense);
 }
 
 .row {
@@ -35,15 +35,10 @@
   padding: 1em;
   overflow-y: scroll;
   scrollbar-width: thin;
-  scrollbar-color: var(--blueIntense) var(--black);
 }
 
 .oneThird::-webkit-scrollbar {
   width: 8px;
-}
-
-.oneThird::-webkit-scrollbar-track {
-  background-color: var(--black);
 }
 
 .oneThird::-webkit-scrollbar-thumb {
@@ -69,7 +64,7 @@
 }
 .ul li {
   padding: 3px 7px;
-  border: 1px solid var(--blue);
+  border: 1.7px solid var(--blueIntense);
   list-style: none;
   border-radius: 5px;
 }
@@ -97,14 +92,15 @@
   display: flex;
   align-items: center;
   text-decoration: none;
-  color: var(--blue);
+  color: var(--blueIntense);
+  font-weight: 600;
 }
 .icon {
+  font-size: 20px;
   margin-right: 8px;
   margin-top: -19px;
 }
-.row {
-}
+
 @media (max-width: 391px) {
   .projectContainer {
     padding: 0px 0px;

@@ -1,10 +1,17 @@
+.buttonLight {
+  background-color: var(--whiteLight);
+  color: var(--black);
+}
+.buttonDark {
+  color: var(--white);
+  background-color: var(--black);
+}
+
 .scrollToTopButton {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  background-color: var(--black);
-  color: #fff;
-  border: 0.5px solid var(--blue);
+  border: 1.6px solid var(--blueIntense);
   border-radius: 100px;
   padding: 4px 6px;
   height: 50px;

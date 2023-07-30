@@ -3,7 +3,6 @@
   top: 0;
   left: 0;
   width: 100%;
-  background-color: var(--black);
   z-index: 999;
   display: flex;
   align-items: center;
@@ -11,15 +10,27 @@
   height: 6.5em;
   margin-bottom: 1em;
   opacity: 0.9;
-  box-shadow: 0 0px 1px rgba(0, 0, 0, 0.2);
 }
+.containerDark {
+  background-color: var(--black);
+}
+.containerLight {
+  background-color: var(--whiteLight);
+}
+
 .logo {
-  /* margin: 5em 3em; */
   margin-top: 1.5em;
   margin-left: 3em;
   width: 11em;
 }
 
+.linksLight .link {
+  color: var(--black);
+}
+
+.linksDark .link {
+  color: var(--whiteLight);
+}
 .links {
   display: flex;
   align-items: center;
@@ -30,22 +41,21 @@
   font-family: "Open Sans", sans-serif;
   text-decoration: none;
   font-weight: 500;
-  color: var(--white);
   font-size: 1.1em;
   transition: color 0.4s;
   display: flex;
   align-items: center;
 }
 .link:hover {
-  color: var(--blue);
+  color: var(--blueIntense);
 }
 .link-active {
-  color: var(--blue);
+  color: var(--blueIntense);
   transition: all 0.4s;
 }
 
 .iconos {
-  color: var(--blue);
+  color: var(--blueIntense);
   margin: 0.3em;
 }
 .button {

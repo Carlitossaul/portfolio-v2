@@ -6,18 +6,29 @@ import { FiMail } from "react-icons/fi";
 import { FaRegUser } from "react-icons/fa";
 import ButtonModeLight from "../ButtonModeLight/ButtonModeLight";
 
+import { useModeLightContext } from "../../hooks/useModeLightContext";
+
 const Nav = () => {
+  const { modeLight } = useModeLightContext();
   const location = useLocation();
 
   return (
     location.pathname !== "/" && (
-      <nav className={styles.container}>
+      <nav
+        className={`${
+          modeLight ? styles.containerLight : styles.containerDark
+        } ${styles.container}`}
+      >
         <div className={styles.divLogo}>
           <Link to="/">
             <img className={styles.logo} src={img} alt={"logo"} />
           </Link>
         </div>
-        <div className={styles.links}>
+        <div
+          className={`${styles.links} ${
+            modeLight ? styles.linksLight : styles.linksDark
+          }`}
+        >
           <Link
             className={`${styles.link} ${
               window.location.pathname === "/portfolio" && styles["link-active"]

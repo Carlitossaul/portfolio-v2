@@ -5,9 +5,9 @@
 }
 
 .light {
-  color: var(--white);
+  color: var(--black);
 }
 
 .dark {
-  color: var(--orange);
+  color: var(--white);
 }

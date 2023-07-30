@@ -1,10 +1,9 @@
-import { Suspense, lazy } from "react";
+import { Suspense, lazy, useEffect } from "react";
 const AreYouHungry = lazy(() => import("../Projects/AreYouHungry"));
 const RickAndMorty = lazy(() => import("../Projects/RickAndMorty"));
 const SearchImages = lazy(() => import("../Projects/SearchImages"));
 const WorkifyServices = lazy(() => import("../Projects/WorkifyServices"));
 import styles from "./Portfolio.module.css";
-import { useEffect } from "react";
 import imgLoading from "../../assets/loadingport.gif";
 
 const Portfolio = () => {

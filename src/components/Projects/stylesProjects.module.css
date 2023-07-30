@@ -35,6 +35,7 @@
   padding: 1em;
   overflow-y: scroll;
   scrollbar-width: thin;
+  font-weight: 400;
 }
 
 .oneThird::-webkit-scrollbar {
@@ -67,6 +68,7 @@
   border: 1.7px solid var(--blueIntense);
   list-style: none;
   border-radius: 5px;
+  font-weight: 500;
 }
 
 .carouselImageContainer {
@@ -88,14 +90,22 @@
   gap: 12px;
   padding: 2em 1em;
 }
+
+.linkLight .link {
+  color: var(--black);
+}
+.linkDark .link {
+  color: var(--whiteLight);
+}
+
 .link {
   display: flex;
   align-items: center;
   text-decoration: none;
-  color: var(--blueIntense);
-  font-weight: 600;
+  font-weight: 500;
 }
 .icon {
+  color: var(--blueIntense);
   font-size: 20px;
   margin-right: 8px;
   margin-top: -19px;

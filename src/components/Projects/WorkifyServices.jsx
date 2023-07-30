@@ -11,7 +11,10 @@ import img2 from "./assets/workify2.png";
 import img3 from "./assets/workify3.png";
 import img4 from "./assets/workify4.png";
 
+import { useModeLightContext } from "../../hooks/useModeLightContext";
+
 const WorkifyServices = () => {
+  const { modeLight } = useModeLightContext();
   return (
     <div className={styles.projectContainer}>
       <h2 className={styles.title}>
@@ -102,7 +105,11 @@ const WorkifyServices = () => {
             <li>PostgreSQL</li>
             <li>Agile Methodologies</li>
           </ul>
-          <div className={styles.links}>
+          <div
+            className={`${styles.links} ${
+              modeLight ? styles.linkLight : styles.linkDark
+            }`}
+          >
             <Link
               target="_blank"
               className={styles.link}

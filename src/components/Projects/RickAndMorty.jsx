@@ -13,7 +13,10 @@ import rym4 from "./assets/rym4.png";
 import rym5 from "./assets/rym5.png";
 import rym6 from "./assets/rym6.png";
 
+import { useModeLightContext } from "../../hooks/useModeLightContext";
+
 const RickAndMorty = () => {
+  const { modeLight } = useModeLightContext();
   return (
     <div className={styles.projectContainer}>
       <h2 className={styles.title}>
@@ -106,7 +109,11 @@ const RickAndMorty = () => {
             <li>Sequelize.js</li>
             <li>PostgreSQL</li>
           </ul>
-          <div className={styles.links}>
+          <div
+            className={`${styles.links} ${
+              modeLight ? styles.linkLight : styles.linkDark
+            }`}
+          >
             <Link
               className={styles.link}
               target="_blank"

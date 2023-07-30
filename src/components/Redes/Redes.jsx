@@ -3,13 +3,17 @@ import { GoMarkGithub } from "react-icons/go";
 import { FaLinkedin } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import styles from "./Redes.module.css";
+import { useModeLightContext } from "../../hooks/useModeLightContext";
 
 const Redes = () => {
   const location = useLocation();
+  const { modeLight } = useModeLightContext();
 
   return (
     <div
-      className={location.pathname === "/" ? styles.redes : styles.redesFooter}
+      className={`${
+        location.pathname === "/" ? styles.redes : styles.redesFooter
+      } ${modeLight ? styles.redesLight : styles.redesDark}`}
     >
       <Link
         to={"https://github.com/Carlitossaul"}

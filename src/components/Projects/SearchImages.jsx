@@ -10,7 +10,10 @@ import appImages1 from "./assets/app-images1.png";
 import appImages2 from "./assets/app-images2.png";
 import appImages4 from "./assets/app-images4.png";
 
+import { useModeLightContext } from "../../hooks/useModeLightContext";
+
 const SearchImages = () => {
+  const { modeLight } = useModeLightContext();
   return (
     <div className={styles.projectContainer}>
       <h2 className={styles.title}>
@@ -103,7 +106,11 @@ const SearchImages = () => {
             <li>Javascript</li>
             <li>Bootstrap</li>
           </ul>
-          <div className={styles.links}>
+          <div
+            className={`${styles.links} ${
+              modeLight ? styles.linkLight : styles.linkDark
+            }`}
+          >
             <Link
               target="_blank"
               className={styles.link}

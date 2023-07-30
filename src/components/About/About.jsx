@@ -3,8 +3,11 @@ import img from "./assets/perfil-cal10-removebg-preview.png";
 import certificate from "../../assets/certificateHenry.png";
 import { useEffect, useState } from "react";
 import imgLoading from "../../assets/loadingport.gif";
+import { useModeLightContext } from "../../hooks/useModeLightContext";
 
 const About = () => {
+  const { modeLight } = useModeLightContext();
+
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -130,7 +133,9 @@ const About = () => {
             </h4>
             <div className={styles.divCertificate}>
               <img
-                className={styles.certificate}
+                className={`${styles.certificate} ${
+                  modeLight ? styles.certificateLight : styles.certificateDark
+                }`}
                 src={certificate}
                 alt="certificate"
               />

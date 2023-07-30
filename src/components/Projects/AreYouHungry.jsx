@@ -11,7 +11,10 @@ import hungry2 from "./assets/hungry2.png";
 import hungry4 from "./assets/hungry4.png";
 import hungry7 from "./assets/hungry7.png";
 
+import { useModeLightContext } from "../../hooks/useModeLightContext";
+
 const AreYouHungry = () => {
+  const { modeLight } = useModeLightContext();
   return (
     <div className={styles.projectContainer}>
       <h2 className={styles.title}>
@@ -114,7 +117,11 @@ const AreYouHungry = () => {
             <li>Sequelize.js</li>
             <li>PostgreSQL</li>
           </ul>
-          <div className={styles.links}>
+          <div
+            className={`${styles.links} ${
+              modeLight ? styles.linkLight : styles.linkDark
+            }`}
+          >
             <Link
               target="_blank"
               className={styles.link}

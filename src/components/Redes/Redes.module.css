@@ -11,13 +11,20 @@
   border-top: 1.6px solid var(--blueIntense);
   padding-top: 2.5em;
 }
+
+.redesLight .iconos {
+  color: var(--blackText);
+}
+.redesDark .iconos {
+  color: var(--white);
+}
+
 .iconos {
   background: transparent;
-  color: var(--blueIntense);
   font-size: 1.5em;
   transition: color 0.3s, transform 0.3s;
 }
 .iconos:hover {
-  color: var(--blue);
+  color: var(--blueIntense);
   transform: translateY(-3px);
 }

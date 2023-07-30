@@ -19,8 +19,8 @@
 }
 
 .h1 {
-  color: var(--white);
-  border-bottom: 1px solid var(--blue);
+  font-family: "Roboto Mono", monospace;
+  border-bottom: 1.6px solid var(--blueIntense);
 }
 
 .description {

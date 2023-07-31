@@ -40,18 +40,20 @@
 }
 
 .form textarea::placeholder {
-  color: #ddddddd8;
+  color: #fff;
+  font-weight: 400;
 }
 
 .form input::placeholder {
-  color: #ddddddd8;
+  color: #fff;
+  font-weight: 400;
 }
 
 .input,
 .textarea {
   border-radius: 4px;
   outline: none;
-  background-color: rgba(0, 204, 204, 0.7);
+  background-color: rgba(0, 204, 204, 0.8);
   padding: 0.5em;
   margin-bottom: 1em;
   border: none;

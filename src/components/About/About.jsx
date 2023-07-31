@@ -14,7 +14,7 @@ const About = () => {
     window.scrollTo(0, 0);
     setTimeout(() => {
       setLoading(false);
-    }, 1700);
+    }, 1500);
   }, []);
 
   return (

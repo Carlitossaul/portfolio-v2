@@ -10,6 +10,7 @@ import hungry1 from "./assets/hungry1.png";
 import hungry2 from "./assets/hungry2.png";
 import hungry4 from "./assets/hungry4.png";
 import hungry7 from "./assets/hungry7.png";
+import hungry3 from "./assets/hungry3.png";
 
 import { useModeLightContext } from "../../hooks/useModeLightContext";
 
@@ -72,15 +73,22 @@ const AreYouHungry = () => {
             <div className={styles.carouselImageContainer}>
               <img
                 className={styles.carouselImage}
-                src={hungry1}
-                alt="hungry1"
+                src={hungry2}
+                alt="hungry2"
               />
             </div>
             <div className={styles.carouselImageContainer}>
               <img
                 className={styles.carouselImage}
-                src={hungry2}
-                alt="hungry2"
+                src={hungry3}
+                alt="hungry3"
+              />
+            </div>
+            <div className={styles.carouselImageContainer}>
+              <img
+                className={styles.carouselImage}
+                src={hungry1}
+                alt="hungry1"
               />
             </div>
             <div className={styles.carouselImageContainer}>

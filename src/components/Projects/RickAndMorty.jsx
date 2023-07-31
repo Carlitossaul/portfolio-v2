@@ -10,7 +10,6 @@ import rym1 from "./assets/rym1.png";
 import rym2 from "./assets/rym2.png";
 import rym3 from "./assets/rym3.png";
 import rym4 from "./assets/rym4.png";
-import rym5 from "./assets/rym5.png";
 import rym6 from "./assets/rym6.png";
 
 import { useModeLightContext } from "../../hooks/useModeLightContext";
@@ -84,9 +83,6 @@ const RickAndMorty = () => {
             <div className={styles.carouselImageContainer}>
               <img className={styles.carouselImage} src={rym4} alt="rym4" />
             </div>
-            {/* <div className={styles.carouselImageContainer}>
-              <img className={styles.carouselImage} src={rym5} alt="rym5" />
-            </div> */}
             <div className={styles.carouselImageContainer}>
               <img className={styles.carouselImage} src={rym6} alt="rym6" />
             </div>

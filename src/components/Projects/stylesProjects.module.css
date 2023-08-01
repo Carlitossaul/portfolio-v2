@@ -103,6 +103,10 @@
   align-items: center;
   text-decoration: none;
   font-weight: 500;
+  transition: all 0.3s ease-in;
+}
+.link:hover {
+  color: var(--blueIntense);
 }
 .icon {
   color: var(--blueIntense);

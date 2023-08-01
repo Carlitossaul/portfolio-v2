@@ -7,7 +7,7 @@ const ButtonModeLight = () => {
 
   if (modeLight) {
     document.body.style.background = "#f2f2f2";
-    document.body.style.color = "#333333";
+    document.body.style.color = "#0f172a";
   } else {
     document.body.style.background = "#0f172a";
     document.body.style.color = "#ffffff";

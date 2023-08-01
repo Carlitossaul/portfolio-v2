@@ -13,7 +13,7 @@
 }
 
 .redesLight .iconos {
-  color: var(--blackText);
+  color: var(--black);
 }
 .redesDark .iconos {
   color: var(--white);
@@ -22,7 +22,7 @@
 .iconos {
   background: transparent;
   font-size: 1.5em;
-  transition: color 0.3s, transform 0.3s;
+  transition: color 0.4s, transform 0.4s;
 }
 .iconos:hover {
   color: var(--blueIntense);

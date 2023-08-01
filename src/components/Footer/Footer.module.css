@@ -10,7 +10,7 @@
   margin-top: 1em;
 }
 .linkLight {
-  color: var(--dark);
+  color: var(--black);
 }
 
 .linkDark {
@@ -24,10 +24,10 @@
   justify-content: center;
   gap: 10px;
   font-weight: 650;
-  transition: all 1s;
+  transition: all 0.4s ease;
 }
 .Navlink:hover {
-  color: var(--blue);
+  color: var(--blueIntense);
 }
 .iconos {
   font-size: 19px;

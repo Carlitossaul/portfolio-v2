@@ -1,19 +1,22 @@
+//React
 import { Route, Routes } from "react-router-dom";
 import { lazy, Suspense } from "react";
+
+//styles
 import imgLoading from "./assets/loadingport.gif";
 import styles from "./App.module.css";
 
 //components views
+import Landing from "./pages/Landing/Landing";
 import Nav from "./components/Nav/Nav";
 import Footer from "./components/Footer/Footer";
-import Landing from "./components/Landing/Landing";
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 
 //components views lazy
-const About = lazy(() => import("./components/About/About"));
-const Portfolio = lazy(() => import("./components/Portfolio/Portfolio"));
+const About = lazy(() => import("./pages/About/About"));
+const Portfolio = lazy(() => import("./pages/Portfolio/Portfolio"));
 const Pdf = lazy(() => import("./components/Nav/Pdf.jsx"));
-const Contact = lazy(() => import("./components/Contact/Contact"));
+const Contact = lazy(() => import("./pages/Contact/Contact"));
 
 function App() {
   return (

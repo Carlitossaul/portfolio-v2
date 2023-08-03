@@ -1,8 +1,13 @@
+//styles
 import styles from "./About.module.css";
 import img from "./assets/perfil-cal10-removebg-preview.png";
 import certificate from "../../assets/certificateHenry.png";
-import { useEffect, useState } from "react";
 import imgLoading from "../../assets/loadingport.gif";
+
+//react
+import { useEffect, useState } from "react";
+
+//hooks
 import { useModeLightContext } from "../../hooks/useModeLightContext";
 
 const About = () => {

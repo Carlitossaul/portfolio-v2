@@ -1,17 +1,26 @@
+//React
 import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
+
+//Styles
 import styles from "./Landing.module.css";
 import img from "./assets/20230606_004054-removebg-preview (1).png";
 import diame from "./assets/diame.png";
 import jensy from "./assets/jensy.png";
 import joaquin from "./assets/joaquin.png";
-import logo from "../../assets/logo.png";
 import mariano from "./assets/mariano.png";
-import { Link } from "react-router-dom";
+import logo from "../../assets/logo.png";
+
+//librerias
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { toast } from "react-hot-toast";
 import "animate.css";
-import Redes from "../Redes/Redes";
+
+//components
+import Redes from "../../components/Redes/Redes";
+
+//hooks
 import { useModeLightContext } from "../../hooks/useModeLightContext";
 
 const Landing = () => {

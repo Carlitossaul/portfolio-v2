@@ -28,7 +28,11 @@
   flex-wrap: wrap;
   width: 100%;
 }
-
+.dataProject {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
 .oneThird {
   width: 50%;
   height: 24em;

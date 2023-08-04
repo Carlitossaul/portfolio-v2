@@ -22,38 +22,38 @@ const WorkifyServices = () => {
       </h2>
       <div className={styles.row}>
         <div className={styles.oneThird}>
-          <p>
-            <span>•</span> Participation in an agile development team with
-            one-week sprints, presenting progress to a Product Owner on the
-            development of a complete microservices app. The technical
-            requirements included:
-            <ul>
-              <li>Integrated local and third-party authentication</li>
-              <li>Payment gateway</li>
-              <li>Combined filters</li>
-              <li>Cloudinary</li>
-              <li>Local storage/persistence</li>
-              <li>Reviews/ratings</li>
-              <li>Admin dashboard</li>
-              <li>Notifications</li>
-              <li>Soft deletion</li>
-            </ul>
-          </p>
-          <p>
-            <span>•</span> In the application, service providers can create
-            profiles to be hired, and users can browse and hire domestic
-            services as needed.
-          </p>
-          <p>
-            <span>•</span> I would like to highlight the team in this project.
-            We learned to use GitHub for collaborative version control. It was
-            challenging at first, but we quickly adapted. The most important
-            achievement was delivering all the requirements on time.
-          </p>
-          <p>
-            <span>•</span> I learned to work in a team and actively collaborate
-            with my colleagues, seeking help when needed.
-          </p>
+          <ul className={styles.dataProject}>
+            <li>
+              Participation in an agile development team with one-week sprints,
+              presenting progress to a Product Owner on the development of a
+              complete microservices app. The technical requirements included:
+              <ul>
+                <li>Integrated local and third-party authentication</li>
+                <li>Payment gateway</li>
+                <li>Combined filters</li>
+                <li>Cloudinary</li>
+                <li>Local storage/persistence</li>
+                <li>Reviews/ratings</li>
+                <li>Admin dashboard</li>
+                <li>Notifications</li>
+                <li>Soft deletion</li>
+              </ul>
+            </li>
+            <li>
+              In the application, service providers can create profiles to be
+              hired, and users can browse and hire domestic services as needed.
+            </li>
+            <li>
+              I would like to highlight the team in this project. We learned to
+              use GitHub for collaborative version control. It was challenging
+              at first, but we quickly adapted. The most important achievement
+              was delivering all the requirements on time.
+            </li>
+            <li>
+              I learned to work in a team and actively collaborate with my
+              colleagues, seeking help when needed.
+            </li>
+          </ul>
           <div className={styles.divImageResponsive}>
             <img className={styles.imageResponsive} src={img2} alt="img2" />
           </div>

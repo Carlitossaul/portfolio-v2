@@ -10,6 +10,7 @@ import WorkifyServices from "../../components/Projects/WorkifyServices";
 //styles
 import styles from "./Portfolio.module.css";
 import FinderGithub from "../../components/OtherProjects/FinderGithub";
+import PortfolioVersionOne from "../../components/OtherProjects/PortfolioVersionOne";
 
 const Portfolio = () => {
   useEffect(() => {
@@ -27,8 +28,13 @@ const Portfolio = () => {
         <WorkifyServices />
         <SearchImages />
         <RickAndMorty />
+      </div>
+      <div className={styles.otherProjectsTitle}>
+        <h1>Other Projects</h1>
+      </div>
+      <div className={styles.otherProjects}>
+        <PortfolioVersionOne />
         <FinderGithub />
-        <div className={styles.space}></div>
       </div>
     </div>
   );

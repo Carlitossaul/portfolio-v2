@@ -1,5 +1,6 @@
 //styles
 import styles from "./stylesOtherProjects.module.css";
+import portfolioVersionOne from "../Projects/assets/hungry1.png";
 
 //dependencies
 import ReactPlayer from "react-player";
@@ -39,6 +40,13 @@ const PortfolioVersionOne = () => {
               blanditiis, dolor rerum aut maxime?
             </li>
           </ul>
+          <div className={styles.divImageResponsive}>
+            <img
+              className={styles.imageResponsive}
+              src={portfolioVersionOne}
+              alt="hungry2"
+            />
+          </div>
           <div
             className={`${styles.links} ${
               modeLight ? styles.linkLight : styles.linkDark
@@ -71,7 +79,12 @@ const PortfolioVersionOne = () => {
           </div>
         </div>
         <div className={styles.boxTwo}>
-          <ReactPlayer controls={true} url="https://youtu.be/EzsG52GOCzM" />
+          <ReactPlayer
+            className={styles.video}
+            controls={true}
+            url="https://youtu.be/EzsG52GOCzM"
+          />
+
           <ul className={styles.ul}>
             <li>HTML5</li>
             <li>CSS</li>

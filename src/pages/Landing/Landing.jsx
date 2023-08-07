@@ -4,11 +4,11 @@ import { Link } from "react-router-dom";
 
 //Styles
 import styles from "./Landing.module.css";
-import img from "./assets/20230606_004054-removebg-preview (1).png";
-import diame from "./assets/diame.png";
-import jensy from "./assets/jensy.png";
-import joaquin from "./assets/joaquin.png";
-import mariano from "./assets/mariano.png";
+import img from "./assets/carlos.webp";
+import diame from "./assets/diame.webp";
+import jensy from "./assets/jensy.webp";
+import joaquin from "./assets/joaquin.webp";
+import mariano from "./assets/mariano.webp";
 import logo from "../../assets/logo.png";
 
 //librerias

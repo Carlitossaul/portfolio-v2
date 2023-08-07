@@ -1,6 +1,6 @@
 //styles
 import styles from "./About.module.css";
-import img from "./assets/perfil-cal10-removebg-preview.png";
+import img from "./assets/carlosAbout.webp";
 import certificate from "../../assets/certificateHenry.png";
 import imgLoading from "../../assets/loadingport.gif";
 

@@ -148,8 +148,17 @@
     padding: 0px;
     overflow-y: visible;
   }
-  .oneThird p {
-    font-size: 12px;
+  .dataProject {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+  }
+  .dataProject li {
+    font-size: 13px;
+    list-style: none;
   }
   .ul {
     display: flex;
@@ -159,10 +168,14 @@
   }
   .ul li {
     padding: 3px 7px;
-    border: 1px solid var(--blue);
+    border: 1px solid var(--blueIntense);
     list-style: none;
     border-radius: 5px;
     font-size: 10px;
+  }
+  .links {
+    padding: 1em 1em;
+    font-size: 12px;
   }
 }
 @media (min-width: 391px) and (max-width: 768px) {
@@ -183,7 +196,7 @@
     max-width: 100%;
   }
   .title {
-    font-size: 17px;
+    font-size: 16px;
     padding: 1px;
     text-align: center;
     border-bottom: none;
@@ -194,8 +207,17 @@
     padding: 0px;
     overflow-y: visible;
   }
-  .oneThird p {
-    font-size: 14px;
+  .dataProject {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+  }
+  .dataProject li {
+    font-size: 13px;
+    list-style: none;
   }
   .ul {
     display: flex;
@@ -205,10 +227,14 @@
   }
   .ul li {
     padding: 3px 7px;
-    border: 1px solid var(--blue);
+    border: 1px solid var(--blueIntense);
     list-style: none;
     border-radius: 5px;
-    font-size: 14px;
+    font-size: 10px;
+  }
+  .links {
+    padding: 1em 1em;
+    font-size: 12px;
   }
 }
 

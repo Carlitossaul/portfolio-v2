@@ -34,7 +34,7 @@ const Portfolio = () => {
       </div>
       <div className={styles.otherProjects}>
         <PortfolioVersionOne />
-        <FinderGithub />
+        {/* <FinderGithub /> */}
       </div>
     </div>
   );

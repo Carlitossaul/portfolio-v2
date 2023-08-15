@@ -1,6 +1,6 @@
 //styles
 import styles from "./stylesOtherProjects.module.css";
-import portfolioVersionOne from "../Projects/assets/hungry1.png";
+import portfolioVersionOne from "../Projects/assets/portfolioOne.png";
 
 //dependencies
 import ReactPlayer from "react-player";
@@ -16,35 +16,26 @@ const PortfolioVersionOne = () => {
   return (
     <div className={styles.otherProjects}>
       <h2 className={styles.title}>
-        <span>•</span> Are you hungry?
+        <span>•</span> Portfolio Version One
       </h2>
       <div className={styles.container}>
         <div className={styles.boxOne}>
           <ul className={styles.dataProject}>
             <li>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam,
-              laudantium quae. Exercitationem vero ipsa ducimus aliquam corrupti
-              accusamus, quaerat, doloribus neque eum magnam placeat nisi
-              blanditiis, dolor rerum aut maxime?
+              My old portfolio, although I love its final outcome, I decided to
+              go for the one I currently have because I realized that I needed
+              to develop one that encompasses more utilities for the visitor.
             </li>
             <li>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam,
-              laudantium quae. Exercitationem vero ipsa ducimus aliquam corrupti
-              accusamus, quaerat, doloribus neque eum magnam placeat nisi
-              blanditiis, dolor rerum aut maxime?
-            </li>
-            <li>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam,
-              laudantium quae. Exercitationem vero ipsa ducimus aliquam corrupti
-              accusamus, quaerat, doloribus neque eum magnam placeat nisi
-              blanditiis, dolor rerum aut maxime?
+              I emphasize in my old portfolio its design, easy navigation, and
+              accessibility.
             </li>
           </ul>
           <div className={styles.divImageResponsive}>
             <img
               className={styles.imageResponsive}
               src={portfolioVersionOne}
-              alt="hungry2"
+              alt="portfolioVersionOne"
             />
           </div>
           <div
@@ -55,7 +46,7 @@ const PortfolioVersionOne = () => {
             <Link
               target="_blank"
               className={styles.link}
-              to={"https://areyouhungry.vercel.app"}
+              to={"https://carlos-lovey-v1.vercel.app/"}
             >
               <BsBoxArrowUpRight className={styles.icon} />
               <p>Visit the live site</p>
@@ -63,18 +54,10 @@ const PortfolioVersionOne = () => {
             <Link
               target="_blank"
               className={styles.link}
-              to={"https://github.com/Carlitossaul/PI-Food-Front"}
+              to={"https://github.com/Carlitossaul/Portfolio-V1"}
             >
               <GoMarkGithub className={styles.icon} />
               <p>View the source code on GitHub - client</p>
-            </Link>
-            <Link
-              className={styles.link}
-              target="_blank"
-              to={"https://github.com/Carlitossaul/PI-Food-back-"}
-            >
-              <GoMarkGithub className={styles.icon} />
-              <p>View the source code on GitHub - api</p>
             </Link>
           </div>
         </div>
@@ -82,7 +65,7 @@ const PortfolioVersionOne = () => {
           <ReactPlayer
             className={styles.video}
             controls={true}
-            url="https://youtu.be/EzsG52GOCzM"
+            url="https://youtu.be/6ceikmvum9c"
           />
 
           <ul className={styles.ul}>
@@ -92,9 +75,6 @@ const PortfolioVersionOne = () => {
             <li>Redux</li>
             <li>Javascript</li>
             <li>Node.js</li>
-            <li>Express.js</li>
-            <li>Sequelize.js</li>
-            <li>PostgreSQL</li>
           </ul>
         </div>
       </div>

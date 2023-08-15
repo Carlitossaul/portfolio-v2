@@ -1,6 +1,6 @@
 //styles
 import styles from "./stylesOtherProjects.module.css";
-import portfolioVersionOne from "../Projects/assets/hungry1.png";
+import portfolioVersionOne from "../Projects/assets/eagleVision.png";
 
 //dependencies
 import ReactPlayer from "react-player";
@@ -11,28 +11,38 @@ import { GoMarkGithub } from "react-icons/go";
 //hooks
 import { useModeLightContext } from "../../hooks/useModeLightContext";
 
-const FinderGithub = () => {
+const EagleVision = () => {
   const { modeLight } = useModeLightContext();
   return (
     <div className={styles.otherProjects}>
       <h2 className={styles.title}>
-        <span>•</span> Finder Github
+        <span>•</span> Eagle Vision
       </h2>
       <div className={styles.container}>
         <div className={styles.boxOne}>
           <ul className={styles.dataProject}>
             <li>
-              An application created using the GitHub API to search for users
-              and inspect their projects. I was watching a video where they
-              explained how to use TypeScript, and I took the opportunity to
-              create this mini-app for practice.
+              Eagle Vision is a personal blog that I created to publish articles
+              about soft skills. I've discovered that having well-developed soft
+              skills is of utmost importance to stand out in the professional
+              field and in life in general.
+            </li>
+            <li>
+              Even though it's my personal blog, I've left the site open for
+              people to create their accounts and publish enlightening articles
+              that contribute to the growth of the community of programmers.
+            </li>
+            <li>
+              The idea behind the site is to cover topics such as teamwork,
+              leadership, self-management, communication, problem-solving,
+              empathy, critical thinking, and proactivity, among others.
             </li>
           </ul>
           <div className={styles.divImageResponsive}>
             <img
               className={styles.imageResponsive}
               src={portfolioVersionOne}
-              alt="hungry2"
+              alt="portfolioVersionOne"
             />
           </div>
           <div
@@ -43,7 +53,7 @@ const FinderGithub = () => {
             <Link
               target="_blank"
               className={styles.link}
-              to={"https://git-hub-finder-ts.vercel.app/"}
+              to={"https://eagle-vision.vercel.app/"}
             >
               <BsBoxArrowUpRight className={styles.icon} />
               <p>Visit the live site</p>
@@ -51,7 +61,7 @@ const FinderGithub = () => {
             <Link
               target="_blank"
               className={styles.link}
-              to={"https://github.com/Carlitossaul/GitHub-Finder-TS"}
+              to={"https://github.com/Carlitossaul/Eagle-Vision"}
             >
               <GoMarkGithub className={styles.icon} />
               <p>View the source code on GitHub - client</p>
@@ -62,16 +72,16 @@ const FinderGithub = () => {
           <ReactPlayer
             className={styles.video}
             controls={true}
-            url="https://youtu.be/NzNdynf_8y0"
+            url="https://youtu.be/EWIbosyY-qw"
           />
 
           <ul className={styles.ul}>
             <li>HTML5</li>
             <li>CSS</li>
             <li>React</li>
-            <li>TypeScript</li>
             <li>Javascript</li>
             <li>Node.js</li>
+            <li>Firebase</li>
           </ul>
         </div>
       </div>
@@ -79,4 +89,4 @@ const FinderGithub = () => {
   );
 };
 
-export default FinderGithub;
+export default EagleVision;

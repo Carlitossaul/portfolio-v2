@@ -11,6 +11,7 @@ import WorkifyServices from "../../components/Projects/WorkifyServices";
 import styles from "./Portfolio.module.css";
 import FinderGithub from "../../components/OtherProjects/FinderGithub";
 import PortfolioVersionOne from "../../components/OtherProjects/PortfolioVersionOne";
+import EagleVision from "../../components/OtherProjects/EagleVision";
 
 const Portfolio = () => {
   useEffect(() => {
@@ -33,8 +34,9 @@ const Portfolio = () => {
         <h1>Other Projects</h1>
       </div>
       <div className={styles.otherProjects}>
+        <EagleVision />
         <PortfolioVersionOne />
-        {/* <FinderGithub /> */}
+        <FinderGithub />
       </div>
     </div>
   );

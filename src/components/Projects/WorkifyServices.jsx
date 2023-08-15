@@ -43,16 +43,6 @@ const WorkifyServices = () => {
               In the application, service providers can create profiles to be
               hired, and users can browse and hire domestic services as needed.
             </li>
-            <li>
-              I would like to highlight the team in this project. We learned to
-              use GitHub for collaborative version control. It was challenging
-              at first, but we quickly adapted. The most important achievement
-              was delivering all the requirements on time.
-            </li>
-            <li>
-              I learned to work in a team and actively collaborate with my
-              colleagues, seeking help when needed.
-            </li>
           </ul>
           <div className={styles.divImageResponsive}>
             <img className={styles.imageResponsive} src={img2} alt="img2" />

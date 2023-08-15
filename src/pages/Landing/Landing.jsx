@@ -160,7 +160,7 @@ const Landing = () => {
               <h2
                 className={modeLight ? styles.dataTitleLight : styles.datatitle}
               >
-                I'm a Developer Web Full Stack
+                I'm a full stack developer with a focus on the frontend.
               </h2>
               <p className={modeLight ? styles.dataPLight : styles.dataP}>
                 I specialize in JavaScript, HTML, CSS, React, Redux, Node.js. I

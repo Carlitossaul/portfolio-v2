@@ -1,17 +1,26 @@
+//React
 import React, { useState, useEffect } from "react";
-import styles from "./Landing.module.css";
-import img from "./assets/20230606_004054-removebg-preview (1).png";
-import diame from "./assets/diame.png";
-import jensy from "./assets/jensy.png";
-import joaquin from "./assets/joaquin.png";
-import logo from "../../assets/logo.png";
-import mariano from "./assets/mariano.png";
 import { Link } from "react-router-dom";
+
+//Styles
+import styles from "./Landing.module.css";
+import img from "./assets/carlos.webp";
+import diame from "./assets/diame.webp";
+import jensy from "./assets/jensy.webp";
+import joaquin from "./assets/joaquin.webp";
+import mariano from "./assets/mariano.webp";
+import logo from "../../assets/logo.png";
+
+//librerias
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { toast } from "react-hot-toast";
 import "animate.css";
-import Redes from "../Redes/Redes";
+
+//components
+import Redes from "../../components/Redes/Redes";
+
+//hooks
 import { useModeLightContext } from "../../hooks/useModeLightContext";
 
 const Landing = () => {
@@ -151,7 +160,7 @@ const Landing = () => {
               <h2
                 className={modeLight ? styles.dataTitleLight : styles.datatitle}
               >
-                I'm a Developer Web Full Stack
+                I'm a full stack developer with a focus on the frontend.
               </h2>
               <p className={modeLight ? styles.dataPLight : styles.dataP}>
                 I specialize in JavaScript, HTML, CSS, React, Redux, Node.js. I

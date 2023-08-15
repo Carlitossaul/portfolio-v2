@@ -63,30 +63,3 @@ body::-webkit-scrollbar-thumb {
 body::-webkit-scrollbar-thumb:hover {
   background-color: var(--blue);
 }
-
-/* .button {
-  background-color: var(--blue);
-  color: var(--white);
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.9);
-  border: none;
-  padding: 0.5em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  cursor: pointer;
-  border-radius: 4px;
-  transition: background-color 0.3s ease;
-  font-family: "Open Sans", sans-serif;
-  outline: none;
-}
-
-.button:hover {
-  background-color: #00cccc;
-} */
-
-/* 
-Modo Claro:
-
-Fondo principal: #f2f2f2 (un tono claro de gris)
-Texto principal: #333333 (un tono oscuro de gris para un buen contraste con el fondo)
-Enlace resaltado: #00cccc (usando tu color --blueIntense para resaltar enlaces)
-Fondo resaltado: #e6e6e6 (un tono ligeramente más oscuro que el fondo principal) */

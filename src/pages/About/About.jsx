@@ -1,8 +1,13 @@
+//styles
 import styles from "./About.module.css";
-import img from "./assets/perfil-cal10-removebg-preview.png";
+import img from "./assets/carlosAbout.webp";
 import certificate from "../../assets/certificateHenry.png";
-import { useEffect, useState } from "react";
 import imgLoading from "../../assets/loadingport.gif";
+
+//react
+import { useEffect, useState } from "react";
+
+//hooks
 import { useModeLightContext } from "../../hooks/useModeLightContext";
 
 const About = () => {
@@ -71,9 +76,12 @@ const About = () => {
               </p>
               <p className={styles.p}>
                 {" "}
-                <span>• </span> Currently, I serve as a Full Stack Teaching
-                Assistant, where I assist beginners in a programming bootcamp,
-                further strengthening my technical and soft skills.
+                <span>• </span> Currently, I work at LabsIf, a company dedicated
+                to software development. I work in Frontend development
+                alongside a team of talented programmers. I also serve as a
+                teaching assistant for Full Stack, where I help beginners in a
+                coding bootcamp, further strengthening my technical and
+                interpersonal skills.
               </p>
             </div>
             <div className={styles.divImg}>

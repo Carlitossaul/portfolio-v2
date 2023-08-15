@@ -21,34 +21,37 @@ const SearchImages = () => {
       </h2>
       <div className={styles.row}>
         <div className={styles.oneThird}>
-          <p>
-            <span>•</span> This website is a project I created as part of my
-            developer portfolio. Its main purpose was to practice what I was
-            learning in my Frontend classes. I wanted to build an application
-            using React and Redux, but what mattered the most to me at that time
-            was learning how to consume data from APIs. That's how this project
-            started, and over time it became important to me because I use it to
-            search for images for my new projects.
-          </p>
-          <p>
-            <ul>
-              <li>
-                It offers a vast variety of images from the API, which are
-                available for searching through the search field.
-              </li>
-              <li>Easy and intuitive navigation.</li>
-              <li>
-                Includes aesthetic details that make it visually appealing.
-              </li>
-              <li>Zoom functionality to view image details.</li>
-              <li>Ability to download images with just one click.</li>
-              <li>Buttons for sharing images on social media.</li>
-              <li>
-                Implemented local storage feature to allow users to save their
-                favorite images.
-              </li>
-            </ul>
-          </p>
+          <ul className={styles.dataProject}>
+            <li>
+              This website is a project I created as part of my developer
+              portfolio. Its main purpose was to practice what I was learning in
+              my Frontend classes. I wanted to build an application using React
+              and Redux, but what mattered the most to me at that time was
+              learning how to consume data from APIs. That's how this project
+              started, and over time it became important to me because I use it
+              to search for images for my new projects.
+            </li>
+            <li>
+              Its notable features include:
+              <ul>
+                <li>Easy and intuitive navigation.</li>
+                <li>
+                  It offers a vast variety of images from the API, which are
+                  available for searching through the search field.
+                </li>
+                <li>
+                  Includes aesthetic details that make it visually appealing.
+                </li>
+                <li>Zoom functionality to view image details.</li>
+                <li>Ability to download images with just one click.</li>
+                <li>Buttons for sharing images on social media.</li>
+                <li>
+                  Implemented local storage feature to allow users to save their
+                  favorite images.
+                </li>
+              </ul>
+            </li>
+          </ul>
           <div className={styles.divImageResponsive}>
             <img
               className={styles.imageResponsive}

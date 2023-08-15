@@ -23,39 +23,42 @@ const RickAndMorty = () => {
       </h2>
       <div className={styles.row}>
         <div className={styles.oneThird}>
-          <p>
-            <span>•</span> This is an application that consumes data from the
-            Rick & Morty API. I worked on the Frontend, Backend, and database
-            aspects of the project.
-          </p>
-          <p>
-            <span>•</span> One particular achievement that fills me with pride
-            is that during my bootcamp, each student had to present this project
-            we were working on for a competition among 60+ students. The top
-            three winners would receive special benefits from Henry. I secured
-            the second place in this competition.
-            <Link
-              className={styles.link}
-              to={
-                "https://www.linkedin.com/feed/update/urn:li:activity:7047663550776918016/"
-              }
-              target="_blank"
-            >
-              Here is the publication of my instructor on Linkedin.
-            </Link>
-          </p>
-          <p>
-            <ul>
-              <li>
-                Ability to search for all characters from the series using the
-                search function.
-              </li>
-              <li>Includes filters and sorting options.</li>
-              <li>View detailed information about each character.</li>
-              <li>Implemented a favorites system.</li>
-              <li>User registration feature for creating accounts.</li>
-            </ul>
-          </p>
+          <ul className={styles.dataProject}>
+            <li>
+              This is an application that consumes data from the Rick & Morty
+              API. I worked on the Frontend, Backend, and database aspects of
+              the project.
+            </li>
+            <li>
+              One particular achievement that fills me with pride is that during
+              my bootcamp, each student had to present this project we were
+              working on for a competition among 60+ students. The top three
+              winners would receive special benefits from Henry. I secured the
+              second place in this competition.
+              <Link
+                className={styles.link}
+                to={
+                  "https://www.linkedin.com/feed/update/urn:li:activity:7047663550776918016/"
+                }
+                target="_blank"
+              >
+                Here is the publication of my instructor on Linkedin.
+              </Link>
+            </li>
+            <li>
+              Its notable features include:
+              <ul>
+                <li>
+                  Ability to search for all characters from the series using the
+                  search function.
+                </li>
+                <li>Includes filters and sorting options.</li>
+                <li>View detailed information about each character.</li>
+                <li>Implemented a favorites system.</li>
+                <li>User registration feature for creating accounts.</li>
+              </ul>
+            </li>
+          </ul>
           <div className={styles.divImageResponsive}>
             <img className={styles.imageResponsive} src={rym2} alt="rym2" />
           </div>

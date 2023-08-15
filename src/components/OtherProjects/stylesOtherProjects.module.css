@@ -1,4 +1,4 @@
-.projectContainer {
+.otherProjects {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -9,6 +9,9 @@
   border: 1.6px solid var(--blueIntense);
   border-radius: 4px;
 }
+.otherProjects span {
+  color: var(--blueIntense);
+}
 .divImageResponsive {
   display: none;
 }
@@ -18,76 +21,40 @@
   padding-bottom: 10px;
   margin-bottom: 1em;
 }
-
-.projectContainer span {
-  color: var(--blueIntense);
-}
-
-.row {
+.container {
   display: flex;
-  flex-wrap: wrap;
-  width: 100%;
+  padding: 0px;
 }
+
+.boxOne {
+  padding: 1em 1em;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: start;
+  gap: 1em;
+  min-height: 100%;
+}
+.boxOne::-webkit-scrollbar {
+  width: 8px;
+}
+
+.boxOne::-webkit-scrollbar-thumb {
+  background-color: var(--blueIntense);
+}
+
+.boxOne::-webkit-scrollbar-thumb:hover {
+  background-color: var(--blue);
+}
+
 .dataProject {
   display: flex;
   flex-direction: column;
   gap: 12px;
 }
-.oneThird {
-  width: 50%;
-  height: 24em;
-  padding: 1em;
-  overflow-y: scroll;
-  scrollbar-width: thin;
-  font-weight: 400;
-}
-
-.oneThird::-webkit-scrollbar {
-  width: 8px;
-}
-
-.oneThird::-webkit-scrollbar-thumb {
-  background-color: var(--blueIntense);
-}
-
-.oneThird::-webkit-scrollbar-thumb:hover {
-  background-color: var(--blue);
-}
-
-.twoThirds {
-  width: 50%;
-  height: 24em;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.ul {
-  display: flex;
-  gap: 12px;
-  flex-wrap: wrap;
-  padding-top: 1em;
-}
-.ul li {
-  padding: 3px 7px;
-  border: 1.7px solid var(--blueIntense);
-  list-style: none;
-  border-radius: 5px;
-  font-weight: 500;
-}
-
-.carouselImageContainer {
-  width: 100%;
-  height: 25em;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.carouselImage {
-  max-width: 100%;
-  max-height: 100%;
-  object-fit: contain;
-}
-
 .links {
   display: flex;
   flex-direction: column;
@@ -119,14 +86,41 @@
   margin-top: -19px;
 }
 
+.boxTwo {
+  padding: 1em;
+}
+.ul {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  padding-top: 1em;
+}
+.ul li {
+  padding: 3px 7px;
+  border: 1.7px solid var(--blueIntense);
+  list-style: none;
+  border-radius: 5px;
+  font-weight: 500;
+}
+
 @media (max-width: 391px) {
-  .projectContainer {
-    padding: 0px 0px;
+  .otherProjects {
+    padding: 0px 2px;
     border: none;
-    padding: 1px 5px;
   }
-  .twoThirds {
+  .video {
     display: none;
+  }
+  .title {
+    font-size: 16px;
+    padding: 1px;
+    text-align: center;
+    border-bottom: none;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
   }
   .divImageResponsive {
     max-width: 100%;
@@ -136,18 +130,10 @@
   .imageResponsive {
     max-width: 100%;
   }
-  .title {
-    font-size: 16px;
-    padding: 1px;
-    text-align: center;
-    border-bottom: none;
+  .boxOne {
+    padding: 0px 2px;
   }
-  .oneThird {
-    width: 100%;
-    height: 100%;
-    padding: 0px;
-    overflow-y: visible;
-  }
+
   .dataProject {
     display: flex;
     flex-direction: column;
@@ -158,13 +144,19 @@
   }
   .dataProject li {
     font-size: 13px;
-    list-style: none;
+  }
+  .boxTwo {
+    padding: 2px 1em 1em 1em;
+  }
+  .links {
+    padding: 1em 1em;
+    font-size: 12px;
   }
   .ul {
     display: flex;
     gap: 5px;
     flex-wrap: wrap;
-    padding-top: 1em;
+    padding-top: 2px;
   }
   .ul li {
     padding: 3px 7px;
@@ -172,20 +164,26 @@
     list-style: none;
     border-radius: 5px;
     font-size: 10px;
-  }
-  .links {
-    padding: 1em 1em;
-    font-size: 12px;
   }
 }
 @media (min-width: 391px) and (max-width: 768px) {
-  .projectContainer {
-    padding: 0px 0px;
+  .otherProjects {
+    padding: 0px 2px;
     border: none;
-    padding: 1px 5px;
   }
-  .twoThirds {
+  .video {
     display: none;
+  }
+  .title {
+    font-size: 16px;
+    padding: 1px;
+    text-align: center;
+    border-bottom: none;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
   }
   .divImageResponsive {
     max-width: 100%;
@@ -195,18 +193,10 @@
   .imageResponsive {
     max-width: 100%;
   }
-  .title {
-    font-size: 16px;
-    padding: 1px;
-    text-align: center;
-    border-bottom: none;
+  .boxOne {
+    padding: 0px 2px;
   }
-  .oneThird {
-    width: 100%;
-    height: 100%;
-    padding: 0px;
-    overflow-y: visible;
-  }
+
   .dataProject {
     display: flex;
     flex-direction: column;
@@ -217,13 +207,19 @@
   }
   .dataProject li {
     font-size: 13px;
-    list-style: none;
+  }
+  .boxTwo {
+    padding: 2px 1em 1em 1em;
+  }
+  .links {
+    padding: 1em 1em;
+    font-size: 12px;
   }
   .ul {
     display: flex;
     gap: 5px;
     flex-wrap: wrap;
-    padding-top: 1em;
+    padding-top: 2px;
   }
   .ul li {
     padding: 3px 7px;
@@ -231,22 +227,28 @@
     list-style: none;
     border-radius: 5px;
     font-size: 10px;
-  }
-  .links {
-    padding: 1em 1em;
-    font-size: 12px;
   }
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
   /* Estilos para pantallas con ancho entre 768px y 992px */
-  .projectContainer {
-    padding: 0px 0px;
+  .otherProjects {
+    padding: 0px 2px;
     border: none;
-    padding: 1px 5px;
   }
-  .twoThirds {
+  .video {
     display: none;
+  }
+  .title {
+    font-size: 25px;
+    padding: 1px;
+    text-align: center;
+    border-bottom: none;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
   }
   .divImageResponsive {
     max-width: 100%;
@@ -256,45 +258,62 @@
   .imageResponsive {
     max-width: 100%;
   }
-  .title {
-    font-size: 25px;
-    padding: 1px;
-    text-align: center;
-    border-bottom: none;
+  .boxOne {
+    padding: 0px 2px;
   }
-  .oneThird {
+
+  .dataProject {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
     width: 100%;
     height: 100%;
     padding: 0px;
-    overflow-y: visible;
   }
-  .oneThird p {
-    font-size: 18px;
+  .dataProject li {
+    font-size: 16px;
+  }
+  .boxTwo {
+    padding: 2px 1em 1em 1em;
+  }
+  .links {
+    padding: 1em 1em;
+    font-size: 16px;
   }
   .ul {
     display: flex;
     gap: 5px;
     flex-wrap: wrap;
-    padding-top: 1em;
+    padding-top: 2px;
   }
   .ul li {
     padding: 3px 7px;
-    border: 1px solid var(--blue);
+    border: 1px solid var(--blueIntense);
     list-style: none;
     border-radius: 5px;
-    font-size: 18px;
+    font-size: 16px;
   }
 }
 
 @media (min-width: 992px) and (max-width: 1300px) {
   /* Estilos para pantallas con ancho mínimo de 992px */
-  .projectContainer {
-    padding: 0px 0px;
+  .otherProjects {
+    padding: 0px 2px;
     border: none;
-    padding: 1px 5px;
   }
-  .twoThirds {
+  .video {
     display: none;
+  }
+  .title {
+    font-size: 25px;
+    padding: 1px;
+    text-align: center;
+    border-bottom: none;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
   }
   .divImageResponsive {
     max-width: 100%;
@@ -304,32 +323,39 @@
   .imageResponsive {
     max-width: 100%;
   }
-  .title {
-    font-size: 25px;
-    padding: 1px;
-    text-align: center;
-    border-bottom: none;
+  .boxOne {
+    padding: 0px 2px;
   }
-  .oneThird {
+
+  .dataProject {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
     width: 100%;
     height: 100%;
     padding: 0px;
-    overflow-y: visible;
   }
-  .oneThird p {
-    font-size: 18px;
+  .dataProject li {
+    font-size: 16px;
+  }
+  .boxTwo {
+    padding: 2px 1em 1em 1em;
+  }
+  .links {
+    padding: 1em 1em;
+    font-size: 16px;
   }
   .ul {
     display: flex;
     gap: 5px;
     flex-wrap: wrap;
-    padding-top: 1em;
+    padding-top: 2px;
   }
   .ul li {
     padding: 3px 7px;
-    border: 1px solid var(--blue);
+    border: 1px solid var(--blueIntense);
     list-style: none;
     border-radius: 5px;
-    font-size: 18px;
+    font-size: 16px;
   }
 }

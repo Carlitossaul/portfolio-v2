@@ -12,10 +12,12 @@ import hungry4 from "./assets/hungry4.png";
 import hungry7 from "./assets/hungry7.png";
 import hungry3 from "./assets/hungry3.png";
 
+//hooks
 import { useModeLightContext } from "../../hooks/useModeLightContext";
 
 const AreYouHungry = () => {
   const { modeLight } = useModeLightContext();
+
   return (
     <div className={styles.projectContainer}>
       <h2 className={styles.title}>
@@ -23,34 +25,32 @@ const AreYouHungry = () => {
       </h2>
       <div className={styles.row}>
         <div className={styles.oneThird}>
-          <p>
-            <span>•</span> Web application that consumes data from a food recipe
-            API.
-          </p>
-          <p>
-            <span>•</span> Its notable features include:
-            <ul>
-              <li>Combined filters</li>
-              <li>Recipe creation</li>
-              <li>Image upload (Cloudinary)</li>
-              <li>Efficient search with over five thousand recipes</li>
-              <li>Recipe details view</li>
-            </ul>
-          </p>
-          <p>
-            <span>•</span> Something remarkable about this app was that my
-            fellow bootcamp classmates really liked its design, and for this
-            reason, they asked me to take charge of the frontend in the final
-            project.
-          </p>
-          <p>
-            <span>•</span> The API had a limit of daily requests, which made
-            development difficult. I had to implement a switch with multiple API
-            keys on the backend to be able to work with it. It also helped me
-            strengthen my Redux knowledge, but what I liked the most was the
-            final result. I was able to apply all the styles and functionalities
-            that I set out to do initially.
-          </p>
+          <ul className={styles.dataProject}>
+            <li>Web application that consumes data from a food recipe API.</li>
+            <li>
+              Its notable features include:
+              <ul>
+                <li>Combined filters</li>
+                <li>Recipe creation</li>
+                <li>Image upload (Cloudinary)</li>
+                <li>Efficient search with over five thousand recipes</li>
+                <li>Recipe details view</li>
+              </ul>
+            </li>
+            <li>
+              Something remarkable about this app was that my fellow bootcamp
+              classmates really liked its design, and for this reason, they
+              asked me to take charge of the frontend in the final project.
+            </li>
+            <li>
+              The API had a limit of daily requests, which made development
+              difficult. I had to implement a switch with multiple API keys on
+              the backend to be able to work with it. It also helped me
+              strengthen my Redux knowledge, but what I liked the most was the
+              final result. I was able to apply all the styles and
+              functionalities that I set out to do initially.
+            </li>
+          </ul>
           <div className={styles.divImageResponsive}>
             <img
               className={styles.imageResponsive}

@@ -7,10 +7,8 @@ import { BsBoxArrowUpRight } from "react-icons/bs";
 import { GoMarkGithub } from "react-icons/go";
 import ReactPlayer from "react-player";
 import rym1 from "./assets/rym1.png";
-import rym2 from "./assets/rym2.png";
 import rym3 from "./assets/rym3.png";
 import rym4 from "./assets/rym4.png";
-import rym6 from "./assets/rym6.png";
 
 import { useModeLightContext } from "../../hooks/useModeLightContext";
 
@@ -60,7 +58,7 @@ const RickAndMorty = () => {
             </li>
           </ul>
           <div className={styles.divImageResponsive}>
-            <img className={styles.imageResponsive} src={rym2} alt="rym2" />
+            <img className={styles.imageResponsive} src={rym1} alt="rym1" />
           </div>
         </div>
         <div className={styles.twoThirds}>
@@ -77,24 +75,19 @@ const RickAndMorty = () => {
             <div className={styles.carouselImageContainer}>
               <img className={styles.carouselImage} src={rym1} alt="rym1" />
             </div>
-            <div className={styles.carouselImageContainer}>
-              <img className={styles.carouselImage} src={rym2} alt="rym2" />
-            </div>
+
             <div className={styles.carouselImageContainer}>
               <img className={styles.carouselImage} src={rym3} alt="rym3" />
             </div>
             <div className={styles.carouselImageContainer}>
               <img className={styles.carouselImage} src={rym4} alt="rym4" />
             </div>
-            <div className={styles.carouselImageContainer}>
-              <img className={styles.carouselImage} src={rym6} alt="rym6" />
-            </div>
           </Carousel>
         </div>
       </div>
       <div className={styles.row}>
         <div className={styles.twoThirds}>
-          <ReactPlayer controls={true} url="https://youtu.be/HYwBTpg5Z2I" />
+          <ReactPlayer controls={true} url="https://youtu.be/oXWGslFQ_jU" />
         </div>
         <div className={styles.oneThird}>
           <ul className={styles.ul}>

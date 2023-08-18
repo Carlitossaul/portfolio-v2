@@ -7,7 +7,6 @@ import { Link } from "react-router-dom";
 import { BsBoxArrowUpRight } from "react-icons/bs";
 import { GoMarkGithub } from "react-icons/go";
 import appImages1 from "./assets/app-images1.png";
-import appImages2 from "./assets/app-images2.png";
 import appImages4 from "./assets/app-images4.png";
 
 import { useModeLightContext } from "../../hooks/useModeLightContext";
@@ -78,13 +77,6 @@ const SearchImages = () => {
                 alt="appImages1"
               />
             </div>
-            <div className={styles.carouselImageContainer}>
-              <img
-                className={styles.carouselImage}
-                src={appImages2}
-                alt="appImages2"
-              />
-            </div>
 
             <div className={styles.carouselImageContainer}>
               <img
@@ -98,7 +90,7 @@ const SearchImages = () => {
       </div>
       <div className={styles.row}>
         <div className={styles.twoThirds}>
-          <ReactPlayer controls={true} url="https://youtu.be/niXhbVh3Gec" />
+          <ReactPlayer controls={true} url="https://youtu.be/PSUe7Ir_8Sg" />
         </div>
         <div className={styles.oneThird}>
           <ul className={styles.ul}>

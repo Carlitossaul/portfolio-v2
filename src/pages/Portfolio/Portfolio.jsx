@@ -9,7 +9,6 @@ import WorkifyServices from "../../components/Projects/WorkifyServices";
 
 //styles
 import styles from "./Portfolio.module.css";
-import FinderGithub from "../../components/OtherProjects/FinderGithub";
 import PortfolioVersionOne from "../../components/OtherProjects/PortfolioVersionOne";
 import EagleVision from "../../components/OtherProjects/EagleVision";
 
@@ -39,7 +38,6 @@ const Portfolio = () => {
       <div className={styles.otherProjects}>
         <EagleVision />
         <PortfolioVersionOne />
-        {/* <FinderGithub /> */}
       </div>
     </div>
   );

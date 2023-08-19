@@ -1,6 +1,6 @@
 //styles
 import styles from "./stylesOtherProjects.module.css";
-import portfolioVersionOne from "../Projects/assets/eagleVision.webp";
+import portfolioVersionOne from "../Projects/assets/eagleVision.png";
 
 //dependencies
 import ReactPlayer from "react-player";

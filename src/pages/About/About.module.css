@@ -45,7 +45,9 @@
 }
 
 .theP {
-  width: 60%;
+  width: 100%;
+  padding-left: 12em;
+  padding-right: 12em;
   position: relative;
   font-weight: 400;
 }

@@ -6,11 +6,9 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Link } from "react-router-dom";
 import { BsBoxArrowUpRight } from "react-icons/bs";
 import { GoMarkGithub } from "react-icons/go";
-import hungry1 from "./assets/hungry1.png";
-import hungry2 from "./assets/hungry2.png";
-import hungry4 from "./assets/hungry4.png";
-import hungry7 from "./assets/hungry7.png";
-import hungry3 from "./assets/hungry3.png";
+import hungry1 from "./assets/hungry1.webp";
+import hungry2 from "./assets/hungry2.webp";
+import hungry3 from "./assets/hungry3.webp";
 
 //hooks
 import { useModeLightContext } from "../../hooks/useModeLightContext";
@@ -73,20 +71,6 @@ const AreYouHungry = () => {
             <div className={styles.carouselImageContainer}>
               <img
                 className={styles.carouselImage}
-                src={hungry2}
-                alt="hungry2"
-              />
-            </div>
-            <div className={styles.carouselImageContainer}>
-              <img
-                className={styles.carouselImage}
-                src={hungry3}
-                alt="hungry3"
-              />
-            </div>
-            <div className={styles.carouselImageContainer}>
-              <img
-                className={styles.carouselImage}
                 src={hungry1}
                 alt="hungry1"
               />
@@ -94,16 +78,16 @@ const AreYouHungry = () => {
             <div className={styles.carouselImageContainer}>
               <img
                 className={styles.carouselImage}
-                src={hungry4}
-                alt="hungry4"
+                src={hungry2}
+                alt="hungry2"
               />
             </div>
 
             <div className={styles.carouselImageContainer}>
               <img
                 className={styles.carouselImage}
-                src={hungry7}
-                alt="hungry7"
+                src={hungry3}
+                alt="hungry3"
               />
             </div>
           </Carousel>
@@ -111,7 +95,7 @@ const AreYouHungry = () => {
       </div>
       <div className={styles.row}>
         <div className={styles.twoThirds}>
-          <ReactPlayer controls={true} url="https://youtu.be/EzsG52GOCzM" />
+          <ReactPlayer controls={true} url="https://youtu.be/tiUfVK1hJRc" />
         </div>
         <div className={styles.oneThird}>
           <ul className={styles.ul}>

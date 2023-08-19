@@ -1,6 +1,6 @@
 //styles
 import styles from "./stylesOtherProjects.module.css";
-import portfolioVersionOne from "../Projects/assets/hungry1.png";
+import gitFinder from "../Projects/assets/gitFinder.webp";
 
 //dependencies
 import ReactPlayer from "react-player";
@@ -31,8 +31,8 @@ const FinderGithub = () => {
           <div className={styles.divImageResponsive}>
             <img
               className={styles.imageResponsive}
-              src={portfolioVersionOne}
-              alt="hungry2"
+              src={gitFinder}
+              alt="gitFinder"
             />
           </div>
           <div

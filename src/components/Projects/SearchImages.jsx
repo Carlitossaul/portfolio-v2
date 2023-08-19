@@ -6,8 +6,8 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Link } from "react-router-dom";
 import { BsBoxArrowUpRight } from "react-icons/bs";
 import { GoMarkGithub } from "react-icons/go";
-import appImages1 from "./assets/app-images1.png";
-import appImages4 from "./assets/app-images4.png";
+import appImages1 from "./assets/app-images1.webp";
+import appImages4 from "./assets/app-images4.webp";
 
 import { useModeLightContext } from "../../hooks/useModeLightContext";
 

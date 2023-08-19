@@ -6,9 +6,9 @@ import { Link } from "react-router-dom";
 import { BsBoxArrowUpRight } from "react-icons/bs";
 import { GoMarkGithub } from "react-icons/go";
 import ReactPlayer from "react-player";
-import rym1 from "./assets/rym1.png";
-import rym3 from "./assets/rym3.png";
-import rym4 from "./assets/rym4.png";
+import rym1 from "./assets/rym1.webp";
+import rym3 from "./assets/rym3.webp";
+import rym4 from "./assets/rym4.webp";
 
 import { useModeLightContext } from "../../hooks/useModeLightContext";
 

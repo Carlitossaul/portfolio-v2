@@ -6,9 +6,9 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Link } from "react-router-dom";
 import { BsBoxArrowUpRight } from "react-icons/bs";
 import { GoMarkGithub } from "react-icons/go";
-import hungry1 from "./assets/hungry1.png";
-import hungry2 from "./assets/hungry2.png";
-import hungry3 from "./assets/hungry3.png";
+import hungry1 from "./assets/hungry1.webp";
+import hungry2 from "./assets/hungry2.webp";
+import hungry3 from "./assets/hungry3.webp";
 
 //hooks
 import { useModeLightContext } from "../../hooks/useModeLightContext";

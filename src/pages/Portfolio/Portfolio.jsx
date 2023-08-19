@@ -22,7 +22,10 @@ const Portfolio = () => {
     <div className={styles.homeContainer}>
       <div className={styles.containerTitle}>
         <h1>Portfolio</h1>
-        <h4>Check out my latest projects:</h4>
+        <h4>
+          Check out my latest projects, I also provide detailed insights about
+          them in the accompanying videos!
+        </h4>
       </div>
       <div className={styles.projectsContainer}>
         <AreYouHungry />
@@ -36,7 +39,7 @@ const Portfolio = () => {
       <div className={styles.otherProjects}>
         <EagleVision />
         <PortfolioVersionOne />
-        <FinderGithub />
+        {/* <FinderGithub /> */}
       </div>
     </div>
   );

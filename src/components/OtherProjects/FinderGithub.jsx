@@ -1,6 +1,6 @@
 //styles
 import styles from "./stylesOtherProjects.module.css";
-import gitFinder from "../Projects/assets/gitFinder.png";
+import gitFinder from "../Projects/assets/gitFinder.webp";
 
 //dependencies
 import ReactPlayer from "react-player";

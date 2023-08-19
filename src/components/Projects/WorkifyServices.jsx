@@ -6,7 +6,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Link } from "react-router-dom";
 import { BsBoxArrowUpRight } from "react-icons/bs";
 import { GoMarkGithub } from "react-icons/go";
-import img1 from "./assets/workify1.png";
+import img1 from "./assets/workify1.webp";
 
 import { useModeLightContext } from "../../hooks/useModeLightContext";
 

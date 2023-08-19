@@ -1,6 +1,6 @@
 //styles
 import styles from "./stylesOtherProjects.module.css";
-import portfolioVersionOne from "../Projects/assets/portfolioOne.png";
+import portfolioVersionOne from "../Projects/assets/portfolioOne.webp";
 
 //dependencies
 import ReactPlayer from "react-player";
@@ -65,7 +65,7 @@ const PortfolioVersionOne = () => {
           <ReactPlayer
             className={styles.video}
             controls={true}
-            url="https://youtu.be/6ceikmvum9c"
+            url="https://youtu.be/rYoBX_d1iPw"
           />
 
           <ul className={styles.ul}>

@@ -1,6 +1,6 @@
 //styles
 import styles from "./stylesOtherProjects.module.css";
-import portfolioVersionOne from "../Projects/assets/eagleVision.png";
+import portfolioVersionOne from "../Projects/assets/eagleVision.webp";
 
 //dependencies
 import ReactPlayer from "react-player";
@@ -72,7 +72,7 @@ const EagleVision = () => {
           <ReactPlayer
             className={styles.video}
             controls={true}
-            url="https://youtu.be/EWIbosyY-qw"
+            url="https://youtu.be/QeKu_OdqN6o"
           />
 
           <ul className={styles.ul}>

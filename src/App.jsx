@@ -13,7 +13,7 @@ import Footer from "./components/Footer/Footer";
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 
 //components views lazy
-const About = lazy(() => import("./pages/About/About"));
+const Experience = lazy(() => import("./pages/Experience/Experience"));
 const Portfolio = lazy(() => import("./pages/Portfolio/Portfolio"));
 const Pdf = lazy(() => import("./components/Nav/Pdf.jsx"));
 const Contact = lazy(() => import("./pages/Contact/Contact"));
@@ -32,7 +32,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Landing />} />
           <Route path="/portfolio" element={<Portfolio />} />
-          <Route path="/about" element={<About />} />
+          <Route path="/experience" element={<Experience />} />
           <Route path="/contact" element={<Contact />} />
           <Route exact path="/pdf" element={<Pdf />} />
         </Routes>

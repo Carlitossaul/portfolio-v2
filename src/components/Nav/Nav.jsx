@@ -39,11 +39,12 @@ const Nav = () => {
           </Link>
           <Link
             className={`${styles.link} ${
-              window.location.pathname === "/about" && styles["link-active"]
+              window.location.pathname === "/experience" &&
+              styles["link-active"]
             }`}
-            to="/about"
+            to="/experience"
           >
-            <FaRegUser className={styles.iconos} /> About
+            <FaRegUser className={styles.iconos} /> Experience
           </Link>
           <Link
             className={`${styles.link} ${

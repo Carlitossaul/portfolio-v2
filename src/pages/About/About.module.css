@@ -145,6 +145,8 @@
   .theP {
     width: 95%;
     font-size: 12px;
+    padding-left: 3px;
+    padding-right: 3px;
   }
   .divImg {
     display: none;
@@ -176,6 +178,8 @@
   .theP {
     width: 95%;
     font-size: 14px;
+    padding-left: 3px;
+    padding-right: 3px;
   }
   .divImg {
     display: none;
@@ -194,6 +198,12 @@
 @media (min-width: 768px) and (max-width: 992px) {
   .Container {
     height: 100%;
+  }
+  .theP {
+    width: 95%;
+    font-size: 17px;
+    padding-left: 3px;
+    padding-right: 3px;
   }
 }
 @media (min-width: 992px) and (max-width: 1260px) {

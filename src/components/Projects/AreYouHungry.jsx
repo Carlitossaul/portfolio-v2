@@ -5,7 +5,7 @@ import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Link } from "react-router-dom";
 import { BsBoxArrowUpRight } from "react-icons/bs";
-import { GoMarkGithub } from "react-icons/go";
+import { AiFillGithub } from "react-icons/ai";
 import hungry1 from "./assets/hungry1.webp";
 import hungry2 from "./assets/hungry2.webp";
 import hungry3 from "./assets/hungry3.webp";
@@ -127,7 +127,7 @@ const AreYouHungry = () => {
               className={styles.link}
               to={"https://github.com/Carlitossaul/PI-Food-Front"}
             >
-              <GoMarkGithub className={styles.icon} />
+              <AiFillGithub className={styles.icon} />
               <p>View the source code on GitHub - client</p>
             </Link>
             <Link
@@ -135,7 +135,7 @@ const AreYouHungry = () => {
               target="_blank"
               to={"https://github.com/Carlitossaul/PI-Food-back-"}
             >
-              <GoMarkGithub className={styles.icon} />
+              <AiFillGithub className={styles.icon} />
               <p>View the source code on GitHub - api</p>
             </Link>
           </div>

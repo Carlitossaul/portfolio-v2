@@ -5,7 +5,7 @@ import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Link } from "react-router-dom";
 import { BsBoxArrowUpRight } from "react-icons/bs";
-import { GoMarkGithub } from "react-icons/go";
+import { AiFillGithub } from "react-icons/ai";
 import appImages1 from "./assets/app-images1.png";
 import appImages4 from "./assets/app-images4.png";
 
@@ -119,7 +119,7 @@ const SearchImages = () => {
               className={styles.link}
               to={"https://github.com/Carlitossaul/search-images"}
             >
-              <GoMarkGithub className={styles.icon} />
+              <AiFillGithub className={styles.icon} />
               <p>View the source code on GitHub - client</p>
             </Link>
           </div>

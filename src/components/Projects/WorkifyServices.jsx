@@ -5,7 +5,7 @@ import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Link } from "react-router-dom";
 import { BsBoxArrowUpRight } from "react-icons/bs";
-import { GoMarkGithub } from "react-icons/go";
+import { AiFillGithub } from "react-icons/ai";
 import img1 from "./assets/workify1.webp";
 
 import { useModeLightContext } from "../../hooks/useModeLightContext";
@@ -101,7 +101,7 @@ const WorkifyServices = () => {
               className={styles.link}
               to={"https://github.com/JensyFigueroa/domesticServices_Frontend"}
             >
-              <GoMarkGithub className={styles.icon} />
+              <AiFillGithub className={styles.icon} />
               <p>View the source code on GitHub - client</p>
             </Link>
             <Link
@@ -109,7 +109,7 @@ const WorkifyServices = () => {
               target="_blank"
               to={"https://github.com/JensyFigueroa/domesticServices_Backend"}
             >
-              <GoMarkGithub className={styles.icon} />
+              <AiFillGithub className={styles.icon} />
               <p>View the source code on GitHub - api</p>
             </Link>
           </div>

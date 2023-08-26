@@ -1,7 +1,6 @@
 import React from "react";
 import { NavLink, useLocation } from "react-router-dom";
 import styles from "./Footer.module.css";
-import { GoMarkGithub } from "react-icons/go"; //<GoMarkGithub className={styles.iconos} />
 import Redes from "../Redes/Redes";
 import { useModeLightContext } from "../../hooks/useModeLightContext";
 

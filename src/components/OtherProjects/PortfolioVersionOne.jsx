@@ -6,7 +6,7 @@ import portfolioVersionOne from "../Projects/assets/portfolioOne.webp";
 import ReactPlayer from "react-player";
 import { Link } from "react-router-dom";
 import { BsBoxArrowUpRight } from "react-icons/bs";
-import { GoMarkGithub } from "react-icons/go";
+import { AiFillGithub } from "react-icons/ai";
 
 //hooks
 import { useModeLightContext } from "../../hooks/useModeLightContext";
@@ -56,7 +56,7 @@ const PortfolioVersionOne = () => {
               className={styles.link}
               to={"https://github.com/Carlitossaul/Portfolio-V1"}
             >
-              <GoMarkGithub className={styles.icon} />
+              <AiFillGithub className={styles.icon} />
               <p>View the source code on GitHub - client</p>
             </Link>
           </div>

@@ -4,7 +4,7 @@ import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Link } from "react-router-dom";
 import { BsBoxArrowUpRight } from "react-icons/bs";
-import { GoMarkGithub } from "react-icons/go";
+import { AiFillGithub } from "react-icons/ai";
 import ReactPlayer from "react-player";
 import rym1 from "./assets/rym1.webp";
 import rym3 from "./assets/rym3.webp";
@@ -119,7 +119,7 @@ const RickAndMorty = () => {
               target="_blank"
               to={"https://github.com/Carlitossaul/App-Ricky-and-Morty"}
             >
-              <GoMarkGithub className={styles.icon} />
+              <AiFillGithub className={styles.icon} />
 
               <p>View the source code on GitHub</p>
             </Link>

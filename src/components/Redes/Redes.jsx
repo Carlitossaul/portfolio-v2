@@ -1,5 +1,5 @@
 import { Link, useLocation } from "react-router-dom";
-import { GoMarkGithub } from "react-icons/go";
+import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedin } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import styles from "./Redes.module.css";
@@ -20,7 +20,7 @@ const Redes = () => {
         target="_blank"
         className={styles.Link}
       >
-        <GoMarkGithub className={styles.iconos} />
+        <AiFillGithub className={styles.iconos} />
       </Link>
       <Link
         to={"https://www.linkedin.com/in/carloslovey/"}

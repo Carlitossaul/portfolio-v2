@@ -10,6 +10,7 @@ import { useModeLightContext } from "../../hooks/useModeLightContext";
 
 //jobs
 import LabsIf from "../../components/Jobs/LabsIf";
+import Henry from "../../components/Jobs/Henry";
 
 const Experience = () => {
   const { modeLight } = useModeLightContext();
@@ -25,8 +26,9 @@ const Experience = () => {
           <h1 className={styles.h1}>Experience </h1>
           <br />
         </div>
-        <div>
+        <div className={styles.jobs}>
           <LabsIf />
+          <Henry />
         </div>
         <div className={styles.tecnologias}>
           <h4>

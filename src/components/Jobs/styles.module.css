@@ -1,0 +1,93 @@
+.container {
+  border: 1.6px solid var(--blueIntense);
+  padding: 20px;
+  width: 100%;
+  border-radius: 4px;
+}
+.containerData {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1.6px solid var(--blueIntense);
+  padding-bottom: 10px;
+}
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 60%;
+  border-right: 1.6px solid var(--blueIntense);
+  border-left: 1.6px solid var(--blueIntense);
+}
+.data {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 25%;
+}
+.link {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.icon {
+  font-size: 20px;
+}
+.logoContainer {
+  width: 15%;
+}
+.containerInfo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding-top: 20px;
+  text-align: left;
+}
+.function {
+  width: 50%;
+}
+.skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+.techSkills {
+  display: flex;
+  gap: 20px;
+}
+
+.techSkills li {
+  padding: 3px 7px;
+  border: 1.7px solid var(--blueIntense);
+  list-style: none;
+  border-radius: 5px;
+  font-weight: 450;
+}
+.tools {
+  display: flex;
+  gap: 20px;
+}
+.tools li {
+  padding: 3px 7px;
+  border: 1.7px solid var(--greenLight);
+  list-style: none;
+  border-radius: 5px;
+  font-weight: 450;
+}
+.softSkills {
+  display: flex;
+  gap: 20px;
+}
+.softSkills li {
+  border: 1.7px solid var(--primary);
+  padding: 3px 7px;
+  list-style: none;
+  border-radius: 5px;
+  font-weight: 450;
+}

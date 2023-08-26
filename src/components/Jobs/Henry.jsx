@@ -6,7 +6,7 @@ import { BsBoxArrowUpRight } from "react-icons/bs";
 //react
 import { Link } from "react-router-dom";
 
-const LabsIf = () => {
+const Henry = () => {
   return (
     <div className={styles.container}>
       <div className={styles.containerData}>
@@ -24,7 +24,7 @@ const LabsIf = () => {
         </h3>
       </div>
       <div className={styles.containerInfo}>
-        <ul className={styles.function}>
+        <ul>
           <li>
             Development of user interfaces with React.js. Working on the
             implementation of efficient and attractive frontend solutions,
@@ -41,30 +41,9 @@ const LabsIf = () => {
             quality.
           </li>
         </ul>
-        <div className={styles.skills}>
-          <ul className={styles.techSkills}>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>Javascript</li>
-            <li>React</li>
-            <li>Node.js</li>
-          </ul>
-          <ul className={styles.tools}>
-            <li>Git</li>
-            <li>Github</li>
-            <li>Trello</li>
-            <li>Scrum</li>
-            <li>Kanban</li>
-          </ul>
-          <ul className={styles.softSkills}>
-            <li>Teamwork</li>
-            <li>Communication</li>
-            <li>Collaborative</li>
-          </ul>
-        </div>
       </div>
     </div>
   );
 };
 
-export default LabsIf;
+export default Henry;

@@ -11,17 +11,21 @@ const LabsIf = () => {
     <div className={styles.container}>
       <div className={styles.containerData}>
         <div className={styles.logoContainer}>
-          <img src={logo} alt="logo" style={{ height: "35px" }} />
+          <img src={logo} alt="logo" className={styles.logoLabsIF} />
         </div>
         <h3 className={styles.title}>
-          Frontend Developer <span>-</span>
-          <Link className={styles.link}>
+          Frontend Developer -
+          <Link
+            to={"https://lande-page-temporaria.vercel.app/"}
+            className={styles.link}
+            target="_blank"
+          >
             Labs_If <BsBoxArrowUpRight className={styles.icon} />
           </Link>
         </h3>
-        <h3 className={styles.data}>
-          July 2003 <span>-</span> Present
-        </h3>
+        <h5 className={styles.data}>
+          JULY 2003 <span>-</span> PRESENT
+        </h5>
       </div>
       <div className={styles.containerInfo}>
         <ul className={styles.function}>
@@ -59,7 +63,8 @@ const LabsIf = () => {
           <ul className={styles.softSkills}>
             <li>Teamwork</li>
             <li>Communication</li>
-            <li>Collaborative</li>
+            <li>Collaboration</li>
+            <li>Problem-Solving</li>
           </ul>
         </div>
       </div>

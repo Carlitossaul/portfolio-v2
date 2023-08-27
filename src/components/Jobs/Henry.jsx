@@ -1,6 +1,6 @@
 //styles
 import styles from "./styles.module.css";
-import logo from "./assets/logo-labsIF.png";
+import logo from "./assets/logoHenry.png";
 import { BsBoxArrowUpRight } from "react-icons/bs";
 
 //react
@@ -11,36 +11,63 @@ const Henry = () => {
     <div className={styles.container}>
       <div className={styles.containerData}>
         <div className={styles.logoContainer}>
-          <img src={logo} alt="logo" style={{ height: "35px" }} />
+          <img src={logo} alt="logo" className={styles.logoHenry} />
         </div>
         <h3 className={styles.title}>
-          Frontend Developer <span>-</span>
-          <Link className={styles.link}>
-            Labs_If <BsBoxArrowUpRight className={styles.icon} />
+          Full Stack Teaching Assistant -
+          <Link
+            to={"https://www.soyhenry.com/"}
+            className={styles.link}
+            target="_blank"
+          >
+            Henry <BsBoxArrowUpRight className={styles.icon} />
           </Link>
         </h3>
-        <h3 className={styles.data}>
-          July 2003 <span>-</span> Present
-        </h3>
+        <h5 className={styles.data}>
+          MAY 2003 <span>-</span> PRESENT
+        </h5>
       </div>
       <div className={styles.containerInfo}>
-        <ul>
+        <ul className={styles.function}>
           <li>
-            Development of user interfaces with React.js. Working on the
-            implementation of efficient and attractive frontend solutions,
-            collaborating with the design team to create impactful visual
-            experiences.
+            Coordinate the group of students with the aim of achieving their
+            adaptation to the program.
           </li>
           <li>
-            {" "}
-            Application testing with Jest. I carry out application tests to
-            ensure code quality and component functionality.
+            Guide students in their initial steps of the course and address
+            their inquiries.
           </li>
           <li>
-            Code review, collaborating with my colleagues to maintain code
-            quality.
+            Assist and support in exercise resolution and promote group
+            collaboration (Pair Programming).
           </li>
+          <li>Propose ideas for the improvement of Bootcamp processes.</li>
+          <li>Foster group cohesion and build community.</li>
         </ul>
+        <div className={styles.skills}>
+          <ul className={styles.techSkills}>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Javascript</li>
+            <li>React</li>
+            <li>Node.js</li>
+            <li>Sequelize</li>
+            <li>PostgreSQL</li>
+            <li>Express.js</li>
+          </ul>
+          <ul className={styles.tools}>
+            <li>Git</li>
+            <li>Github</li>
+          </ul>
+          <ul className={styles.softSkills}>
+            <li>Teamwork</li>
+            <li>Communication</li>
+            <li>Leadership</li>
+            <li>Motivation</li>
+            <li>Problem-solving</li>
+            <li>Critical thinking</li>
+          </ul>
+        </div>
       </div>
     </div>
   );

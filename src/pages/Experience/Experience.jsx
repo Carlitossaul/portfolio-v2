@@ -3,7 +3,7 @@ import styles from "./Experience.module.css";
 import certificate from "../../assets/certificateHenry.png";
 
 //react
-import { useEffect } from "react";
+import { useEffect, useLayoutEffect } from "react";
 
 //hooks
 import { useModeLightContext } from "../../hooks/useModeLightContext";
@@ -56,7 +56,8 @@ const Experience = () => {
             <li>Git</li>
             <li>Github</li>
             <li>Slack</li>
-            <li>Agile Methodologies</li>
+            <li>Scrum</li>
+            <li>Kanban</li>
             <li>Trello</li>
             <li>Notion</li>
           </ul>
@@ -67,11 +68,13 @@ const Experience = () => {
             <span>• </span>Soft Skills
           </h4>
           <ul className={styles.ul}>
-            <li>Collaborative</li>
+            <li>Teamwork</li>
+            <li>Communication</li>
+            <li>Leadership</li>
             <li>Perseverant</li>
+            <li>Problem-solving</li>
             <li>Initiative</li>
             <li>Self-taught</li>
-            <li>Dedication</li>
             <li>Empathy</li>
           </ul>
         </div>
@@ -98,55 +101,3 @@ const Experience = () => {
 };
 
 export default Experience;
-
-{
-  /* <div className={styles.description}>
-<div className={styles.theP}>
-  <p className={styles.p}>
-    {" "}
-    <span>•</span> Hello! I'm Carlos, a passionate Full Stack
-    Developer with a focus on Front End, based in Formosa, Argentina.
-    I enjoy life in the beautiful capital of Formosa with my family.
-  </p>
-  <p className={styles.p}>
-    {" "}
-    <span>•</span> I have been fond of computers since childhood. They
-    have always been a great tool in my daily life, not just for
-    studying, but for everything. One day, I decided to make a
-    180-degree turn in my career and pursue what I truly love, so I
-    decided to study programming. That's when I joined a bootcamp. I
-    learned a lot, worked on individual and team projects. I can
-    confidently say that through development, I discovered something
-    that truly excites me. Today, I know that my place is in
-    technology.
-  </p>
-  <p className={styles.p}>
-    {" "}
-    <span>•</span> As a developer, I give my all. I enjoy providing
-    attractive and functional digital experiences that have a positive
-    impact on users. I also have leadership skills and take
-    initiative. I am highly dedicated when I work and deliver
-    efficient results. Additionally, I am creative and naturally
-    analytical in providing solutions.
-    <br />I adapt to changes and learn quickly, which is why I
-    consider myself a self-taught individual.
-  </p>
-  <p className={styles.p}>
-    {" "}
-    <span>•</span> In my ongoing process of specialization, I keep up
-    with the most in-demand technologies in the current market. As
-    part of my professional development, I am creating both individual
-    and team projects that will soon be available in my portfolio.
-  </p>
-  <p className={styles.p}>
-    {" "}
-    <span>• </span> Currently, I work at LabsIf, a company dedicated
-    to software development. I work in Frontend development alongside
-    a team of talented programmers. I also serve as a teaching
-    assistant for Full Stack, where I help beginners in a coding
-    bootcamp, further strengthening my technical and interpersonal
-    skills.
-  </p>
-</div>
-</div> */
-}

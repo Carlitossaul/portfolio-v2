@@ -164,6 +164,17 @@
   .containerCertificate h4 {
     font-size: 13px;
   }
+  .jobs {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2em;
+    width: 100%;
+    padding-left: 0em;
+    padding-right: 0em;
+    padding-bottom: 2em;
+  }
 }
 @media (min-width: 391px) and (max-width: 768px) {
   .Container {
@@ -191,6 +202,17 @@
   }
   .ul {
     font-size: 13px;
+  }
+  .jobs {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2em;
+    width: 100%;
+    padding-left: 0em;
+    padding-right: 0em;
+    padding-bottom: 2em;
   }
 }
 

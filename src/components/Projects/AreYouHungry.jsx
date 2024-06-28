@@ -35,19 +35,6 @@ const AreYouHungry = () => {
                 <li>Recipe details view</li>
               </ul>
             </li>
-            <li>
-              Something remarkable about this app was that my fellow bootcamp
-              classmates really liked its design, and for this reason, they
-              asked me to take charge of the frontend in the final project.
-            </li>
-            <li>
-              The API had a limit of daily requests, which made development
-              difficult. I had to implement a switch with multiple API keys on
-              the backend to be able to work with it. It also helped me
-              strengthen my Redux knowledge, but what I liked the most was the
-              final result. I was able to apply all the styles and
-              functionalities that I set out to do initially.
-            </li>
           </ul>
           <div className={styles.divImageResponsive}>
             <img
@@ -114,14 +101,14 @@ const AreYouHungry = () => {
               modeLight ? styles.linkLight : styles.linkDark
             }`}
           >
-            <Link
+            {/* <Link
               target="_blank"
               className={styles.link}
               to={"https://areyouhungry.vercel.app"}
             >
               <BsBoxArrowUpRight className={styles.icon} />
               <p>Visit the live site</p>
-            </Link>
+            </Link> */}
             <Link
               target="_blank"
               className={styles.link}

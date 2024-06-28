@@ -21,15 +21,7 @@ const SearchImages = () => {
       <div className={styles.row}>
         <div className={styles.oneThird}>
           <ul className={styles.dataProject}>
-            <li>
-              This website is a project I created as part of my developer
-              portfolio. Its main purpose was to practice what I was learning in
-              my Frontend classes. I wanted to build an application using React
-              and Redux, but what mattered the most to me at that time was
-              learning how to consume data from APIs. That's how this project
-              started, and over time it became important to me because I use it
-              to search for images for my new projects.
-            </li>
+          
             <li>
               Its notable features include:
               <ul>

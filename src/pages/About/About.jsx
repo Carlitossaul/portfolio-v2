@@ -24,69 +24,49 @@ const About = () => {
           <br />
         </div>
         <div className={styles.description}>
-          <div className={styles.theP}>
+        <div className={styles.theP}>
             <p className={styles.p}>
               {" "}
-              <span>•</span> Hello! I'm Carlos, a passionate Full Stack
-              Developer with a focus on Front End, based in Formosa, Argentina.
-              I enjoy life in the beautiful capital of Formosa with my family.
+              <span>•</span> I have always been deeply involved with computers, which have been essential tools in my life. A few years ago, I decided to pivot my career towards my true passion and joined a programming bootcamp. There, I worked on both individual and team projects, solidifying my love for technology and development.
             </p>
             <p className={styles.p}>
               {" "}
-              <span>•</span> I have been fond of computers since childhood. They
-              have always been a great tool in my daily life, not just for
-              studying, but for everything. One day, I decided to make a
-              180-degree turn in my career and pursue what I truly love, so I
-              decided to study programming. That's when I joined a bootcamp. I
-              learned a lot, worked on individual and team projects. I can
-              confidently say that through development, I discovered something
-              that truly excites me. Today, I know that my place is in
-              technology.
+              <span>•</span> As a developer, I am dedicated to creating attractive and functional digital experiences. I take the initiative, deliver efficient results, and enjoy providing innovative solutions. My creativity and analytical skills allow me to adapt quickly and continuously improve.
             </p>
             <p className={styles.p}>
               {" "}
-              <span>•</span> As a developer, I give my all. I enjoy providing
-              attractive and functional digital experiences that have a positive
-              impact on users. I also have leadership skills and take
-              initiative. I am highly dedicated when I work and deliver
-              efficient results. Additionally, I am creative and naturally
-              analytical in providing solutions.
-              <br />I adapt to changes and learn quickly, which is why I
-              consider myself a self-taught individual.
+              <span>•</span> Over the past few years, I have gained significant experience in computing and software development. I have led development teams and collaborated on various projects, honing my leadership and teamwork skills.
             </p>
             <p className={styles.p}>
               {" "}
-              <span>•</span> In my ongoing process of specialization, I keep up
-              with the most in-demand technologies in the current market. As
-              part of my professional development, I am creating both individual
-              and team projects that will soon be available in my portfolio.
+              <span>•</span> Currently, I work at LabsIf as a team lead.
             </p>
-            <p className={styles.p}>
-              {" "}
-              <span>• </span> Currently, I work at LabsIf, a company dedicated
-              to software development. I work in Frontend development alongside
-              a team of talented programmers. I also serve as a teaching
-              assistant for Full Stack, where I help beginners in a coding
-              bootcamp, further strengthening my technical and interpersonal
-              skills.
-            </p>
-          </div>
+        </div>
+
+
         </div>
         <div className={styles.tecnologias}>
           <h4>
             <span>•</span> Tech Skills
           </h4>
           <ul className={styles.ul}>
+
+            <li>Typescript</li>
+            <li>Javascript</li>
+            <li>C#</li>
+            <li>ASP.NET</li>
+            <li>Node.js</li>
+            <li>React</li>
+            <li>Angular</li>
             <li>HTML5</li>
             <li>CSS</li>
             <li>Bootstrap</li>
-            <li>Javascript</li>
-            <li>React</li>
             <li>Redux</li>
-            <li>Node.js</li>
             <li>Express.js</li>
             <li>Sequelize.js</li>
+            <li>Prisma.js</li>
             <li>PostgreSQL</li>
+            <li>MySQL</li>
           </ul>
         </div>
         <div className={styles.tools}>
@@ -95,12 +75,13 @@ const About = () => {
             <span>• </span>Tools
           </h4>
           <ul className={styles.ul}>
-            <li>Git</li>
-            <li>Github</li>
+            <li>Jira</li>
+            <li>ClickUP</li>
             <li>Slack</li>
-            <li>Agile Methodologies</li>
             <li>Trello</li>
-            <li>Notion</li>
+            <li>Agile Methodologies</li>
+            <li>Github</li>
+            <li>Git</li>
           </ul>
         </div>
         <div className={styles.softSkills}>
@@ -114,7 +95,6 @@ const About = () => {
             <li>Initiative</li>
             <li>Self-taught</li>
             <li>Dedication</li>
-            <li>Empathy</li>
           </ul>
         </div>
         <br />

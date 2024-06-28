@@ -28,22 +28,6 @@ const RickAndMorty = () => {
               the project.
             </li>
             <li>
-              One particular achievement that fills me with pride is that during
-              my bootcamp, each student had to present this project we were
-              working on for a competition among 60+ students. The top three
-              winners would receive special benefits from Henry. I secured the
-              second place in this competition.
-              <Link
-                className={styles.link}
-                to={
-                  "https://www.linkedin.com/feed/update/urn:li:activity:7047663550776918016/"
-                }
-                target="_blank"
-              >
-                Here is the publication of my instructor on Linkedin.
-              </Link>
-            </li>
-            <li>
               Its notable features include:
               <ul>
                 <li>
@@ -106,14 +90,14 @@ const RickAndMorty = () => {
               modeLight ? styles.linkLight : styles.linkDark
             }`}
           >
-            <Link
+            {/* <Link
               className={styles.link}
               target="_blank"
               to={"https://rym-multiverse.vercel.app/"}
             >
               <BsBoxArrowUpRight className={styles.icon} />
               <p>Visit the live site</p>
-            </Link>
+            </Link> */}
             <Link
               className={styles.link}
               target="_blank"

@@ -88,14 +88,14 @@ const WorkifyServices = () => {
               modeLight ? styles.linkLight : styles.linkDark
             }`}
           >
-            <Link
+            {/* <Link
               target="_blank"
               className={styles.link}
               to={"https://workify-alpha.vercel.app/"}
             >
               <BsBoxArrowUpRight className={styles.icon} />
               <p>Visit the live site</p>
-            </Link>
+            </Link> */}
             <Link
               target="_blank"
               className={styles.link}

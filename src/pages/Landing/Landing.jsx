@@ -4,11 +4,11 @@ import { Link } from "react-router-dom";
 
 //Styles
 import styles from "./Landing.module.css";
-import img from "./assets/carlos.webp";
-import diame from "./assets/diame.webp";
-import jensy from "./assets/jensy.webp";
+import img from "./assets/carlos.jpg";
+import wesley from "./assets/wesley.jpg";
+import sarah from "./assets/sarah.jpg";
+import tobias from "./assets/tobias.jpg";
 import joaquin from "./assets/joaquin.webp";
-import mariano from "./assets/mariano.webp";
 import logo from "../../assets/logo.png";
 
 //librerias
@@ -60,86 +60,67 @@ const Landing = () => {
               width={600}
               showStatus={false}
             >
+              
               <div className={styles.carousel}>
                 <p className={styles.parrafo}>
-                  "Si pudiera describir en una palabra a Carlos, sería
-                  determinado, tuve el privilegio de trabajar en conjunto con
-                  él, siempre responsable y dispuesto a apoyar a los demás, gran
-                  compañero y colega."
+                  "I have the pleasure to recommend Carlos Lovey as the inspiring manager of the web development team at LabsIF. Under his leadership, the team of eight people excelled as the most productive in the company. Carlos has a unique ability to motivate the team, foster a collaborative work environment, and achieve remarkable results."
                 </p>
                 <div className={styles.infoContainer}>
                   <div className={styles.info}>
-                    <h2>Joaquin Guerrero</h2>
-                    <p>Ingeniero de Sistemas - Developer Web Full Stack</p>
+                    <h2>Wesley Ulisses</h2>
+                    <p>Software Engineer</p>
+                  </div>
+                  <div className={styles.divImgPerson}>
+                    <img className={styles.imgPerson} src={wesley} alt="wesley" />
+                  </div>
+                </div>
+              </div>
+              <div className={styles.carousel}>
+                <p className={styles.parrafo}>
+                  "Dedicated, committed, and responsible. He always seeks opportunities to help team members and meet project deadlines. We worked together for over 6 months, and I can affirm that leading development teams and creating a collaborative and healthy work environment are two of his most evident soft skills."
+                </p>
+                <div className={styles.infoContainer}>
+                  <div className={styles.info}>
+                    <h2>Sarah Almeida</h2>
+                    <p>Scrum Master</p>
+                  </div>
+                  <div className={styles.divImgPerson}>
+                    <img className={styles.imgPerson} src={sarah} alt="sarah" />
+                  </div>
+                </div>
+              </div>
+              <div className={styles.carousel}>
+                <p className={styles.parrafo}>
+                  "Carlos Lovey was a great professional. I worked with him at LabsIF, where he was an excellent tech lead and a superb full-stack developer. He had experience in people management and coordinated a team of more than 10 members."
+                </p>
+                <div className={styles.infoContainer}>
+                  <div className={styles.info}>
+                    <h2>Tobias Ramos</h2>
+                    <p>Frontend Developer</p>
                   </div>
                   <div className={styles.divImgPerson}>
                     <img
                       className={styles.imgPerson}
-                      src={joaquin}
-                      alt="joaquin"
+                      src={tobias}
+                      alt="tobias"
                     />
                   </div>
                 </div>
               </div>
               <div className={styles.carousel}>
                 <p className={styles.parrafo}>
-                  "Carlos, posee un conjunto de conocimientos en desarrollo
-                  fullstack, sus habilidades tecnicas son excepcionales con un
-                  amplio dominio en lenguajes de programacion, frameworks y
-                  tecnologías relevantes. En resumen, Carlos, es un profesional
-                  de confianza y altamente competente en el desarrollo
-                  fullstack."
+                  "If I could describe Carlos in one word, it would be "determined." I had the privilege of working together with him; he is always responsible and willing to support others—a great teammate and colleague."
                 </p>
                 <div className={styles.infoContainer}>
                   <div className={styles.info}>
-                    <h2>Diamela Villalba</h2>
-                    <p>Desarrollador Fullstack</p>
-                  </div>
-                  <div className={styles.divImgPerson}>
-                    <img className={styles.imgPerson} src={diame} alt="diame" />
-                  </div>
-                </div>
-              </div>
-              <div className={styles.carousel}>
-                <p className={styles.parrafo}>
-                  "Excelente compañero de programación. Posee habilidades
-                  excepcionales para codificar y demuestra confianza y seguridad
-                  en su trabajo. Siempre está dispuesto a ayudar y colaborar en
-                  equipo, brindando soluciones eficientes a los desafíos. Su
-                  pasión por la programación es evidente y contagiosa, lo cual
-                  lo convierte en un gran activo para cualquier proyecto. Su
-                  enfoque y atención a los detalles son admirables, lo que
-                  garantiza la calidad y el éxito de sus contribuciones. Es un
-                  placer trabajar con alguien tan dedicado y talentoso como él."
-                </p>
-                <div className={styles.infoContainer}>
-                  <div className={styles.info}>
-                    <h2>Jensy Figueroa</h2>
-                    <p>Developer Web Full Stack - Licenciado en Informatica</p>
-                  </div>
-                  <div className={styles.divImgPerson}>
-                    <img className={styles.imgPerson} src={jensy} alt="jensy" />
-                  </div>
-                </div>
-              </div>
-              <div className={styles.carousel}>
-                <p className={styles.parrafo}>
-                  "Carlos se destaca por su desempeño como desarrollador web
-                  full stack y también de compañero de trabajo. Es disciplinado,
-                  constante, busca la mejor manera de trabajar y de resolver
-                  problemas de códigos que se le presenten. Siempre está
-                  aprendiendo, gran autodidacta."
-                </p>
-                <div className={styles.infoContainer}>
-                  <div className={styles.info}>
-                    <h2>Mariano Giusti</h2>
-                    <p>Developer Web Full Stack</p>
+                    <h2>Joaquin Guerrero</h2>
+                    <p>Systems Engineer - Developer Web Full Stack</p>
                   </div>
                   <div className={styles.divImgPerson}>
                     <img
                       className={styles.imgPerson}
-                      src={mariano}
-                      alt="mariano"
+                      src={joaquin}
+                      alt="joaquin"
                     />
                   </div>
                 </div>
@@ -160,13 +141,11 @@ const Landing = () => {
               <h2
                 className={modeLight ? styles.dataTitleLight : styles.datatitle}
               >
-                I'm a Frontend Developer
+                I'm a Software Developer Full Stack
               </h2>
               <p className={modeLight ? styles.dataPLight : styles.dataP}>
-                I specialize in JavaScript, HTML, CSS, React, Redux, Node.js. I
-                have worked on various web projects and have a strong passion
-                for creating beautiful and functional websites. I strive to
-                deliver high-quality code and exceptional user experiences.
+                I specialize in Typescript, C#, ASP.NET, Node.js, JavaScript, React, Angular. 
+                With a background leading projects and collaborating effectively, I've worked on diverse web projects, aiming always to deliver high-quality code and exceptional user experiences.
               </p>
             </div>
             <div className={styles.divButton}>

@@ -22,23 +22,22 @@ const Portfolio = () => {
       <div className={styles.containerTitle}>
         <h1>Portfolio</h1>
         <h4>
-          Check out my latest projects, I also provide detailed insights about
-          them in the accompanying videos!
+          Check out my latest projects!
         </h4>
       </div>
       <div className={styles.projectsContainer}>
-        <AreYouHungry />
         <WorkifyServices />
+        <AreYouHungry />
         <SearchImages />
         <RickAndMorty />
       </div>
-      <div className={styles.otherProjectsTitle}>
+      {/* <div className={styles.otherProjectsTitle}>
         <h1>Other Projects</h1>
       </div>
       <div className={styles.otherProjects}>
         <EagleVision />
         <PortfolioVersionOne />
-      </div>
+      </div> */}
     </div>
   );
 };
